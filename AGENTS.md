@@ -30,17 +30,20 @@ equity_research/
 │           ├── SKILL.md
 │           └── download_docs.py
 └── COMPANY/
+    ├── presentation/             # PPTs and vision-extracted .md (shared across dates)
+    │   ├── PPT_May2026.pdf
+    │   ├── PPT_May2026.md
+    │   └── ...
+    ├── concall/                  # Transcripts PDFs and .txt (shared across dates)
+    │   ├── Transcript_May2026.pdf
+    │   ├── Transcript_May2026.txt
+    │   └── ...
+    ├── tmp/                      # Intermediate artifacts (gitignored)
     └── dated-folder/             # e.g., 1-July-2026
         ├── screener.html         # Screener.in snapshot
         ├── screener_files/       # Screener.in assets
-        ├── verdict.md            # Final analysis summary
-        ├── presentation/         # Investor presentations
-        │   ├── PPT_May2026.pdf
-        │   ├── PPT_May2026.md    # Vision-extracted content
-        │   └── ...
-        ├── concall/              # Concall transcripts
-        │   ├── Transcript_May2026.pdf
-        │   ├── Transcript_May2026.txt
-        │   └── ...
-        └── tmp/                  # Intermediate artifacts (gitignored)
+        └── verdict.md            # Final analysis summary
 ```
+
+Skills provide specialized instructions and workflows for specific tasks.
+Use the skill tool to load a skill when a task matches its description.

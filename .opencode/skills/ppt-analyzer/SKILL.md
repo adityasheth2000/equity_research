@@ -5,7 +5,7 @@ description: Use whenever the user wants to extract content from investor presen
 
 # PPT Analyzer for Equity Research
 
-Extracts equity-relevant content from investor presentation PDFs using vision models — preserving charts, tables, and numerical data that plain PDF-to-text libraries lose. Skips non-material content (logos, disclaimers, generic fluff).
+Extracts equity-relevant content from investor presentation PDFs using vision models — preserving charts, tables, and numerical data that plain PDF-to-text libraries lose. Skips non-material content (logos, disclaimers, generic fluff). Idempotent: skips if the output `.md` already exists.
 
 ## Configuration (`.env` file at repo root)
 
@@ -25,22 +25,21 @@ PPT_ANALYZER_PARALLEL=50
 ```bash
 source .venv/bin/activate
 
-# Full pipeline
+# Run once per PPT — output .md lands alongside the PDF, tmp/ at company level
 python .opencode/skills/ppt-analyzer/ppt_analyzer.py \
-  --pdf COMPANY/dated-folder/presentation/PPT_May2026.pdf
+  --pdf COMPANY/presentation/PPT_May2026.pdf
 
-# Resume with custom parallelism
+# Resume from specific phase:
 python .opencode/skills/ppt-analyzer/ppt_analyzer.py \
-  --pdf COMPANY/dated-folder/presentation/PPT_May2026.pdf \
-  --skip-images --parallel 20
+  --pdf COMPANY/presentation/PPT_May2026.pdf --skip-images --parallel 20
 ```
 
 ## Output
 
-For `presentation/PPT_May2026.pdf`, produces:
-- `tmp/PPT_May2026_images/` — one PNG per page (gitignored)
-- `tmp/PPT_May2026_pages/` — one `.md` per page (gitignored)
-- `presentation/PPT_May2026.md` — all pages concatenated with `---` separators
+For `COMPANY/presentation/PPT_May2026.pdf`, produces:
+- `COMPANY/tmp/PPT_May2026_images/` — one PNG per page (gitignored)
+- `COMPANY/tmp/PPT_May2026_pages/` — one `.md` per page (gitignored)
+- `COMPANY/presentation/PPT_May2026.md` — all pages concatenated with `---` separators
 
 ## Pipeline
 

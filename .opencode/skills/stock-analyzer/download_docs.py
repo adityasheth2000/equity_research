@@ -159,7 +159,6 @@ def main():
         description="Download investor presentations and concall transcripts from screener.in HTML"
     )
     parser.add_argument("--html", required=True, help="Path to screener.in HTML file")
-    parser.add_argument("--output-dir", help="Dated analysis directory (default: parent of HTML)")
     parser.add_argument("--max", type=int, default=5, help="Max recent concall entries to download (default: 5)")
     parser.add_argument("--skip-download", action="store_true", help="Skip downloading, only list entries")
     parser.add_argument("--skip-transcript-text", action="store_true", help="Skip transcript → text conversion")
@@ -170,15 +169,16 @@ def main():
         print(f"ERROR: HTML file not found: {html_path}")
         sys.exit(1)
 
-    dated_dir = Path(args.output_dir).resolve() if args.output_dir else html_path.parent
-    ppt_dir = dated_dir / "presentation"
-    concall_dir = dated_dir / "concall"
+    # HTML is at COMPANY/dated-folder/screener.html -> go up 2 levels for company dir
+    company_dir = html_path.parent.parent
+    ppt_dir = company_dir / "presentation"
+    concall_dir = company_dir / "concall"
 
-    print(f"HTML : {html_path.name}")
-    print(f"Dir  : {dated_dir}")
-    print(f"PPTs : presentation/")
-    print(f"Con  : concall/")
-    print(f"Max  : {args.max} recent quarters\n")
+    print(f"HTML     : {html_path.name}")
+    print(f"Company  : {company_dir.name}")
+    print(f"PPTs     : {company_dir.name}/presentation/")
+    print(f"Concalls : {company_dir.name}/concall/")
+    print(f"Max      : {args.max} recent quarters\n")
 
     entries = extract_concall_entries(html_path)
     if not entries:

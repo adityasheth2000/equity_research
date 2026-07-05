@@ -211,7 +211,6 @@ def main():
         description="Extract equity-relevant content from investor presentation PDFs using vision models"
     )
     parser.add_argument("--pdf", required=True, help="Path to PDF file")
-    parser.add_argument("--output-dir", help="Output directory (default: parent of PDF)")
     parser.add_argument("--dpi", type=int, default=200, help="Image resolution (default: 200)")
     parser.add_argument("--start-page", type=int, default=1)
     parser.add_argument("--end-page", type=int)
@@ -230,8 +229,8 @@ def main():
         sys.exit(1)
 
     stem = pdf_path.stem
-    out_dir = Path(args.output_dir).resolve() if args.output_dir else pdf_path.parent
-    tmp_dir = pdf_path.parent.parent / "tmp"
+    out_dir = pdf_path.parent  # output .md alongside the PDF
+    tmp_dir = pdf_path.parent.parent / "tmp"  # tmp at company level
     image_dir = tmp_dir / f"{stem}_images"
     pages_dir = tmp_dir / f"{stem}_pages"
     output_md = out_dir / f"{stem}.md"
@@ -240,6 +239,10 @@ def main():
     print(f"Dir     : {out_dir}")
     print(f"Model   : {MODEL}")
     print(f"Parallel: {args.parallel}\n")
+
+    if output_md.exists():
+        print(f"SKIP: {output_md.name} already exists\n")
+        return
 
     if not args.skip_images:
         print("=== Phase 1: PDF → Images ===")

@@ -7,6 +7,8 @@ description: Use whenever the user wants to set up a full stock analysis workflo
 
 Orchestrates a complete equity research workflow starting from a screener.in HTML snapshot.
 
+PPTs and transcripts are stored at the **company level** (shared across analysis dates). Each dated folder contains only the screener snapshot and analysis outputs.
+
 ## Prerequisites
 
 - Repo-level `.venv` with dependencies installed
@@ -20,7 +22,7 @@ Orchestrates a complete equity research workflow starting from a screener.in HTM
 ```bash
 source .venv/bin/activate
 
-# Parse screener HTML and download PPTs + transcripts
+# Parse screener HTML — PPTs go to COMPANY/presentation/, transcripts to COMPANY/concall/
 python .opencode/skills/stock-analyzer/download_docs.py \
   --html COMPANY/dated-folder/screener.html \
   --max 5
@@ -31,42 +33,38 @@ python .opencode/skills/stock-analyzer/download_docs.py \
 ```
 
 This parses the screener.in "Concalls" section and downloads:
-- `presentation/PPT_MonYYYY.pdf` — investor presentations
-- `concall/Transcript_MonYYYY.pdf` — concall transcripts
+- `COMPANY/presentation/PPT_MonYYYY.pdf` — investor presentations
+- `COMPANY/concall/Transcript_MonYYYY.pdf` — concall transcripts
 
-Transcripts are also automatically converted to `.txt` via PyMuPDF.
+Transcripts are automatically converted to `.txt` via PyMuPDF. All steps are idempotent — existing files are skipped.
 
 ### Step 2: Analyze PPTs with Vision Model
 
 ```bash
-# For each downloaded PPT, run the ppt-analyzer skill:
+# Run once per PPT — output .md lands alongside the PDF
 python .opencode/skills/ppt-analyzer/ppt_analyzer.py \
-  --pdf COMPANY/dated-folder/presentation/PPT_May2026.pdf
+  --pdf COMPANY/presentation/PPT_May2026.pdf
 
 python .opencode/skills/ppt-analyzer/ppt_analyzer.py \
-  --pdf COMPANY/dated-folder/presentation/PPT_Feb2026.pdf
-
-# ... repeat for each PPT
+  --pdf COMPANY/presentation/PPT_Feb2026.pdf
 ```
 
-Each PPT is processed through the vision model, producing a `.md` file in `presentation/` with faithfully extracted equity-relevant content.
+Each PPT is processed through the vision model, producing a `.md` in `COMPANY/presentation/`. Already-processed PPTs are skipped (idempotent).
 
 ### Step 3: Analyze
 
-At this point, the dated folder contains three clean information sources ready for LLM analysis:
+At this point, three clean information sources are ready. **Read ALL information across the last 3-4 quarters before forming conclusions.** Work through each source systematically:
 
-1. **`screener.html`** — financial snapshot (P&L, balance sheet, ratios, peers)
-2. **`presentation/PPT_MonYYYY.md`** — vision-extracted presentation content (charts, tables, strategy)
-3. **`concall/Transcript_MonYYYY.txt`** — management commentary and Q&A
+1. **`COMPANY/dated-folder/screener.html`** — financial snapshot (P&L, balance sheet, ratios, peers)
+2. **`COMPANY/presentation/PPT_MonYYYY.md`** — vision-extracted presentation content (charts, tables, strategy)
+3. **`COMPANY/concall/Transcript_MonYYYY.txt`** — management commentary and Q&A
 
-**Read ALL information across the last 3-4 quarters before forming conclusions.** Work through each source systematically:
-
+**Read chronologically:**
 - Start with `screener.html` — understand the financial trajectory, ratios, and peer positioning
 - Read all `presentation/PPT_*.md` files chronologically — track how strategy, guidance, and metrics evolve
 - Read all `concall/Transcript_*.txt` files chronologically — management tone, capex updates, margin commentary, risks flagged
 
-Only after absorbing ALL sources, write a detailed `analysis.md` covering:
-
+Only after absorbing ALL sources, write a detailed `verdict.md` covering:
 - **Company Overview** — business model, moats, competitive position
 - **Financial Analysis** — revenue/PAT/EBITDA trends, margins, ROE/ROCE, balance sheet health, working capital
 - **Quarterly Progression** — how key metrics and guidance evolved across quarters
@@ -79,23 +77,24 @@ Only after absorbing ALL sources, write a detailed `analysis.md` covering:
 ## Output Structure
 
 ```
-COMPANY/5-july-2026/
-├── screener.html                   # Original screener.in snapshot
-├── screener_files/                 # Screener.in assets
-├── presentation/                   # Investor presentations
+COMPANY/
+├── presentation/                   # Investor presentations (shared across dates)
 │   ├── PPT_May2026.pdf
 │   ├── PPT_May2026.md              # Vision-extracted content
 │   ├── PPT_Feb2026.pdf
 │   ├── PPT_Feb2026.md
 │   └── ...
-├── concall/                        # Concall transcripts
+├── concall/                        # Concall transcripts (shared across dates)
 │   ├── Transcript_May2026.pdf
 │   ├── Transcript_May2026.txt
 │   ├── Transcript_Feb2026.pdf
 │   ├── Transcript_Feb2026.txt
 │   └── ...
 ├── tmp/                            # Intermediate artifacts (gitignored)
-└── analysis.md                      # Final analysis (written by LLM)
+└── 5-july-2026/                    # Analysis snapshot
+    ├── screener.html
+    ├── screener_files/
+    └── verdict.md
 ```
 
 ## Naming Convention
@@ -105,4 +104,4 @@ COMPANY/5-july-2026/
 - Transcripts: `Transcript_MonYYYY.pdf` → `Transcript_May2026.pdf`
 - Transcript texts: `Transcript_MonYYYY.txt` → `Transcript_May2026.txt`
 - Duplicate months get `_2`, `_3` suffixes
-- Missing transcripts (no PDF available) are skipped gracefully
+- Missing transcripts are skipped gracefully
