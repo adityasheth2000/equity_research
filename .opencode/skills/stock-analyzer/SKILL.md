@@ -65,7 +65,7 @@ At this point, the dated folder contains three clean information sources ready f
 - Read all `presentation/PPT_*.md` files chronologically — track how strategy, guidance, and metrics evolve
 - Read all `concall/Transcript_*.txt` files chronologically — management tone, capex updates, margin commentary, risks flagged
 
-Only after absorbing ALL sources, write a detailed `verdict.md` covering:
+Only after absorbing ALL sources, write a detailed `analysis.md` covering:
 
 - **Company Overview** — business model, moats, competitive position
 - **Financial Analysis** — revenue/PAT/EBITDA trends, margins, ROE/ROCE, balance sheet health, working capital
@@ -95,7 +95,7 @@ COMPANY/5-july-2026/
 │   ├── Transcript_Feb2026.txt
 │   └── ...
 ├── tmp/                            # Intermediate artifacts (gitignored)
-└── verdict.md                      # Final analysis (written by LLM)
+└── analysis.md                      # Final analysis (written by LLM)
 ```
 
 ## Naming Convention
