@@ -1,0 +1,950 @@
+Page 1 of 18 
+ 
+ 
+ 
+ 
+“OSEL Devices Limited 
+H2 FY26 Earnings Conference Call” 
+June 02, 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MANAGEMENT: MR. RAJENDRA RAVI SHANKAR MISHRA – MANAGING 
+DIRECTOR – OSEL DEVICES LIMITED 
+ 
+MR. MUKESH KUMAR SINHA – WHOLE-TIME 
+DIRECTOR – OSEL DEVICES LIMITED 
+ 
+MR. DIPANKAR GHOSHAL – CHIEF EXECUTIVE 
+OFFICER – OSEL DEVICES LIMITED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 2 of 18 
+ 
+Moderator: 
+Ladies and gentlemen, good day and welcome to the H2 FY26 Earnings Conference Call of 
+OSEL Devices Limited. This conference call may contain forward-looking statements about the 
+company which are based on the beliefs, opinions, and expectations of the company as on date 
+of this call. These statements do not guarantee the future performance of the company, and it 
+may involve risks and uncertainties that are difficult to predict. 
+ 
+As a reminder, all participant lines will be in the listen-only mode, and there will be an 
+opportunity for you to ask questions after the presentation concludes. Should you need assistance 
+during this conference call, please signal an operator by pressing star then zero on your touchtone 
+phone. Please note that this conference is being recorded. We have with us from the management 
+Mr. Rajendra Ravi Shankar Mishra, Managing Director; Mr. Mukesh Kumar Sinha, Whole-
+Time Director; Mr. Dipankar Ghoshal, Chief Executive Officer. 
+ 
+I now hand the conference over to Mr. Dipankar Ghoshal. Thank you, and over to you, sir. 
+Dipankar Ghoshal: 
+Thank you. Good afternoon to all and thank you for joining us today. To give a small brief about 
+the company, our company operates across three distinct high-growth industries: LED display, 
+hearing aids, and mobile devices. With full ownership of the value chain from design and R&D 
+through manufacturing and quality certification, all the way to installation, after-sales, and now 
+clinic-led retail. 
+ 
+Now what makes OSEL structurally different is the combination of three things that are hard to 
+replicate. Together, since we hold the US FDA registration, ISO 13485, CDSCO MD5; second, 
+recurring revenue, our proprietary CMS platform and SFL clinic network means we are not 
+purely dependent on hardware sales cycles; and third, and forward integration, we are not just a 
+manufacturer supplying someone else's brand, we are moving into the highest value endpoint in 
+each vertical. 
+ 
+In financial year '26 was a strong year. Revenue grew 56.9% to INR292.7 crores. EBITDA 
+expanded 57.9% to INR53.3 crores at a margin of 18.2%. And profit after tax grew 45.7% to 
+INR29.2 crores. Importantly, this growth was not concentrated. All the three verticals 
+contributed, and our export revenues crossed INR23 crores. 
+ 
+We are looking forward to our JNPA SEZ hub with commercialization expected from April 
+2027. This will significantly expand our exports and OEM capacity from India's business port, 
+with SEZ tax benefit combined with our US FDA registration unlocking the US hearing aid 
+market. We believe the next phase of growth will be both large in scale and higher in quality of 
+hearing. Thank you. 
+Moderator: 
+Thank you. We will now begin the question-and-answer session. The first question comes from 
+the line of Pratiti Khara from Param Capital. Please go ahead. 
+Pratiti Khara: 
+Hi. Am I audible? 
+Moderator: 
+Yes, you are. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 3 of 18 
+ 
+Pratiti Khara: 
+Hi, sir. So, I just wanted to clarify a financial aspect. In our September cash flow statement, I 
+could see a line item which said increase or decrease in short-term borrowings, which was 
+classified under cash flow from operating activities. This was around INR50 odd crores in the 
+year for September 2025. Ideally, short-term borrowings is classified under financing activities. 
+So, if that were the case, the operating cash flow would be negative INR40 crores instead of 
+positive INR10 crores, if that is right. So, just wanted to know your thoughts on the same. 
+Ravi Mishra: 
+So, this came into our understanding as well, and I think in the current financials we have 
+rectified this. And the new financials are based on these parameters only. 
+Pratiti Khara: 
+Okay, all right. And what was the reason of whatever was raised in the IPO, which was raised 
+under working capital terms, is now being drawn down as a CC line of INR30 crores in front of 
+that and has been invested -- that money that was raised in the IPO is invested in the mutual 
+funds and shown under investing activities. So, why is that the case? Why weren't we using that 
+money directly for working capital? 
+Ravi Mishra: 
+So, at that instance when the money was raised basically, we raised it for working capital, and 
+working capital requirement is not always exactly the same amount. So, at that particular time, 
+we had to park the funds and we parked it into mutual funds. And then we have taken up limits 
+against that mutual fund, which gives us the interest arbitrage anyway happening. So, it is not 
+costing us anything, and that gives us a leverage of utilizing funds as and when required. And 
+when it is idle, it is anyway earning from the mutual funds. 
+Pratiti Khara: 
+Okay. So, going ahead, this line item will be in financing activity, right? 
+Ravi Mishra: 
+Correct, yeah. 
+Pratiti Khara: 
+Okay. Thank you. That's it from my side. 
+Moderator: 
+Thank you. The next question comes from the line of Nishita Shanklesha from Sapphire Capital. 
+Please go ahead. 
+Nishita Shanklesha: 
+So, I just wanted to understand what is the reason our interest costs is like almost double in H2 
+FY26, and what is the steady-state interest cost that we can see? Like our debt has also increased 
+quite a lot, so... 
+Ravi Mishra: 
+I am sorry, you were not very clear. 
+Nishita Shanklesha: 
+I just wanted to understand -- am I audible now? 
+Ravi Mishra: 
+You are audible, yeah. 
+Moderator: 
+Nishita, I would request you to use your phone on the handset mode in case if you are on a 
+hands-free mode. 
+Nishita Shanklesha: 
+Yeah, yeah, sure. So, am I audible right now? 
+Ravi Mishra: 
+Yeah, go ahead. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 4 of 18 
+ 
+Nishita Shanklesha: 
+Yeah, I just wanted to understand why is our interest cost almost double in H2 FY26? And on a 
+steady-state basis, what sort of interest cost can we see going forward? 
+Ravi Mishra: 
+Okay. Interest cost might have doubled which is shown in the books. One, of course, we have 
+taken funds against the mutual fund, so interest is anyway incurring, but the mutual fund earnings 
+are not shown in the books because it will come when the mutual funds have closed. So, that is 
+an additional interest that we are incurring right now.  
+And of course, our working capital limits also have been increased, and so the interest cost is 
+there, which is added to it. Going forward, we are anyway working on these terms, and we are 
+trying to basically improve our working capital utilization. Instead of just utilizing cash credit 
+from there, we are trying to convert it into LC and other terms, which will basically reduce our 
+interest terms. So, we will be better utilizing the funds and limits available to us. 
+Nishita Shanklesha: 
+Okay, understood. And another question would be on capex. Are we looking for any capex in 
+FY27? If so, how much would be the amount and what will the capex for? 
+Ravi Mishra: 
+As we have mentioned, we have a project for JNPA wherein we are trying to set up our own 
+manufacturing hub. So, this will certainly be requiring capex in all those things. We are working 
+on that. We have recently received the LOI for it, and we are working on it. Once we have the 
+complete clarity on it, we will know the numbers that would be required for the capex in that. 
+Nishita Shanklesha: 
+Right. So, like what is the update on this project? Where are we at right now? 
+Ravi Mishra: 
+So, we have recently, last month itself, we have got the LOI from the JNPA, which is the 
+allotment and all those things. Now we are already working on the project. Project is being 
+prepared. So, once everything is done, we will know the actual cost that we need to incur in that 
+project and the timelines. And accordingly, we will have clarity on that. 
+Nishita Shanklesha: 
+Okay, okay, understood. And my next question is on like we've done around 57% of revenue 
+growth in FY26. So, going forward, what sort of growth do we see in FY27 and FY28? And 
+even on our margins, like is the 18% margin sustainable for long term? 
+Ravi Mishra: 
+Right. So, in terms of business growth and all, we are going in a good way, and all the three 
+verticals that we have been working with is doing good and they are increasing. Philips vertical 
+has just started last year itself, and it has contributed well, and we are expecting it to grow much 
+faster and much further actually. So, yes, we will be maintaining this growth rate and maybe we 
+can better it from here. 
+And in terms of EBITDA margins, we are expecting it to be similar or even better because we 
+are also entering into retail of with SFL acquisition. We are also getting into the retail acquisition 
+-- retail business of hearing aids, which is high-margin business. So, we are expecting both 
+growth and EBITDA margins to get better from here, at least for next four-five years. 
+Nishita Shanklesha: 
+Right. So, on retail front, like are we going to see any revenue contribution starting from FY27? 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 5 of 18 
+ 
+Ravi Mishra: 
+Yes. The acquisition of SFL is already doing some revenue in terms of like INR26 crores-INR27 
+crores, I am sure they are closing last year. And we are going to improve from this. So, that 
+revenue is already available to us, which we have not considered in this year's balance sheet, but 
+from next year it will be considered to us. So, that contribution is going to come anyways. 
+Nishita Shanklesha: 
+Okay, okay, understood. Yeah, thank you. 
+Moderator: 
+The next question comes from the line of Achuth, an Individual Investor. Please go ahead. 
+Achuth: 
+Hello, sir. My first question is, I am new to this company, sir. First, I want to understand like 
+regarding mobile side, are we manufacturers or assembler or trading mobile phones, sir? 
+Ravi Mishra: 
+Okay. So, technically we are licensed to manufacture mobile phones from Philips. And we are 
+doing the end-to-end business of this from manufacture to final retail sales. And in current 
+scenario, we have outsourced our manufacturing to another company which is into mobile phone 
+manufacturing. 
+And once the scale is big enough and stable, and that's when we want to get into our own 
+manufacturing and we want to basically invest into our own manufacturing setup. Right now, 
+we are outsourcing the manufacturing, which is done by a third-party. 
+Achuth: 
+Okay. So, how much is that margin on mobile phone business, sir? Because you are outsourcing, 
+what is the margin on mobile phone business, sir? 
+Ravi Mishra: 
+We are not outsourcing mobile phones as such, we are outsourcing the job work. So, we are 
+anyway keeping giving them just the job work payments for that. But margins that we have in 
+terms like I would just say a phone, basic phone that we are selling is costing us around INR650 
+to INR667, and then our distributor sales price or our realization is around INR850 on that. So, 
+almost the margins are good, around 25%-30%, I guess. This is on the feature phone. 
+Achuth: 
+So, are you selling basic mobile, sir? Like the cost is very less, so... 
+Ravi Mishra: 
+Yeah. So, we basically started -- correct. So, we started with a safe things basically. We wanted 
+to play safe. So, we started with keypad phones rather, which is called feature phones in the 
+market. And we started with that. And once we had a stable sale coming up for that, we started 
+with our smartphones as well. And from March onwards, our smartphone shipment has already 
+started. So, we have entered into smartphone market as well. 
+Achuth: 
+Okay. And I mean, in the current financial year, how much percentage of revenue you are 
+planning to make from mobile phones, sir? And in the long-term also, what is your goals, sir? 
+Like you want to focus more on hearing aid or you want to become a major mobile phone 
+manufacturer? What is the thought process for the future? 
+Ravi Mishra: 
+Okay. So, that's a difficult question to answer, which one we want to prefer more because all the 
+three segments are important to us, and they have different pros and cons, of course. So, when 
+it comes to mobile phone, of course, the value addition of mobile phone will grow because it's a 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 6 of 18 
+ 
+large market. And mobile phone market is very large, meaning smartphone market is INR4 lakh 
+crores plus and our feature phone market is around INR10,000 crores plus. 
+So, of course, it will have a larger contribution in the top line of the revenue. But when it comes 
+to actual bottom line and profitability, hearing aid is where our most favored product is basically 
+because the margins are very good in hearing aids. And we have less competition in terms of 
+available competition in the market. 
+ 
+So, hearing aid is our favorite in terms of profitability, and mobile phone will become favorite 
+in terms of top line. And LED basically will give us the reach that we need in the corporates and 
+other places. So, technically all three verticals have important role to play. 
+Achuth: 
+And sir, you told that you started smartphone manufacturing since March of this year. So, if it 
+is possible, can you mention with which customers you're tied up, sir? Are you tied up with any 
+major mobile phone company, sir, or local one? 
+Ravi Mishra: 
+No. So, we are doing Philips smartphones. So, we are doing Philips brand smartphones. So, we 
+have the brand license from Philips. So, you can consider us to be Philips in India for mobile 
+phone category. So, we are not manufacturing for anybody else; we are manufacturing on the 
+brand of Philips for our own consumption and sales, not for any third party. 
+Achuth: 
+Okay. And do you have any target, sir, this year how many number of units you'd be 
+manufacturing? 
+Ravi Mishra: 
+So, we are creating and we have created our own network of dealers and distributors. And that's 
+where the feature phone market has already started and smartphones are also going through that. 
+And so far in last year, we have reached around 4.5 lakh plus mobile feature phones into the 
+market, which will continue to grow here. And we are expecting good numbers this year also. 
+So, basically when it comes to smartphones and feature phone, the phone segment will have a 
+bigger growth in this year. 
+Achuth: 
+Okay. And last question, sir, what is the guidance for FY27? 
+Ravi Mishra: 
+FY27 guidance. So, as we mentioned basically, we will continue a similar set of growth that we 
+have achieved this year. So, and in fact in both the terms, in terms of EBITDA, in terms of top 
+line, we will be bettering what we have done this year. 
+Achuth: 
+Okay, sir. Thank you. Thank you so much, sir. 
+Moderator: 
+Thank you. The next question comes from the line of Deepanshu Bhatia with Finwizz. Please 
+go ahead. 
+Deepanshu Bhatia: 
+Yeah. Hello, sir. Am I audible? 
+Ravi Mishra: 
+Yes, please. 
+Deepanshu Bhatia: 
+Yeah. So, congratulations on a like really decent growth of 57%. So, I can see the two major 
+segments that your company has. I am tracking the company for the first time. So the two major 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 7 of 18 
+ 
+segments is one is the hearing aid, second is the LED screens and third one is the smartphone 
+manufacturing that you are starting.  
+So, coming onto the first two segments, it seems like hearing aid is more certified technologically 
+embedded and a higher margin category for the company. So, two questions on that sector: is 
+export a big part of our revenue on the hearing aid side? And if I see for the next 3 years on the 
+hearing aid, where will the major revenue growth come from? Is it like deeper integration inside 
+India or looking at other export markets or like selling higher order hearing aids over time? 
+Ravi Mishra: 
+Right. So, hearing aid, of course, as you understood it well that is more profitable and high-
+margin product and it has got less competition because it has entry barriers in terms of 
+technology and development and research. So, we certainly stand out in this area basically, 
+especially in the country.  
+Internationally, we have competition from the big brands; they are well-established brands in 
+the international domain. They are called Big Five and other things. So, yes, we are going to 
+strengthen our margins and business primarily in India for hearing aids because India is an 
+untapped market.  
+We only have less than 3% of penetration meaning the total TAM and the penetration is only 
+3%, less than 3%. People who are actually needing to use hearing aids and people who are 
+actually using hearing aids, that is less than the 3% of the market. So, as per the data around 88 
+million people in India would need hearing aids, which is INR8.8 crores. But total sales of 
+hearing aids per year is less than 8 lakh-9 lakh units.  
+This is an approximate numbers basically. So, there is a huge market to be tapped in India and 
+we are targeting to do that itself basically. So, with that intent only, we have already acquired 
+SFL. SFL is basically the audiologist clinics basically which basically dispenses hearing aids to 
+the end user, the actual patient or actual consumer of the hearing aid are being dispensed from 
+there. So, that is where our retail journey is going to start with. And of course, their margin will 
+be much far better than what we are taking today on the hearing aid side of it. 
+Deepanshu Bhatia: 
+Okay. So, today there are 8 to 9 lakh hearing aids sold. How much percentage does we have in 
+this overall Indian market sale today? 
+Ravi Mishra: 
+See, we are currently supplying majorly to wholesale market and government tenders basically, 
+which forms a larger part of it, but low priced basically, the ASM what you call average selling 
+price of each unit is very low in these segments.  
+Deepanshu Bhatia: 
+We are not dominant in the B2C as of today? 
+Ravi Mishra: 
+B2C we have not yet started, I would say. In terms of government, we are the largest supplier to 
+the Government of India. 
+Deepanshu Bhatia: 
+But not private, for that you have done an acquisition, right. So, that you can penetrate deeper 
+into that... 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 8 of 18 
+ 
+Ravi Mishra: 
+Correct. 
+Deepanshu Bhatia: 
+So, what is the footfall of this subsidiary? How many people visit them every year, unique 
+people, so that we can see how we can expand? 
+Ravi Mishra: 
+So far what we have seen, they were established in 2014 and they currently have around 100,000 
+plus customer base or customer database basically that they have catered to. And that's what we 
+have to build on basically, sir. 
+Deepanshu Bhatia: 
+Okay, okay. So, it's kind of you have to build on that because 100,000 is like a less small number, 
+but it's a good start. Okay. On the second front, on the LED front... 
+Ravi Mishra: 
+Basically, it's good for us. I will just give you a basic explanation here. It's good for us because 
+see what we sell to government, our selling price is around INR2,500, INR3,000 per unit. But 
+the average selling price in these clinics are INR35,000 to INR40,000 per unit. 
+Deepanshu Bhatia: 
+For the same product or upgraded version? 
+Ravi Mishra: 
+Upgraded product, not the same product. So, hearing aids basically if we see in the multi-brand 
+segment, it goes up to INR4.5 lakh, INR5 lakh per unit. So, that is the potential and possibility 
+of hearing aids basically. 
+Deepanshu Bhatia: 
+And we have all the abilities to manufacture any version, like the higher version or the higher 
+version, right? 
+Ravi Mishra: 
+Not exactly, I would not say that. We are currently ready with entry-level segments and we are 
+at par with any good brand in terms of entry-level segment. So, that is where we want to start 
+targeting. 
+Deepanshu Bhatia: 
+The INR20,000 to INR35,000 segment? 
+Ravi Mishra: 
+Kind of, yes. Yes. 
+Deepanshu Bhatia: 
+Okay. And the LED segment, so on the LED segment, our primary profit driver, is it the sale of 
+the LED or the recurring revenue through the platform management of advertisement? The 
+profit, the chunk of the profit comes from LED or the service? 
+Ravi Mishra: 
+So far it is LED sales only because our platform, the content management system platform that 
+we -- that is basically working as a SaaS application -- has been launched last year itself in the 
+current year. So, we have onboarded 300 plus locations in that right now. And we are expecting 
+to do it in next two-three years, we will be expecting to reach out a targeted numbers of around 
+100,000 units for this. 
+Deepanshu Bhatia: 
+Okay, so that has just started. 
+Ravi Mishra: 
+That just started, yeah. So, we have already onboarded a good bank, a good national bank 
+basically is already our customer base and we are increasing on that. A largest what you call a 
+chain of malls is already our customer onboarded on that. So, we have just started with this, and 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 9 of 18 
+ 
+we are expecting once we reach 100,000 numbers or even 50,000 numbers, it will be contributing 
+very well in our revenue segment. Because it is a monthly SaaS model, so there will be monthly 
+revenue, recurring revenue coming in from that. 
+Deepanshu Bhatia: 
+Okay, why? Because in the presentation you said INR700 to INR800 per month. So, 50,000 
+means like INR3 crores to INR4 crores a month might be in that case, right? And right now, till 
+today, it's a small sample size, but is it working well? Are they -- do you think that they will 
+keep it for 5 to 10 years this contract, the monthly charge and the management? 
+Ravi Mishra: 
+That's why I mentioned one of the top banks in the country has already been onboarded, and 
+banks will not let you in with their any application unless it is very well established. 
+Deepanshu Bhatia: 
+And you -- do you have a long-term agreement or you just expect that they will continue for 10 
+years? 
+Ravi Mishra: 
+No, we have long-term agreement with them because we are doing all the upgrade -- we are 
+doing the digitization of all their branches basically. So, they have around 1,800 to 2,000 
+branches which we are increasing. 
+Deepanshu Bhatia: 
+And just this last question: wherever you provide this advertisement service, it's compulsorily 
+you have your own LED or you can provide on any other LED systems also? 
+Ravi Mishra: 
+No, our application can work with any application, so you can have your own LED or third-
+party LED segment also can work with this. 
+Deepanshu Bhatia: 
+Okay, okay. Cool. Thank you, sir. That was my question. 
+Moderator: 
+Thank you. The next question comes from the line of Kailash Shah, an Individual Investor. 
+Please go ahead. 
+Kailash Shah: 
+Yeah, hi. Am I audible? 
+Ravi Mishra: 
+Yeah, please. 
+Kailash Shah: 
+Okay. So, my question is around the cash flow statement in the financials which you have 
+regrouped compared to... 
+Moderator: 
+Sorry to interrupt, Kailash, you're not quite audible. Could you also move to a quieter location, 
+please? There's a lot of background... 
+Kailash Shah: 
+Hello. Yeah. Am I audible now? 
+Moderator: 
+Much better. Please go ahead. 
+Kailash Shah: 
+Yeah. So, I just wanted to ask the question around the regrouping of the financials which we 
+have done. I can see a significant part of the financials for the FY25 have been regrouped, 
+especially the cash flow statement. So, just wanted to understand what exactly has been the 
+reason. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 10 of 18 
+ 
+ 
+I can see there are certain changes like you have earlier included short-term borrowings in the 
+cash flow from operations, that was looking something else, but now picture looks something 
+else. And just wanted to understand like who is the CFO of the company taking care of the 
+financials? So, just a little bit background of the CFO also, please, if you can help us. 
+Ravi Mishra: 
+Sure. So, basically as we have already discussed in the first question, the reclassification has 
+happened to correct the erroneous reporting earlier that has happened. So, we have corrected 
+that and so the things have moved. I am not a financial guy, but that's how things have been 
+moved basically. And so the reclassification has happened. 
+Kailash Shah: 
+Okay. And like what about the CFO background if you can share, like whether we have changed 
+the management or what exactly it is, so that we can ensure -- we can be sure of that these 
+mistakes or these clerical mistakes, whatever we term it, will not happen going forward? 
+Ravi Mishra: 
+Right. So, currently our CFO is MBA Finance from a good institution with proper banking 
+background, 10 years plus in banking sector itself. So, that is there. And of course, in terms of 
+financial reporting and all those things, we have our CA and other things also helping us out 
+with this. And while we are also improving our financial accounting systems, things will be 
+better and we will try to avoid all these errors in future. 
+Kailash Shah: 
+Okay, okay. And do you think like any other change yet to be reviewed from your end to further 
+strengthen it? Because I can see the cash flow used to be much better earlier versions, like for 
+the FY25 also, but with the -- as we remove the cash flow from the borrowing short term 
+borrowings if we would have removed it then it has been much negative. Now the FY25 
+cashflow seems weird, like is there something to be change? So, like you need to further 
+strengthen in the financials or you have done a detailed exercise that okay this is the best policy 
+we are now adopting? 
+Ravi Mishra: 
+There will be a lot of improvements even in terms of our operations and all those things will also 
+improve. Now that we have already been building up our team. Earlier of course we were just a 
+small startup kind of a company -- now we are building our team also. New set of experienced 
+people are joining in and they have already joined in. We have new CEO onboard also. So, 
+things will improve from here. So, we are going to get better only, which is expected from us, 
+yeah. 
+Kailash Shah: 
+Okay. Thank you. Thank you so much. Thank you for the guidance. Okay. 
+Moderator: 
+The next question comes from the line of Nishita Shankalesha from Sapphire Capital. Please go 
+ahead. 
+Nishita Shankalesha: 
+Yes, thank you for taking my follow-up question. Am I audible? 
+Moderator: 
+Yes, you are. 
+Nishita Shankalesha: 
+Yeah. So, you mentioned that like our hearing aid segment has much better margins. So, is it 
+possible for you to give us a segmental margin breakup if possible? 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 11 of 18 
+ 
+Ravi Mishra: 
+I think we can reply this with mail or something like that because I might not have the actual 
+numbers right now. But in terms if you ask me holistically, yes, out of all these three products, 
+hearing aid has got the best top line -- bottom line in terms of in terms of profits and all those 
+things hearing aid is because it's a medical device. And with the retail coming in, our margins 
+will get much better from there. 
+Nishita Shankalesha: 
+Right, okay. And my next question would be, so we you mentioned that currently we just have 
+entry-level products for hearing aid. So, are we planning to like move up the segment, like are 
+we planning to go towards mid-range of products or something like that? 
+Ravi Mishra: 
+Yes. So, we have our in-house R&D team which is continuously working on the product 
+development and enhancement of the product and new product launches basically. So, of course, 
+we have just started up and we intend to become one of the top companies, one of the top brands 
+in hearing aid segment internationally as well. So, we certainly are going to bring in new 
+products and enhanced products into the market. 
+ 
+So, when we say we have the entry-level product right now, so entry-level product also what we 
+are saying is technologically for basic needs of hearing, we are quite well-versed with the 
+product and we are at par with the international brands as well when it comes to the entry-level 
+or of course the basic models. But high-end features like more of AI and other things which is 
+not the mandatory feature required for a hearing aid, that is where we still have to work on. 
+Nishita Sankalesha: 
+Okay, okay, understood. And I just wanted to understand with the acquisition of SFL, so that 
+will be our retail leg for hearing aid. So, in that are we going to sell only our brand products or 
+are we going to sell other brand products as well? 
+Ravi Mishra: 
+Right. So, see all these clinics basically like SFL, they are multi-brand centers. And based on 
+the customer needs, requirement because all, single product does not fit everybody. So, 
+everybody have a different need and requirement and that can be served from a different product 
+segment actually. So, they are mostly multi-brand and we intend to keep it multi-brand itself so 
+that we don't lose any revenue as such on this. And since we once we have the multi-brand 
+product range, the customer footfall will be better. 
+ 
+And that will help us sell our product also and pitch our product also to the same consumer 
+base.So, we want to be with the multi-brand thing. Mukesh ji, if you have to input something 
+into this? 
+Mukesh Sinha: 
+So, I think you have correctly mentioned, so we are intend to be multi-brand, but the new 
+addition would be our own products that is coming very soon. So, from we would be able to give 
+the complete access from like entry-level to the premium level. So, that is that is the biggest 
+advantage. 
+Nishita Sankalesha: 
+Okay, understood. And like currently we are at 42% of revenue mix from hearing aids. So, after 
+the consolidation of SFL, do we see that increasing? 
+Ravi Mishra: 
+Okay. So, here what will happen is of course hearing aid SFL will be contributing more to it, 
+but at the same time our LED segment and mobile segment is going to grow much faster and 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 12 of 18 
+ 
+much bigger. So, the overall contribution will shrink when it comes to hearing aid in terms of 
+percentage of overall sales. But yes, in terms of bottom line or the PAT margins which you say 
+will be better contributor from hearing aid side of it. 
+Nishita Sankalesha: 
+Right. So, revenue mix will remain like similar to what it is right now. 
+Ravi Mishra: 
+In fact, I would say revenue mix would basically tilt more towards mobile phones then LEDs 
+and then hearing aids. We are expecting higher numbers from mobile phone sales. 
+Nishita Sankalesha: 
+Right. So, if that is the case, then like we can see some pressure on our margins because hearing 
+aid is our like better margin segment. Is that understanding, correct? 
+Ravi Mishra: 
+Correct, that is correct basically. But at the same time with SFL, the if we say if we are making 
+30% margin or 35% margin in hearing aid with our government sales, the same product we 
+would be selling at double the price or more than that in our retail sector. So, even little 
+contribution in top line from hearing aids will actually contribute more heavily towards bottom 
+line in the overall things. So, that bottom line will not shrink. 
+Nishita Sankalesha: 
+Okay, okay, understood.  
+Ravi Mishra: 
+Can I am able to answer you correctly here? 
+Nishita Sankalesha: 
+Yes, yes. Thank you so much for answering all the questions. 
+Moderator: 
+Thank you. The next question comes from the line of Rajesh, an individual investor. Please go 
+ahead. 
+Rajesh: 
+Hello. Am I audible? 
+Moderator: 
+Yes, Rajesh. 
+Rajesh: 
+Yeah. Thanks for the opportunity. I was a bit late to the call, so some of the questions might be 
+a repeat. Please apologize in advance for that. I have three questions basically. First is how is 
+JNPA placed for growth and what are the segments that we are targeting here? 
+Ravi Mishra: 
+Okay. So, JNPA is basically it's an industrial land that we have got from JNPA authority in Navi 
+Mumbai. It's basically a port in Mumbai. And we are trying to set up our manufacturing hub. It 
+will be an SEZ. SEZ means we will be away from tax, GST, and import duties from there, custom 
+duties will not be acquiring there. So, that we are targeting for international customers. We want 
+to improve our export business and we want to target international customers in North America, 
+Middle East, and Africa. 
+ 
+And we are trying to create a setup here, it will basically manufacturing, logistics hub, and 
+warehousing. This will basically cater to these different international markets, and we expect to 
+have better margins, more revenue from coming up from these places. So, it will be additional 
+revenue that will come in, and it might be better than what we are currently doing in the domestic 
+market. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 13 of 18 
+ 
+Rajesh: 
+Got it. Sir, what all segments are you targeting from this place? 
+Ravi Mishra: 
+From JNPA? 
+Rajesh: 
+Yeah. 
+Ravi Mishra: 
+See, majorly it will be LED business because everyone is looking for China plus one. And this 
+gives us this location gives us strategic advantage wherein we are not incurring any import 
+duties, taxes, and all. And so, what we can do is we can cater to the China plus one customer 
+who are looking for outside China manufacturing, they can always come to us. And we are also 
+in talks with multiple Chinese manufacturers who can basically whom we can tie up and we can 
+produce in that location for their customers as well. 
+Rajesh: 
+So, this facility wherein we have a lot of advantage in terms of tax saving, etcetera, duties, 
+etcetera, what would be the price difference or what would be the cost advantage there we would 
+have versus a Chinese peer? 
+Ravi Mishra: 
+See, in terms of cost advantage, it will be at par with what China would be doing because our 
+raw material would still come in from China or other sources which is currently the same. But 
+in terms it will not be incurring any cost in terms of domestic logistics and local taxation and 
+other things. So, it will certainly have better cost advantage compared to domestic 
+manufacturing. 
+Because logistics cost is much cheaper, we are at the port. Being at the port saves lots on lots on 
+logistics as well. And also, it will be speed of transformation basically. So, being at the port our 
+export will be much faster and import will be faster as well for raw materials. So, overall, it is 
+giving us lot of advantages in terms of local -- domestic manufacturing also. 
+And also with the new budget, we can actually export to India as well at lower tax rates. So, 
+anybody currently importing from China will have a disadvantage compared to us, because we 
+will be able to give the same product for their imports, but at a better duty, import custom duties. 
+So, even the domestic sales will also be basically -- domestic importers who are importing from 
+China currently can import from us as well at a lower import duty rate. 
+Rajesh: 
+Got it. This is very clear, sir. Sir, my second question is, how is the mobile phone segment 
+progressed, and can you explain our penetration strategy in different markets that we are 
+targeting? 
+Ravi Mishra: 
+Mobile phone is doing well. We just started six-seven months back onto that. And we already 
+have around 200 plus distributors in that. And we have reached around 13,000 plus touchpoints 
+in terms of retail outlets and shops and all those things that are onboarded with us. So, that is 
+doing good. We started with feature phone which is basically more into rural areas and Tier 2, 
+Tier 3 cities. We are doing good there. 
+And with the Philips brand, the acceptance is very good. And also, in terms of product feedback, 
+we have got very positive feedback about the product that we have launched in. And now with 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 14 of 18 
+ 
+the smartphone, we are also trying to get more visibility in the market basically. And we will be 
+targeting online sales as well. 
+So, that would soon happen. Once we have first one-two lots within the distributor network and 
+consumed in that, then we will be going into online sales as well, which will give us more 
+visibility in terms of actual users. So, currently we are targeting our network, we are improving 
+on and increasing our network base, which will help us with that. 
+Rajesh: 
+Got it. And how significant would be the export opportunity here in mobile phone? 
+Ravi Mishra: 
+Currently with the agreement that we have with Philips, export is not there in that. We are 
+targeting Indian market itself. 
+Rajesh: 
+Okay, got it, sir. And sir, my third and last question is can you explain a bit granularly regarding 
+how SFL would help us increase the margins? 
+Ravi Mishra: 
+See, SFL is a retail business. And hearing aid as we mentioned in current scenario what we are 
+doing with hearing aids is we are supplying to government segments and all those things where 
+the margins are lower for us compared to other products. But the moment we get into retail, our 
+sale prices will increase further. 
+So, just an example, if what I am selling currently for INR2,500, I will be able to sell it for 
+around INR4,500-INR5,000. Numbers will not be as big as the numbers that we are selling into 
+government segment right now, but whatever number comes in, the margins will be much better 
+or maybe doubled or tripled actually from the current system. 
+Rajesh: 
+Okay. So, those were my questions, sir. Congratulations on the result and I'll get back in the 
+queue if I have any follow-up. Thank you. 
+Moderator: 
+Thank you. The next question comes from Rohit with RMS Growth Fund. Please go ahead. 
+Rohit: 
+Hi. I hope I'm audible. 
+Ravi Mishra: 
+Yes, please. 
+Rohit: 
+Yes. So, firstly congrats on a good set of numbers and achieving almost 60% year-on-year 
+growth. I have three questions. I'll just start with a clarification. Since you mentioned, you can 
+do better than your growth last year or at least as good, can we assume that you can do north of 
+INR500 crores top line in FY27 given you closed at around INR300 crores this last year? 
+Ravi Mishra: 
+If the math suggests so, we will be able to do that. 
+Rohit: 
+Okay, great. So, just a couple of questions. I think you had made a -- you had published a few 
+hires that you had made I think sometime in February. And one of them was a Mr. Captain 
+Vivek, I think, who was going to look more after the government and defense segment. Can you 
+tell us a little bit more about that? What prompts you guys to go after this segment? What is your 
+strategy here and have you -- do you have any updates on this? 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 15 of 18 
+ 
+Ravi Mishra: 
+So, up till last year, we did not actually have a sales team, which I have mentioned multiple 
+times in my previous calls and meetings. So, we have started building our team actually, and 
+which is more business focused. So, we have had very good hirings in December, January, and 
+which we gave so we have now a strong team. Especially with Captain comes from a defense 
+background, he was serving in army itself basically. 
+And after that he was into private sector, at more important positions, with the government 
+liaisoning and other things. So, we are expecting good defense business coming in from him. He 
+is already meeting up with the clients in defense basically, different defense sectors. So, he will 
+be spearheading our defense business, especially with LEDs are being used in command centers 
+basically, in even the outward post, they're using those command centers for monitoring 
+everything at the borders. So, the defense has got good requirement for our LED products. So, 
+he will be responsible for it. 
+Rohit: 
+Understand. And do you have any business already from this segment? Or do you have any order 
+wins or is there any pipeline that you have in this segment? 
+Ravi Mishra: 
+So far if you see, we already have a client base which is very well well-versed with this basically. 
+We have IMA in Military Academy as our customer, we have Naval Academy as our customer, 
+we have Air Force as our customer, we have certain outpost in defense, that we have already 
+done our implementation. In terms of DRDO is my customer -- DRDO is already utilizing our 
+things, he's a customer. ISRO is a customer. 
+So, we are anyway very well already into that, but they are segmented numbers. So, now with 
+Captain Vivek coming in, we will be more focusing on defense businesses. And we are expecting 
+because we already have a pre-qualification and customer base and experience with that, without 
+doing much sales into it actually. So, now with the outreach program, which is led by Captain 
+Vivek, we are expecting good business from the defense. 
+Rohit: 
+Understand, understand. And I think your -- I don't know if this was covered earlier -- but your 
+H2 to H1 revenue was at an overall level was flattish. So, was there any impact, did you guys 
+have any impact because of the war or was there any revenue deferment that caused you guys to 
+close somewhat flattish H2 versus H1? 
+Ravi Mishra: 
+There were certain logistic delays, of course, because there too -- because of war the logistics 
+are anyway getting delayed. And of course, because we are into electronic industries, electronic 
+supply chain has also been disturbed actually. So, yes, we did got delayed with certain revenue 
+which could have been in March itself, but we had to book it in an April actually. So, there were 
+delays in tunes of INR25 crores-INR30 crores which we could not basically achieve in our past 
+year. 
+Rohit: 
+Understand, understand. Okay, thanks. That's all I have. 
+Moderator: 
+Thank you. The next question comes from Ankur Aggarwal with Motozak LLP. Please go ahead. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 16 of 18 
+ 
+Ankur Aggarwal: 
+Hi. My first question is, out of INR29 crores of PAT we did last year, how much money have 
+we received that was outstanding? And which customers have, what kind of credit period that 
+we give to them? 
+Ravi Mishra: 
+Okay. So, I would not be able to answer exactly to these numbers. But yes, we majorly have 
+government, corporate customers, and our partners which is basically system integrators when 
+it comes to LED and all. And as I mentioned earlier in my last call also, so we are trying to move 
+from being a direct to customer sales to partner driven sales. So, we have major sales through 
+partners, which is happening. And that, that's where our major sales are happening now. So, we 
+are only targeting to have large customer... 
+Ankur Aggarwal: 
+Yes, sorry, sir. I just wanted to have a rough idea of, how much of our money is outstanding for 
+more than maybe 60 days, 90 days or something like that. How much time it takes for us to 
+receive our money on average? 
+Ravi Mishra: 
+See, in general our terms in general our terms even with most of the corporate will be within 90 
+days basically. But what happens at times our LED business specifically is project-based 
+business, which means we have to wait for site readiness and basically site approvals, all those 
+things are required before we actually can do certain, even the supplies are happened, but the 
+site is not ready. So, implementation will take place. 
+ 
+And once those things are done, then we will be able to invoice the customer. So, even while it 
+is a 90 days term with the customer, it might still get 120 days extension because the installation 
+we were waiting for installation and things up even after supply. So, then the numbers would 
+look different basically. 
+Ankur Aggarwal: 
+So, sir, any bad debt as of now in the books? 
+Ravi Mishra: 
+We have not booked any bad debt as of now in the books, but we have certain in tunes of some 
+INR10 lakh, INR12 lakh so far which is due for a longer period, more than a year's time. But 
+otherwise everything is beyond within six months of time for us. But INR10 lakhs, INR12 lakhs 
+is what we are struggling with. So, we may try to we are trying to recover that. 
+Ankur Aggarwal: 
+Got it, sir. Sir, and my second question is, like, you mentioned we sold around 4.5 lakh units in 
+H2 mobile units. So, can you tell me, do you also track what is the sell-through data from those 
+distributors or dealers? I mean, how many mobiles were actually activated? 
+Ravi Mishra: 
+I can get that data and come back to you on that? 
+Ankur Aggarwal: 
+All right, sir. Thank you, sir. 
+Ravi Mishra: 
+Thank you. 
+Moderator: 
+Thank you. Ladies and gentlemen, in the interest of time, we take the last question from Jaideep 
+Ray, an Individual Investor. Please go ahead. 
+Jaideep Ray: 
+Hello. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 17 of 18 
+ 
+Ravi Mishra: 
+Yes, hello. Go ahead, Jaideep. 
+Jaideep Ray: 
+Good afternoon, sir. My question is what is the current monthly mobile sales, can you tell, sir? 
+Ravi Mishra: 
+We have already reached now 60,000 plus, 60,000 or 70,000 plus units stable sales every month 
+in the in terms of feature phones. Smartphone we have just added recently, so we will have some 
+numbers for that in coming month to come. But for feature phone, 60,000 plus is very 
+comfortable for us now. Of course, every month is not the same number, like Diwali will come 
+so numbers will certainly triple or four times will happen. But average out if we say, 60,000 plus 
+numbers are there. 
+Jaideep Ray: 
+And you're in your presentation you are telling that your H2 mobile sales is around 4 lakh 
+something, 4 lakh. It is H2 sales or total financial year sales? 
+Ravi Mishra: 
+So, majorly see we started in September, August-September only for the sales. So, major sales 
+in H2 only. But it is total financial year sales, yeah. 
+Jaideep Ray: 
+Because in September till September only you are I think you sold around 20 crores to 25 crores 
+of amount. 
+Ravi Mishra: 
+Correct, that's right, yeah. Correct. 
+Jaideep Ray: 
+Means same in second half also you sold same amount of mobile, you know? 
+Ravi Mishra: 
+Yeah, I think in second half in total mobile sales, the number that I remember is around INR55 
+crores. 
+Jaideep Ray: 
+INR55 crores, okay. And my second question is in last con-call you mentioned about some 
+foreign LED partnership, you have done INR20 crores around sales to foreign customer, and 
+told that two pipelines are underway. What is the, what is the current status and what is the future 
+of this there, can you tell? 
+Ravi Mishra: 
+So, basically in LED we have already added some OEM. OEM means we are talking about big 
+brands for whom we are manufacturing our LED basically. So, we are supplying to big brands 
+with their brand name. So, we are already doing that. Last year we have done OEM sales in tunes 
+of around INR30 crores in total. And for LED, we have an export of around INR10 crores, 
+INR12 crores in Vietnam and Singapore. So, we have done that. Plus we have had some export 
+of hearing aids as well in Middle East and Middle East market. So, that kind of export so in 
+tunes of INR23 crores we have done in exports last year. 
+Jaideep Ray: 
+Okay. And what will be the amount can tell this year, what will be your target there? 
+Ravi Mishra: 
+So, of course with the customer base increasing, we are expecting good growth in export sales 
+also. So, we should be doing I should be easily achieving INR50 crores in export sales this year. 
+Jaideep Ray: 
+Okay. Thank you. Thank you very much. 
+Ravi Mishra: 
+Thank you. 
+ 
+ 
+OSEL Devices Limited 
+ 
+ 
+June 02, 2026 
+ 
+Page 18 of 18 
+ 
+Moderator: 
+Thank you. Ladies and gentlemen, that was the last question for today. I would now like to hand 
+the conference over to Mr. Rajendra Ravi Shankar Mishra for the closing remarks. 
+Ravi Mishra: 
+Hi. Thank you everyone for joining in and being a part of OSEL team. And with your support, 
+we have been actually able to achieve all these growth because without funds, without investor 
+money, these growths while it is available but it is not possible. So, thank you all for everything 
+for helping us with this growth. And for future also, we are very much positive about our growth 
+and we will continue to have similar growth that we have been achieving in last few years for at 
+least next few years. 
+And there will be continued growth in terms of development of new product, in terms of addition 
+of JNPA manufacturing hub, which will add good numbers to our actual balance sheet. So, we 
+will be working hard towards that. And we will be sharing progress with you in possibly in 
+quarter we are targeting to give you quarterly reports if possible, maybe from the third quarter 
+of this year. And to give more transparency and visibility to our shareholders. Thank you 
+everyone. 
+Moderator: 
+Thank you, sir. Ladies and gentlemen, on behalf of OSEL Devices Limited, that concludes this 
+conference call. Thank you for joining us and you may now disconnect your lines. 

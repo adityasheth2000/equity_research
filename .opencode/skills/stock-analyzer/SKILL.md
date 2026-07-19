@@ -16,7 +16,9 @@ Orchestrates a complete equity research workflow starting from a screener.in com
 
 ## Workflow
 
-**Tip:** Steps 2 and 3 are independent and can run in parallel. Step 1 must complete first. Step 4 must run after Steps 2 and 3 finish, and Step 5 must wait until Step 4 is complete.
+**IMPORTANT — Be thorough.** Do not skip or rush through any step. Do not hallucinate figures or fabricate data. Every number and claim in the verdict must be traceable to a source document. It is fine if the workflow takes a long time — accuracy and completeness come first.
+
+**Tip:** Steps 2, 3, and 4 are independent and can run in parallel. Step 1 must complete first. Step 5 must run after Steps 2, 3, and 4 finish, and Step 6 must wait until Step 5 is complete.
 
 ### Step 1: Fetch Screener Data & Download Documents
 
@@ -32,7 +34,7 @@ This does:
 - Downloads 5 most recent PPTs → `{TICKER}/presentation/`
 - Downloads 5 most recent transcripts → `{TICKER}/concall/` (with `.txt` conversion)
 
-### Step 2: Analyze PPTs (parallel with Step 3)
+### Step 2: Analyze PPTs (parallel with Steps 3 & 4)
 
 Invoke the **ppt-analyzer** skill — run its script on each downloaded PPT to extract content via vision model. Idempotent — skips if `.md` already exists.
 
@@ -41,11 +43,15 @@ source .venv/bin/activate
 python .opencode/skills/ppt-analyzer/ppt_analyzer.py --pdf {TICKER}/presentation/PPT_May2026.pdf
 ```
 
-### Step 3: Extract Credit Ratings (parallel with Step 2)
+### Step 3: Extract Credit Ratings (parallel with Steps 2 & 4)
 
 Invoke the **credit-rating-analyzer** skill — find rating links in the `screener_analysis.md` (documents → credit ratings section) and extract each one. Most CRISIL reports are HTML pages; use `--html`. Older reports may be PDFs; use `--pdf`.
 
-### Step 4: Read All PPTs & Transcripts (Parallel Subagents)
+### Step 4: Web Search (parallel with Steps 2 & 3)
+
+Use the **websearch** and **webfetch** tools to research the company — business overview, recent news, management outlook, and industry context. Save output → `{TICKER}/tmp/web_search.md`.
+
+### Step 5: Read All PPTs & Transcripts (Parallel Subagents)
 
 **CRITICAL — Do NOT skip.** Vision-extracted `.md` files are lossy. Read every PPT `.md` and transcript `.txt` in full before writing the verdict.
 
@@ -55,12 +61,15 @@ Launch a `task` subagent per file, all in one message for parallelism. Each suba
 wc -l {TICKER}/presentation/PPT_*.md {TICKER}/concall/Transcript_*.txt
 ```
 
-### Step 5: Compile Verdict
+### Step 6: Compile Verdict
 
-Synthesize ALL sources — `screener_analysis.md`, PPT subagent outputs, transcript subagent outputs, credit ratings — and write `verdict.md` in a dated folder covering:
+Synthesize ALL sources — `screener_analysis.md`, PPT subagent outputs, transcript subagent outputs, credit ratings, `web_search.md` — and write `verdict.md` in a dated folder covering:
 
+- **What the company does** — explain the business model in plain, simple language. Assume the reader knows nothing about the industry. What products/services do they sell? Who are their customers? How do they make money? This should be the very first section.
 - Company overview and industry positioning
-- Financial analysis (from `screener_analysis.md` — all tables already extracted)
+- **Key metrics to track** — the 5–8 most important KPIs for this company (e.g., order book, revenue visibility, margin profile, ROE/ROCE, working capital days, debt/equity, asset turns, industry-specific metrics like subscriber adds, loan growth, occupancy, etc.). Explain why each matters.
+- **Management track record** — has management walked the talk? List major hits and misses on forward-looking statements (guidance vs actuals, capex delivered vs promised, targets achieved vs missed).
+- Financial analysis 
 - Quarterly progression and trends
 - Strategy, growth outlook, and management quality
 - Risks including credit rating trajectory (from `credit_ratings/*.md`)
@@ -86,7 +95,8 @@ TICKER/
 ├── credit_ratings/                 # Rating reports .md (shared across dates)
 ├── tmp/                            # Intermediate artifacts (gitignored)
 │   ├── screener_full.png
-│   └── screener_analysis.md
+│   ├── screener_analysis.md
+│   └── web_search.md
 └── 9-july-2026/                    # Analysis snapshot
     ├── screener_full.png           # copy of the full-page screenshot
     └── verdict.md                  # Final analysis summary
