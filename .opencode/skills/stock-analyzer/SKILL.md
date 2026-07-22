@@ -47,9 +47,17 @@ python .opencode/skills/ppt-analyzer/ppt_analyzer.py --pdf {TICKER}/presentation
 
 Invoke the **credit-rating-analyzer** skill — find rating links in the `screener_analysis.md` (documents → credit ratings section) and extract each one. Most CRISIL reports are HTML pages; use `--html`. Older reports may be PDFs; use `--pdf`.
 
-### Step 4: Web Search (parallel with Steps 2 & 3)
+### Step 4: Web Research (parallel with Steps 2 & 3)
 
-Use the **websearch** and **webfetch** tools to research the company — business overview, recent news, management outlook, and industry context. Save output → `{TICKER}/tmp/web_search.md`.
+Use **tavily-research** skill — run `tvly research` twice for the company (uses `--model mini`):
+
+```bash
+# 1. Latest company info, business, management, industry
+tvly research "latest news, business overview, management outlook, and industry analysis for {COMPANY_NAME} {TICKER} India" --model mini --stream -o {TICKER}/tmp/tavily_company.md
+
+# 2. Recent stock price movement and sentiment
+tvly research "recent stock price movement, analyst ratings, and market sentiment for {COMPANY_NAME} {TICKER} India 2026" --model mini --stream -o {TICKER}/tmp/tavily_stock.md
+```
 
 ### Step 5: Read All PPTs & Transcripts (Parallel Subagents)
 
@@ -63,7 +71,7 @@ wc -l {TICKER}/presentation/PPT_*.md {TICKER}/concall/Transcript_*.txt
 
 ### Step 6: Compile Verdict
 
-Synthesize ALL sources — `screener_analysis.md`, PPT subagent outputs, transcript subagent outputs, credit ratings, `web_search.md` — and write `verdict.md` in a dated folder covering:
+Synthesize ALL sources — `screener_analysis.md`, `tavily_company.md`, `tavily_stock.md`, PPT subagent outputs, transcript subagent outputs, credit ratings — and write `verdict.md` in a dated folder covering:
 
 - **What the company does** — explain the business model in plain, simple language. Assume the reader knows nothing about the industry. What products/services do they sell? Who are their customers? How do they make money? This should be the very first section.
 - Company overview and industry positioning
@@ -96,7 +104,8 @@ TICKER/
 ├── tmp/                            # Intermediate artifacts (gitignored)
 │   ├── screener_full.png
 │   ├── screener_analysis.md
-│   └── web_search.md
+│   ├── tavily_company.md
+│   └── tavily_stock.md
 └── 9-july-2026/                    # Analysis snapshot
     ├── screener_full.png           # copy of the full-page screenshot
     └── verdict.md                  # Final analysis summary
