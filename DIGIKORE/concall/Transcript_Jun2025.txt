@@ -1,0 +1,926 @@
+ 
+                                                                      
+                        
+    June 09, 2025 
+ Ref: DSL/2025-26/NSE 
+To, 
+The Manager, 
+National Stock Exchange of India Ltd. 
+Exchange 
+Plaza, 
+Bandra 
+Kurla 
+Complex, Bandra (East), Mumbai – 
+400 051 
+ 
+NSE Symbol: DIGIKORE 
+ISIN: INE0QJ901011 
+ 
+Subject: Transcript of Analysts/ Investors Earnings Conference Call for the Half year and year ended 
+March 31, 2025, held on 4th June 2025, pursuant to Regulation 30 of SEBI (Listing Obligations and 
+Disclosure Requirements) Regulation, 2015. 
+ 
+Dear Sir/Madam, 
+ 
+Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) 
+Regulations, 2015, we hereby submit the Transcript of analysts / investors Earning Conference Call 
+conducted on 04th June 2025 at 02:00 PM to discuss the Company's performance for the Half year 
+and year ended 31st March 2025. 
+ 
+You are requested to kindly take the same on record. 
+ 
+Thanking you. 
+ 
+Yours faithfully, 
+For Digikore Studios Limited 
+ 
+ 
+ 
+Heny Pahuja 
+Company Secretary& Compliance Officer 
+ 
+Heny 
+Pahuja
+Digitally signed 
+by Heny Pahuja 
+Date: 
+2025.06.09 
+17:40:42 +05'30'
+ 
+ 
+Page 1 of 20 
+ 
+ 
+ 
+ 
+“Digikore Studios Limited Q1 FY-25 Earnings 
+Conference Call” 
+ 
+June 04, 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MANAGEMENT: MR. ABHISHEK MORE – MANAGING DIRECTOR AND 
+CHIEF EXECUTIVE OFFICER, DIGIKORE STUDIOS 
+LIMITED 
+MR. KETAN MORE – INTERIM CHIEF FINANCIAL 
+OFFICER, DIGIKORE STUDIOS LIMITED 
+MR. RAKESH – HEAD OF FINANCE, DIGIKORE STUDIOS 
+LIMITED 
+MRS. HENY PAHUJA – COMPANY SECRETARY AND 
+COMPLIANCE OFFICER. 
+MODERATOR: 
+MS. CHANDNI CHANDE – KIRIN ADVISORS 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 2 of 20 
+Moderator: 
+Ladies and gentlemen, good day and welcome to Digikore Studios Limited FY '25 Earnings 
+Conference Call, hosted by Kirin Advisors. 
+As a reminder, all participants’ lines will be in the listen-only mode, and there will be an 
+opportunity for you to ask questions after the presentation concludes. Should you need assistance 
+during the conference call, please signal an operator by pressing ‘*’ then ‘0’ on your touchtone 
+phone. Please note that this conference is being recorded. 
+I now hand the conference over to Ms. Chandni Chande from Kirin Advisors. Thank you and 
+over to you ma'am. 
+Chandni Chande: 
+Thank you. On the behalf of Kirin Advisors, I welcome you all to the conference call of Digikore 
+Studios Limited. From Management team, we have Mr. Abhishek More – Managing Director 
+and CEO; Mr. Ketan – Interim CFO; Mr. Rakesh – Head of Finance; and Mrs. Heny Pahuja – 
+Company Secretary and Compliance Officer. 
+Now I hand over the call to Mr. Abhishek More for opening remarks. Over to you, sir. 
+Abhishek More: 
+Thank you. Good afternoon, everyone. And on behalf of the entire Management team at Digikore 
+Studios Limited, I extend a warm welcome to all our investors, analysts and stakeholders joining 
+us today. Thank you for your continued support and belief in our journey.  
+Let me begin by addressing the broader industry environment that significantly shaped the year 
+gone by. So the VFX industry, particularly in Hollywood, as we know, faced an unprecedented 
+slowdown due to the writer's strike and actor's strike that disrupted productions for close to 12 
+months. And obviously, this led to widespread delays in content creation, postponed projects, 
+and it created a ripple effect across VFX studios worldwide, which impacted us as well. 
+Like most VFX studios, Digikore's execution pipeline and financial performance were directly 
+impacted by these external uncontrollable circumstances. As a result, FY '25, and particularly 
+the second half, reflects the aftershocks of this prolonged disruption. However, we are already 
+seeing clear signs of recovery. Work has resumed, and the industry is witnessing a strong revival.  
+Major studios now actively pushing forward delayed projects, and we are well positioned to 
+support this rebound. In fact, as on today, we have a confirmed order book of INR 16 crores, 
+which is fantastic to see after literally 12 months of disaster in the industry. And the beauty of 
+this is that INR 7 crores of this is direct projects from CBS, Hulu, Netflix. So our efforts in trying 
+to move and shift our revenue mix from outsource work to direct is already showing the fruits 
+right now. This is obviously an encouraging sign, and it takes us closer to our long-term goals 
+of moving towards higher margin and direct client work.  
+At present, we also have over INR 8 crores worth of projects in the bidding stage, that means in 
+the quote stage, for which our quotations have gone to clients. And several of our large outsource 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 3 of 20 
+clients have already reached out to us to prepare for capacity increase from July-August this 
+year. These are all great healthy signs of the industry coming back to pre-strike levels, which 
+would be business as usual for most VFX companies and in a growing market.  
+What has also happened in the last 12 months is that several VFX studios across the world have 
+either scaled down substantially or shut down. As we know, Technicolor, one of the largest VFX 
+studios in the world declared bankruptcy, Jellyfish in UK, and several more that we know of 
+have unfortunately had to face the brunt of the strike. Thousands of people have unfortunately 
+lost their jobs. But the silver lining on this is that people who survived will now witness an 
+upsurge of work with lower number of competitors in the market. 
+Obviously, the VFX side is great, it's doing good, picking up now. But what is more important 
+is that while we prepare for this short-term growth, we are equally focused on long-term strategic 
+transformation. One of the biggest shifts in the global creative ecosystem is the rapid 
+advancement of artificial intelligence in the context of content creation and automation of VFX 
+tasks. I don't know how many of you have seen Google Veo's new model that was just released. 
+It's unbelievable. It's going to change the content landscape forever. 
+As we move forward, there are going to be hardly any people involved in the entire content 
+production process. It's going to be all AI generated in the years to come. I don't say 1 year or 2 
+years. It could be anywhere between 3 to 5 years where that shift will happen.  
+Several AI tools are in development worldwide for automating VFS tasks. Many VFX studios 
+continue to operate with traditional models, ignoring the looming disruption of AI. Whichever 
+VFX studio I meet, as a Tech-First VFX company, we are very open to technology. We have 
+our eyes and ears open. We keep seeing what's happening in the industry. And what we do 
+believe very truly is that any VFX company that continues to ignore the threat of AI, they will 
+have to shut shop in less than 24 months.  
+Nuke, which is a foundry software, which is the main software in VFX, where we are already 
+seeing them release an AI model. Now if Nuke releases an AI model, a job where you needed 
+50 artists to do something, 5 would do that. So while it will impact VFX studios to some extent, 
+but the major impact, unfortunately, will be in the manpower, because a lot of people will lose 
+jobs due to AI coming up in VFX.  
+But at Digikore, we have taken a radically different path for this. We are working alongside 3 
+international companies that are automating VFX tasks, which will protect us from this 
+disruption, obviously. So we are creating tools that will use AI to automate tasks like rotoscopy, 
+cleanups, camera tracking, matchmove, compositing. These are very easy tasks to automate in 
+AI, and there are companies already doing it. And we ourselves as a company are taking active 
+steps to be ahead of the curve, rather than behind the curve. 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 4 of 20 
+Obviously, we all know history offers us clear lessons about the cost of ignoring technology 
+shifts. We have seen how Kodak, once the pioneers in photography, failed to adapt to digital 
+revolution in where they are today. Nokia ignored smartphone revolution, you know what 
+happened to them. Blockbuster, Netflix's biggest competitor once, and the biggest company in 
+video rentals along with Netflix, they didn't see streaming coming, and they disrupted. So we 
+don't want to ignore history. We understand the threat of technology. We work closely in that, 
+and we want to embrace it rather than resist it. 
+So we are also transitioning from being a pure play service provider to becoming a Media Tech 
+hybrid company. This means blending the reliability and scale of a service-driven business with 
+innovation and IP generation capabilities of a modern tech enterprise. So obviously to that end, 
+we have built a dedicated in-house AI team that's developing proprietary AI SaaS products and 
+infusing AI into our internal VFX workflows to boost efficiency and scalability. 
+We recently created a tool in-house in AI, which actually reduced the time taken to do one of 
+the tasks in VFX, which is a donkey work task that was being done. So assuming if we got a 
+200-shot job, and 5 man-days were being spent on that, now that whole is done in 5 hours. So 
+we are actually using it to improve our productivity internally as well, which is fantastic. 
+So alongside this, we have also forayed into branded content production, where we own and 
+monetize content IPs, unlocking new revenue models beyond traditional service billing. 
+On the branded content side, one of our IPs, recently we were actually given an acquisition 
+proposal for that IP. So we are seeing that these IPs are going to be turning into cash cows for 
+us in the years to come. And not only as a long-term business, but good potential to be sold as 
+an IP by itself. And that's the beauty of creating IPs, where the inherent value in those over a 
+longer period of time can generate substantial either slump sale revenues or long-term revenues.  
+So this dual track strategy of strengthening our core, which is our VFX business, and building 
+the future, ensures Digikore is not only resilient in the face of disruption, but well positioned to 
+lead the new next chapter of growth in the Media Tech space. 
+So while FY '25 was affected by extraordinary industry headwinds, it is important to recognize 
+that this was not a reflection of internal performance or strategic missteps, but a global external 
+shock that impacted nearly every VFX player. And the rebound is now clearly underway and 
+our forward-looking investments gaining traction. We enter FY '26 with strong momentum, 
+greater diversity in revenue streams, and a long-term vision that aligns with the future of content 
+creation. 
+Thank you once again for being here and I am going to now open the floor to your questions. 
+Moderator: 
+Thank you very much. We will now begin with the question-and-answer session. (Operator 
+Instructions). Please note that the call is scheduled for 1 hour.  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 5 of 20 
+The first question is from the line of Priya Jain from Green Capital SA. Please go ahead. 
+Priya Jain: 
+Hello sir. I have a few questions with me. So starting with...  
+Moderator: 
+Priya, sorry to interrupt you. Can you please speak through the handset? You are sounding very 
+distant.  
+Priya Jain: 
+Okay. So seeing this AI boom, I would like to understand, can you just elaborate on how you 
+are strategically giving importance to your AI SaaS platform, and how they are expected to 
+continue to long-term growth? 
+Abhishek More: 
+So see, currently we have launched 2 SaaS platforms. One is iMadeASong.com, and we recently 
+launched Selfsync.ai. iMadeASong.com has already started generating revenues. Also in fact, 
+we track on a daily basis. Selfsync was just launched literally 10 days ago. We have already 
+started getting traction from companies. 
+One of them, which is iMadeASong, is a B2C product and Selfsync.ai is a B2B product. The 
+Selfsync.ai is, in fact, we have already gotten demo requests from over 30 companies since we 
+have launched. And if you haven't seen it, you must if you run a business. Any business that is 
+looking at productivity and growth should definitely embrace Selfsync.ai. It's a fantastic 
+platform. 
+iMadeASong, like I said, has already started generating revenues. Obviously, it's not generating 
+crores worth of revenues. It is yet generating in the thousands per day. So we are looking at 
+approximately a few lakhs per month. But the good thing is the traction is there. And we are 
+talking to some people for strategic alliances on that side for both the platforms. So we are 
+looking at these growing into substantial revenue streams, obviously, not in the next 3 to 6 
+months, but it's a 2 to 4 year period for these to grow into, when they can contribute substantial 
+revenue to the company. That is at one side. 
+At the second side, once you create platforms like these, they become IPs that you own, which 
+can also be monetized in terms of acquisition of being acquired as platforms by people in the 
+industry.  
+Priya Jain: 
+Good to hear, sir. Also, I just wanted to understand, like, how you have a YouTube platform and 
+how you plan to scale and perhaps drive more revenue from there? 
+Abhishek More: 
+So we are actively promoting through social media campaigns, through influencer partnerships, 
+through strategic alliances. So we have our internal digital marketing team, which is working on 
+all of these aspects to scale the revenue from the Selfsync and iMadeASong.  
+YouTube platform, Binge Fever, that is more for our internal shows that we produce, that is the 
+branded content shows. So on that, we don't put general content. As an example, we have started 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 6 of 20 
+filming the second season of Kaise Banta Hai. We have filmed already 10 episodes for Heroes, 
+which will now go into the second filming.  
+So by the way, I must also tell you that 1 of the participants on Heroes, which is our second 
+show, is Mr. Jeet Adani, Mr. Gautam Adani's son. He was very excited when he was participating 
+in the show. I had the opportunity to meet up with him and interact with him. I briefed him on 
+Digikore. He was very excited about the possibilities of the company. So we are getting 
+interaction on our shows from some of the largest business houses.  
+So the OTT, YouTube platform is, as the new episodes start coming out for Kaise Banta Hai and 
+Heroes, they will then be put up out there. And then that is more of, so organic growth that we 
+expect on the Binge Fever platform on YouTube. 
+Priya Jain: 
+Good to hear, sir. Looking forward to better numbers and all the best. 
+Abhishek More: 
+Thank you. 
+Moderator: 
+Thank you very much. Next question is from the line of Anmol Grover from Edwards Financial 
+Service. Please go ahead.  
+Anmol Grover: 
+Hello, sir. Good afternoon. So actually, sir, I just wanted to ask what happened in the second 
+half gone by, because last time when we had a con-call, outlook was very strong. We had a lot 
+of orders in hand. But the numbers have been very tapered for H2. So, just want to understand 
+what exactly happened and from vis-a-vis the outlook that we had back then.  
+Abhishek More: 
+So I will tell you what happened. So, we know that the strike happened in 2023. And so let me 
+give you a brief on the VFX pipeline and the entire production pipeline and how a movie or a 
+series starts. It starts with the writers. It starts with the writing first. Then it goes into pre-
+production. Then it goes into filming. Then it goes into editing. And then it comes to VFX. 
+Now, what happens is that depending on the size of the project, if it's a Marvel movie, obviously, 
+it can take anywhere between 24 to 36 months from writing to VFX. Or if it's even the mid-
+budget films and shows, it can take anywhere between 9 to 12 months. And smaller projects take 
+anywhere between 6 to 8 months from writing to VFX.  
+The strikes got over in November. We all, the entire industry anticipated that projects will get 
+on floor immediately, and we will start seeing a good flow in VFX starting from July, August, 
+or maybe September '24. Because once the projects start writing in January of 24, they take that 
+6, 8 months, 9 months to come into VFX.  
+Unfortunately, which was a shock for the industry, the OTT platforms delayed. They did not 
+start immediately on projects. That impacted our numbers for H2, because what we anticipated 
+the project that will start writing in January, they will come into VFX by October, November of 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 7 of 20 
+'24. But lot of projects which were announced also did not start, they got delayed, many projects 
+got cancelled. We got one large VFX project.  
+So when you say, there are 2 stages at which we get VFX projects. One stage is when a project 
+is announced immediately, they start attaching a VFX studio there itself for the initial pre-
+production work as well. And then there are projects which, when the project is filmed, 
+completed, and edited, we get the VFX work. So there was one large project of Amazon that we 
+also got, which was announced. And, it's yet not got into production only, it's yet stalling.  
+And because of this, you saw lot of companies going into shutdowns in H2, in the last 6 months, 
+because everybody was anticipating that the work will start from August, September of '24 in 
+full flow. Unfortunately, that we are seeing the signs now for that happening. We started seeing 
+those projects which are supposed to come into VFX stage in August, September, October of 
+last year, they have now started coming into VFX from February, March this year. And that is 
+why our pipeline now is getting strong, which technically should have got strong in H2 of '25. 
+Anmol Grover: 
+Okay. But sir, I have a counter question to this. So we are seeing, the other listed VFX companies 
+have reported much better numbers than we have. So is there some sort of discrepancy here 
+that…. 
+Abhishek More: 
+I actually made a joke of this to some people, because I never like to comment on other people, 
+and I will not also. Yes, but it's surprising that, only listed companies in India are making profits 
+in the VFX industry, nobody else is. So I tell people, if you have to make profits in VFX, at least 
+list in India for VFX, you will get automatically get profits in India.  
+I don't like to comment on others. I like to see what we are doing and where we are heading. 
+And it's not good to compare a VFX company to 3 other listed peers. But I think so you need to 
+look at 50 other VFX companies, and then come to a conclusion on who's making money and 
+who's not. 
+Anmol Grover: 
+Okay, sir. Fair enough. So how is the pipeline looking right now? Can you give some numbers 
+on it? And what can we expect from the numbers in FY '26, FY '27? You had given some 
+guidances earlier.  
+Abhishek More: 
+Like I just did in our opening also, as of now, we have a strong order book of around INR 16 
+crores, out of which around INR 7 crores are direct projects from CBS, Hulu, Netflix. 
+Netflix, we are working on One Piece. CBS, we have started working. In fact, I can actually not 
+even say, when you say INR 16 crores, that is what we have. For CBS, we have started working 
+on 2 of the Star Trek shows, and a third Star Trek show, they've already given us soft signs that 
+we are going to get that one as well. We delivered one of the Star Trek shows for CBS last year. 
+They were extremely happy with our work. So they have given us these 3 projects as well. 2 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 8 of 20 
+have already come in, 1 is yet to come in. So that should be another INR 3 crores to INR 4 crores 
+addition when that comes in. That's going to start maybe August, September of this year.  
+And we have an active bidding. That means we have sent quotations for around INR 8 crores 
+worth of projects. So if you look at it this way, it's around INR 16 crores plus. I can't say that we 
+have got these INR 8 crores, but there's a good chance we should get most of this.  
+Anmol Grover: 
+Okay, sir. So I just want to ask 1 more thing. You had given some guidance earlier. I am pretty 
+sure we are not able to meet our goal for FY '26 and FY '27. But is there any way that you can 
+help us understand how are the next 2 years are going to look like from number's perspective, 
+growth perspective, and margins perspective? 
+Abhishek More: 
+So I will tell you, to be honest, considering the effects of the strike, considering the impeding 
+impact of AI, we are right now being a little more cautious in our numbers. We want to now 
+back track a little. And I think we have realized now more to give a lower number and achieve 
+more. So if you ask me, for FY '26, we are looking at almost, on a very conservative level, we 
+are looking at anywhere between INR 60 to INR 65 crores top line, considering the work that 
+we have right now going on. 
+I am also happy to let you know that we have done substantial cost optimization in the company 
+in the last 2 months, because once you are pushed against the wall, that is when you start taking 
+innovative and creative measures which don't come to your mind earlier. 
+So FY '26, even if we are achieving INR 60 crores to INR65 crores, which is what we have in 
+our projection right now, which I believe is conservative and achievable, we are looking at 
+healthy PAT margin of around 20% on that.  
+Anmol Grover: 
+That's for FY '26 right.  
+Abhishek More: 
+FY '26, correct.  
+Anmol Grover: 
+And one more thing, on your balance sheet, sir, our receivables have gone up and our short-term 
+debt has gone up. And I believe last time we spoke, we were looking to do a ratio of INR 25 
+crores. I believe a board meeting was scheduled for that as well, but that got cancelled in the 
+end. What are your thoughts around that and what exactly is going on there? 
+Abhishek More: 
+So I am going to correct you on that. Our receivables have actually technically come down on 
+FY '20 H1 numbers. We have actually recovered, if you look at our H1 receivables, they were 
+around at INR 42 crores. We have actually recovered around INR 6 to INR 7 crores of that, 
+because if you see in my receivables and our receivables for H2, our total receivables stand at 
+INR 39 crores, which also includes the new business that has come in. So on a net-net basis, we 
+have actually gone down on receivables. 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 9 of 20 
+So like I said, we are taking drastic steps, baby steps now to ensure that we come back on track 
+extremely quickly. That is one.  
+Number 2 is that it was very easy for us to fool investors in March or in February, raise money 
+from the market, and then announce a loss balance sheet. We had signals already that it's going 
+to be a loss. So we are now looking at Q1, which is already looking healthy. We are going to 
+show profit numbers, then go back to our QIP/Rights issue, because we don't want to fool 
+investors and take money from them. We didn't want to do that, in a hurry, pick up money, it 
+wasn't fair. So that is why we just decided to postpone the fundraise, so that once the company 
+actually after Q1 shows profit numbers, we go in for a Rights/QIP/Pref. 
+Anmol Grover: 
+So we should see substantial amount of savers coming down from next quarter onwards and our 
+liquidity position improving? 
+Abhishek More: 
+Yes. Now with the industry streamlining, see because when we are getting work, that means our 
+clients are getting work. We are already seeing clients talking about healthy business, which will 
+impact our lowering of the receivables. So we now see that in the next 4 to 6 months, we should 
+have recovered a majority of our receivables, hopefully. Not majority, but at least a substantial 
+amount.  
+Anmol Grover: 
+Fair enough, sir. So basically, worst of the scenes are over from the number aspect as well and 
+things are picking up from here on. And.. 
+Abhishek More: 
+The worst is over, that's all I can say. See I will tell you what, I have run this company for 25 
+years. I have seen COVID. In fact, if you just go back to the history books in India, you can 
+count them on your fingers on the number of animation and VFX companies that have survived 
+for 25 years, probably 5 or 6 out of the 100s that have come up and gone. We have been through 
+these phases. We will never lie about our numbers, because we know we will get out of that. If 
+we have survived for 25 years, we will survive for many, many, many more years. We are doing 
+the right thing, the right way. 
+Anmol Grover: 
+Right sir. Fair enough. 
+Moderator: 
+Thank you Anmol may I request you to come back for a follow-up. 
+Anmol Grover: 
+That's all from my side. Yes, sir. I am going back in the queue. Thank you.  
+Moderator: 
+Thank you very much. The next question is from the line of Saket Khare from UnitedHealth 
+Group. Please go ahead.  
+Saket Khare: 
+Sir, you mentioned that this year's guidance would be around INR 60 to INR 65 crores and the 
+current order book will be around INR 16 crores. So, how these 2 numbers would correlate?  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 10 of 20 
+Abhishek More: 
+See INR 16 crores order book, see in VFX, a lot of the orders go on for months. Today, when 
+we are working on, let's say, a show like One Piece, if the value of that show is around INR 4 
+crores, that will go on till August, September, maybe October also, because it's got 8 episodes. 
+We have just got 3 episodes so far out of that, and that's going to go on for some months. Plus, 
+we are sitting right now on, we have just finished 2 months. We are right now got INR 16 crores 
+worth of orders, bidding INR 8 crores, gotten signals from all our clients to start ramping up for 
+delivery. Right now, if you ask me, at an average, we are doing around INR 3.5 crores worth of 
+output that we have. Our goal is that by July, we should be able to take that output capacity to 
+around INR 4.5 to INR 5 crores worth of output. 
+Saket Khare: 
+Okay. And second question is, you just mentioned that we would be having good numbers in 
+Q1, right. So, going forward, are you going to report numbers quarterly? 
+Abhishek More: 
+There is a good chance we will be reporting quarterly now, because when the company is getting 
+healthy, it's obviously good to celebrate that. 
+Saket Khare: 
+Okay. And the last one is that you talk a lot about bankruptcy in last 13 years right. So, I hope 
+that Digikore is on the right path, and we don't have any… 
+Abhishek More: 
+No, no. Don't worry. Digikore is nowhere near bankruptcy and it is not going to head that way 
+either. We are solid enough, and like I said, the worst is over. People who could survive till 
+February, March, April, they are now going to survive. People who couldn't survive till February, 
+March, April, have declared bankruptcy. Because now with the work coming back you don't 
+declare bankruptcy, you declare bankruptcy when the work is not there. 
+Saket Khare: 
+Okay. Thank you. 
+Abhishek More: 
+Yes. Thank you. 
+Moderator: 
+Thank you. Next question is us from the line of Anil Kumar Sharma, individual investor. Please 
+go ahead.  
+Anil Kumar: 
+Yes, sir. Sir, my question is, sir, you are in the second half your revenues, our revenue is INR 
+13 crores and the PBT is INR 13 crores. In the last 40 year career, I have never seen such a 
+company with INR 13 crores, 100% loss. You are saying the others are -- we will not compare 
+with others. But it is not possible that all others who are listed, they are showing bogus results. 
+So, can you clarify on this?  
+Abhishek More: 
+Yes, Anil ji, for sure I can clarify that also. So, what we had done is, when we were talking about 
+exponential growth in the industry, we also had hired several people in our Canadian operations, 
+which was a heavy expense in terms of our salary costs. And with the business being low, they 
+were yet there in the company, and that is why the loss is there. But what we have done is that 
+we have optimized our salary substantially now. In fact, we have reorganized our entire team to 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 11 of 20 
+get in more productive people at lower costs. And I am happy to tell you that in your company, 
+we have gotten now from June onwards, our salary bill, as an example, if it was INR 3 crores 
+earlier, it has now come down to INR 2 crores a month with the same output.  
+So, because of these steps that we have taken in cost optimization of manpower, cost 
+optimization of other overhead costs that we had, and with the industry bouncing back, 
+obviously, this is not going to be a repeat that you just saw. 
+Anil Kumar: 
+Okay, sir, that is true. You are saying that all others are saying the same thing, we believe that 
+also. But sir, earlier also you were saying on many occasions that company is running at 100% 
+capacity. Please, how we can trust you? That is the major point in all the minds of all the 
+investors. Please, don’t give the statements, you have given many statements that we are running 
+at 100% capacity. So, please, clarify that also. 
+Abhishek More: 
+Yes, I will clarify that. 
+Anil Kumar: 
+You have to be in the trust of the investors.  
+Abhishek More: 
+No, no, I will absolutely clarify that. So, that statement was made in February, when we actually 
+achieved. And in February, we were down by 100 people almost, because we had laid off a lot 
+of people at that point already. 
+So, like I just said, that right we have now between February and today, we have come to a 
+delivery output of around INR 3.5 crores. In February, our delivery output, because of the 
+reduction only that we had, we were in a far reduced delivery output, and that is when we started 
+achieving 100%. 
+We have never made statements that we have achieved 100% in November, December last year. 
+But only when the work started coming back in February is when we made the statement, which 
+is true, because now we have started getting the work and we are operating at almost now, 
+obviously, it averages out over 4 to 5 months, I can say that we are averaging around 85% to 
+90% capacity utilization currently. 
+Anil Kumar: 
+Okay, sir. Sir, we have read in the previous also in detail, that we believe that you have survived 
+in 25 years, that is why we invested. All of the group has invested due to this reason only. But 
+we think this will be the last chance. If you say again, coming in the next half year that we are 
+sorry, the industry was not there, then we will not believe, no investor will believe you, please. 
+Make sure that whatever is the situation, please tell us in detail. 
+Abhishek More: 
+Sir, even I am an investor, I invest in companies and I truly appreciate, and I completely agree 
+to your thoughts. All I can say is that we were a victim of industry happenings. And we will 
+keep you, and I promise to keep you all more updated on the happenings in the company as we 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 12 of 20 
+move forward. Because now we also have clarity. And to be honest, almost all of last year, we 
+also didn't have clarity.  
+We were continuously told that work is coming from our clients, but then that was delayed. But 
+now we see the work coming, we are actually seeing the teams busy. So now we also have 
+clarity. So we can also give out information in a more structured way out to our investors.  
+Anil Kumar: 
+Okay, thank you, sir. We will wait for you. And please keep us informed, that is very important. 
+And share the true picture, there should be true picture. Thank you. 
+Abhishek More:  
+Thank you, sir. 
+Moderator: 
+Thank you very much. Next question is from the line of Shivan, individual investor. Please go 
+ahead. 
+Shivan: 
+Hi, So we see that the promoters hold 66%, but 38.5% is pledged. 
+Moderator: 
+Shivan, your audio is not clear. 
+Shivan: 
+Yes, we see that the promoters hold 66%, but 38.5% is pledged. Do you plan to reduce pledging 
+in FY '26? And if yes, how will that be funded?  
+Abhishek More: 
+So like I mentioned that in the next 3 to 6 months' time, we are looking at a fresh fundraise via 
+a QIP/Rights/Preferential, and it's going to be around INR 30 crores figure. And we are going to 
+be doing that to reduce debt primarily. So once the debt goes, the pledge gets released 
+automatically.  
+Shivan: 
+Okay, all right. That's it. Thank you. 
+Abhishek More: 
+Yes. Thank you. 
+Moderator: 
+Thank you. Next question is from Burjot, individual investor, please go ahead.  
+Burjot: 
+Yes, thanks for the opportunity. So in September last year, right, company had given a release 
+to the exchange that there is a 58 episode branded content contract signing with Jio Cinema, 
+right, that's helped the company generate INR 30 crores in revenue by end of FY '25. 
+Abhishek More: 
+That is correct, that is correct.  
+Burjot: 
+So what is the number that we actually achieved in FY '25? Because in H2, it had INR 36 crores 
+total revenue. Did we fulfill the INR 30 crore revenue or? 
+Abhishek More: 
+No, no, no. We haven't achieved, because unfortunately, for us also, and fortunately for Disney, 
+they went into a merger with Hotstar. Sorry, Jio and Hotstar merger, due to which a lot of our 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 13 of 20 
+shows got delayed. Filming for which was supposed to start in October, November, we filmed 
+right now in between March and April. And obviously, because of that, then our client 
+agreements got delayed because of their merger. 
+So all that revenue is now in production, majority of it is in production. And some of it we start 
+filming in the next 2 to 3 months' time. At the same time, that has shrinked a little, not from 52 
+episodes, it will now be around 40 episodes, due to 1 or 2 shows being canceled, because of the 
+delay. But yes, we are looking at around a 40 episode delivery to Jio in this financial year. 
+Burjot: 
+Can you repeat the last line? 
+Abhishek More: 
+We are looking at around a 40 episode delivery to Jio in this financial year.  
+Burjot: 
+Okay. So that revenue is expected to be realized in this year. 
+Abhishek More: 
+That revenue is there, it's very much there, it just got delayed. 
+Burjot: 
+And the second question is kind of related to the last participant. So I think more than 2 months 
+back, on 26th March, you had done a con call with Arihant. And there you again spoke about 
+the growth in H2 as well, you talked about the rights issue of INR 25 crore. And it's just been a 
+little more than 2 months, right? It seems like the world has changed in these 2 months for 
+Digikore, right? It's not a long time. It's really kind of disheartening for shareholders to see such 
+disconnect in just a short space. 
+Abhishek More: 
+So, yes, to be honest, there were a lot of things that got delayed. There were certain things that 
+we expected to happen. I think so we have become more grounded, if I were to answer your 
+question correctly. I think so we are becoming a little more grounded in terms of our 
+expectations. Rather than aiming for the sky, we are now aiming at one step at a time.  
+Like I just recently said also, we have reduced our top line expectations for FY '26 to INR 65 
+crores. We have reduced expenses. So I think we are now coming back to taking a little more 
+baby steps to achieve and show the results to the investors, rather than estimate and expect big 
+things to happen. Because we don't see that in the industry itself now. We see the industry is 
+taking 2 steps back. So we also have to take that, to be more realistic.  
+Burjot: 
+Fair enough. But that's still pretty aggressive growth, right? If we are able to achieve INR 65 
+crores in revenue in FY '26, I hope you are able to do it. Yes, that would be also great.  
+Abhishek More: 
+So it's not aggressive, I will tell you why. In FY '24, we did revenues of INR 46 crores. If the 
+strike did not happen, in the normal course of business, we would have grown to INR 60 crores 
+to INR 65 crores in FY '25. So I don't look at INR 35 crores as a base for INR 65 crores, but I 
+am looking at INR 45 crores, INR 46 crores as a base for INR 65 crores, because that was the 
+normal business year. And when we look at a normal business year, this is what we would 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 14 of 20 
+achieve. And we are now coming back to normalcy in the industry. So our projections are based 
+on a normal business year. 
+Burjot: 
+Okay. Thanks for clarifying. All the best. Hope you achieve the targets. 
+Abhishek More: 
+Thank you.  
+Moderator: 
+Thank you. Next question is from the line of Vinay Kumar, individual investor. Please go ahead.  
+Vinay Kumar: 
+Sir, good evening. My question is strike happened 18 months to 24 months ago. But H1 top line 
+is much better than H2. Any particular reason for that?  
+Abhishek More: 
+Yes. So what happens is that, like I said, when the strike happens, there is a writer's strike. I have 
+explained, but will explain it again, no problem. So the strike happened, let me go back to the 
+timeline. The strike happened from April 2023 to November 2023, during which there was no 
+writing of new projects that happened. It obviously starts with writing, and that is the first phase. 
+But a lot of projects which were towards completion, midway, which were closed during the 
+writer's strike, they immediately came up, right, to get completed. Some of them had 1 episode 
+left or 2 episodes left, some of them had 4 episodes left. So our work pipeline was very healthy 
+till November of '23, because before the strike, a lot of projects had finished filming, they were 
+either in editing, so they came to VFX stage. 
+Then the project started thinning out, because only projects which were incomplete or partially 
+ready, they came into the VFX stage in the first 6 months of FY '24. But any new project that 
+had to start in early '24, because of their delays in starting, that impacted our H2 numbers. So it 
+is nothing but an effect of the production pipeline that is there in film industry, where VFX, 
+unfortunately, is the last job to be done in a film project.  
+Vinay Kumar: 
+Sir, do you see any immediate future challenge in carrying our business?  
+Abhishek More: 
+No, I don't see any immediate future challenge, honestly, Vinay ji. Like I said, the worst is behind 
+us. So, the projects have started flowing in. Yes, but we can't be blind to the threat of AI, like I 
+again keep saying. We should not be blind to that threat. 
+AI is a threat that can not only disrupt our industry, it can disrupt any industry in as short as 1 
+year, or it can take 3 years to disrupt it. We are aware of the fact, we are already working on 
+diversifying our revenue, so that we don't get disrupted completely, if and when AI disrupts. But 
+yes, we are aware to that threat. 
+Vinay Kumar: 
+One more thing, sir. Could I request for monthly revenue updates, sir? At least GST is filed 
+every month. So revenue could be updated to the investor also?  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 15 of 20 
+Abhishek More: 
+Correct. We will discuss this. It's a great suggestion. And now that business is back, I think so 
+we can definitely delve on this suggestion. We need to check with our IR agency also on this, 
+on how to go about this. And we will definitely keep the investors updated on a monthly basis.  
+Vinay Kumar: 
+Okay. Thank you, sir. Thank you. 
+Abhishek More: 
+At least on project wins, small, small wins that we have. Even if we have small wins, it's good 
+to celebrate those small wins.  
+Vinay Kumar: 
+Yes, exactly. Thank you. Thank you, sir.  
+Moderator: 
+Thank you very much. Next question is from the line of Pradeep, individual investor. Please go 
+ahead.  
+Pradeep: 
+Sir, good afternoon. 
+Abhishek More: 
+Good afternoon. 
+Pradeep: 
+So we are really feeling betrayed, basically, with the transparency, which is not there. Let's say 
+in the month of November or December, we were doing some big projections. And based upon 
+that, basically, we went ahead by trusting you guys. And you did not give the update also, 
+basically, in between. No updates came and again and again, the updates keep on coming that 
+iMadeASong basically, we have launched and it is making good. 
+But when basically, revenue did not realize then you did not give the update, then you keep on 
+giving the positive updates. But the actual picture, basically, no updates came, and then we are 
+basically suddenly got shocked.  
+Abhishek More: 
+So Pradeep ji, I completely agree with you. And I can't say anything more. But all I can say is 
+that the last year has been a little difficult for us…  
+Pradeep: 
+I am not saying about this. I am saying just the transparency.  
+Abhishek More: 
+I completely agree with you. Yes. I am coming to that only. So as an example, on the VFX side, 
+when we got information from our client that, okay, the work is coming, we are getting back, 
+we are giving this order to you. We used to also feel that, okay, positive things are happening, 
+so we used to update. 
+But I think so now, like I just mentioned some time back also, that we are going to be a little 
+more grounded in our updates. We are going to ensure that that thing has happened and then 
+give an update, rather than on industry information given. 
+Pradeep: 
+I think, Abhishek ji, still you are not getting the point. It's about transparency. Whatever the 
+positive happening, negative happening, basically, the company has to be transparent.  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 16 of 20 
+Abhishek More: 
+I completely agree with you, Pradeep ji. It's not that we have done that intentionally. Nothing 
+has been done intentionally in the first place. I think so we just need to be a little more cautious, 
+a little more informed in our information that we provide to our investors. But yes, going 
+forward, you will definitely, I can assure you that you will see a little more transparency. Your 
+point has been taken. Even Vinay ji just now said about monthly, giving some information on a 
+monthly basis on what's happened in the company in the last month. And we will definitely do 
+our best to achieve that level of transparency.  
+Pradeep: 
+For example, 30 episodes, 2 episodes basically got cancelled. We are just cancelled or delayed. 
+We are just getting the update. But you were having updates, 6 months back also. So it is really 
+disappointing that those updates are not given, these things had been delayed. 
+Abhishek More: 
+I take your point, Pradeep ji. I completely take your point, and you will definitely see a huge 
+difference moving forward in our updates.  
+Pradeep: 
+Sure. Thank you. Whatever the positive or negative, both the cases. 
+Abhishek More: 
+Both the cases.  
+Pradeep: 
+And another thing is that the consolidated revenue and the standard-alone revenue, there is not 
+much difference. So our foreign business did not generate any revenue? 
+Abhishek More: 
+So what we are seeing is that a lot of the clients, which is our international clients, so the 
+Canadian subsidiary was really set up to take advantage of the Canadian rebates that are being 
+offered by the Canada government. When there are no rebates offered in a project, we prefer 
+taking their project directly into the India entity rather than route it through Canada. 
+Because then we are just increasing revenue there also, and for the heck of it, just to route their 
+project through Canada. We are actively working on chasing some projects which involve the 
+rebates by the Canada government. And those projects will then be routed through or built 
+through the Canadian entity. But as far as possible, any project that does not require a rebate, we 
+are taking the invoicing and billing directly to the India entity.  
+Pradeep: 
+Okay. And what is the reason that, let's say out of the other VFX companies, our companies only 
+got bad hit so much?  
+Abhishek More: 
+Pradeep ji, that's why I say, so when we are doing a sample size also now, when we are doing 
+sampling or something, we don't sample 2 or 3. I would really suggest to see the status of…  
+Pradeep: 
+No, we are seeing only 3 or 4 public companies only, yes. Definitely. 
+Abhishek More: 
+So that is what. Public companies, I cannot comment on how come they have profits, because 
+as far as I can see and as far as I have been in the industry for 15 years, the connections that we 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 17 of 20 
+have, the industry knowledge that we have, when there was no work, there was no work. It's not 
+that there was work and we didn't get it. We are today one of the oldest VFX studios in India, 
+with some of the deepest relations with people. And it's also surprising that at one end the 
+companies are closing down, at one end companies are making huge profits, which I can't 
+understand, but I wouldn't like to comment on their operations for sure.  
+Pradeep: 
+So the INR 65 crore number is on the conservative side or? 
+Abhishek More: 
+I would like to believe it's on the conservative side as of now, because that is something we are 
+seeing based on our existing pipeline of work that we have already started receiving.  
+Pradeep: 
+Okay. And you gave the update that there was INR 58 crore. 
+Moderator: 
+Mr. Pradeep, can I request you to come back for a follow-up please?  
+Pradeep: 
+Just last question. So the INR 58 crore pipeline, basically you said that in the month of December 
+it was there, the order pipeline. So that got closed or what happened to that?  
+Abhishek More: 
+We never said we have INR 58 crore order pipeline. We said there are projects that are coming 
+up for that much in the bidding pipeline. We never said that we have that as confirmed orders. 
+We said that much worth of projects, right now that we are closing. So as an example, the 
+projects that we are chasing, that has value of VFX worth that much.  
+Moderator: 
+Thank you, Pradeep. I will request to come back for a follow-up question. Next question is from 
+Manish Sharma from Uppercircuit Investment. Please go ahead.  
+Manish Sharma: 
+Hello, Abhishek ji. Actually, most of my query is related to business have been answered. I just 
+have 1 question, which is a little off business, but I just wanted to check with you. So actually, I 
+was reading your Twitter handle. So are you active on Twitter, first of all? 
+Abhishek More: 
+I am trying to get active now.  
+Manish Sharma: 
+Okay. So there's a post. 
+Abhishek More: 
+I am more active on LinkedIn, but now I am trying to get more active on Twitter. But Yes, 
+LinkedIn, I am very, very active.  
+Manish Sharma: 
+Sir, if I can just check that _abhishekmore2 is your account, right?  
+Abhishek More: 
+Good question. I need to check my Twitter handle. 
+Manish Sharma: 
+Yes. So actually, there is a post which has been put under your account. So I just wanted to check 
+if you have only put that post. Just wanted to check that.  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 18 of 20 
+Abhishek More: 
+What post is that? 
+Manish Sharma: 
+So that post is a little bit related to our markets only. So it's kind of a weird post for a promoter 
+to put. Just wanted to check that only. 
+Abhishek More: 
+I don't know what post you are talking about, because I haven't posted recently. 
+Manish Sharma: 
+So it's a post which was posted on 31st March, 2025. So if you want, I can just read it out. So 
+the post says that...  
+Abhishek More: 
+In volatile markets, patience is your best... 
+Manish Sharma: 
+Yes, Yes, Yes. So I just wanted to check that if you only posted.  
+Abhishek More: 
+Yes, Yes. Yes. When I said I am trying to get on Twitter, somebody said you need to become a 
+thought leader. So I tried this, but I think so this angle is not a good angle for me to spend any 
+time on. 
+Manish Sharma: 
+Please, please, sir. Please. That doesn't actually, you know... 
+Abhishek More: 
+So that is why you thought there's no more posts.  
+Manish Sharma: 
+I have already replied on that post also, just to check that if this is a real account or not. But it is 
+very weird for a promoter to be a market guy, and just guide on...  
+Abhishek More: 
+No, no, no. I am not. I don't plan to be a market guy. I think that was more driven by somebody… 
+Manish Sharma: 
+But it looks very, very weird, sir. 
+Abhishek More: 
+That's why you see, after that day, there is no post on... So, I also felt this is not me. This is not 
+me. I can't be sitting and doing this for sure. 
+Manish Sharma: 
+Yes, yes. You should definitely not, sir. Thank you.  
+Abhishek More: 
+Yes, yes. That's why you don't see any post message from my side.  
+Manish Sharma: 
+Only this from my side. Thank you.  
+Abhishek More: 
+Thank you. 
+Manish Sharma: 
+Thank you.  
+Moderator: 
+Thank you very much. Next question is from Vidhan Sarda, individual investor. Please go ahead.  
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 19 of 20 
+Vidhan Sarda: 
+Good afternoon. Yes. Just all of my questions have been answered already. Just an update on 
+VP Sets.  
+Abhishek More: 
+So VP sets, right now, it's a very good question. Recently, we are in talks to partner with, so 
+again, I am not going to give any numbers on this, because right now, it's in talk stage. We were 
+approached by Unreal Engine, who are the makers of the software which creates these. They 
+really like the VP Set that we created. So they have a platform of their own called fab.com. You 
+can check it out. That is the largest marketplace for Unreal Engine assets.  
+So right now, we are in conversation with them to list all our assets on their platform. For the 
+time being, they have asked us till the conversation gets over to halt any sales through VP Sets, 
+because that would be a conflict. So we are right now in, I would say, talking phase. But if that 
+happens, that would be a much bigger opportunity in the long run, than VP Sets as a standalone 
+platform. The assets we already own, we have already created. And we do believe as a company, 
+we will be able to monetize them better through Unreal Engine's platform, which is called 
+fab.com. 
+Vidhan Sarda: 
+Okay. Understood. Yes. Thank you. 
+Abhishek More: 
+Yes. Thank you. 
+Moderator: 
+Thank you very much. Ladies and gentlemen, we will take that as the last question. I will now 
+hand the conference over to Ms. Chandni Chande for closing comments. 
+Chandni Chande: 
+Yes. Thank you, everyone, for joining the conference call of Digikore Studios Limited. Further, 
+if you have any queries, you can write to us at research@kirinadvisors.com. Once again, thank 
+you for joining the call. 
+Abhishek More: 
+Chandni, can I just close? 
+Chandni Chande: 
+Yes, sir. Please. 
+Abhishek More: 
+Right. So thank you once again, everyone, for joining the call, and for your faith in the company. 
+Please be assured that whatever has happened is not something which is errors from the company 
+side, but an industry event. We are experienced enough, mature enough as a company who is, 
+like I keep saying, 25 years in the industry, to take corrective action, which we have already 
+started taking. We are seeing a good inflow of work.  
+I have taken some points, which are very valid points from Anil ji, Vinay ji, Pradeep ji on 
+informing investors more regularly, try to be more particular and transparent, whether it's good 
+news or bad news. We take these points, and we will do our best to show you good numbers in 
+the months and quarters to come. Thank you, everyone. 
+ 
+Digikore Studios Limited 
+June 04, 2025 
+ 
+ 
+Page 20 of 20 
+Chandni Chande: 
+Thank you. 
+Moderator: 
+Thank you very much. On behalf of Kirin Advisors, that concludes this conference. Thank you 
+for joining us, and you may now disconnect your lines. Thank you.  

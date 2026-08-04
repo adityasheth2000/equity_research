@@ -52,6 +52,8 @@ Invoke the **credit-rating-analyzer** skill — find rating links in the `screen
 Use **tavily-research** skill — run `tvly research` twice for the company (uses `--model mini`):
 
 ```bash
+source .venv/bin/activate
+
 # 1. Latest company info, business, management, industry
 tvly research "latest news, business overview, management outlook, and industry analysis for {COMPANY_NAME} {TICKER} India" --model mini --stream -o {TICKER}/tmp/tavily_company.md
 

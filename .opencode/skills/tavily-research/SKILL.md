@@ -29,4 +29,11 @@ tvly research "query" --model mini --json     # structured JSON output
 
 ## Prerequisites
 
-Check `tvly --status`. Install via `curl -fsSL https://cli.tavily.com/install.sh | bash` if missing.
+`tvly` is installed in the repo's `.venv`. Always activate before use:
+
+```bash
+source .venv/bin/activate
+tvly --status   # verify
+```
+
+Install via `curl -fsSL https://cli.tavily.com/install.sh | bash` if missing from venv.

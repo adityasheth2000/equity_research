@@ -1,0 +1,743 @@
+ 
+ 
+ 
+ 
+ 
+November 22, 2024 
+ Ref: DSL/60/2024-25/NSE 
+ 
+To, 
+The Manager, 
+National Stock Exchange of India Ltd. 
+Exchange Plaza, Bandra Kurla Complex, 
+Bandra (East), Mumbai – 400 051 
+ 
+NSE Symbol: DIGIKORE 
+ISIN: INE0QJ901011 
+ 
+   Subject: Submission of Transcript of the Earnings Conference call held on Tuesday, November 19, 
+2024 at 12:15 P.M 
+ 
+  Ref: Regulation 30(6) read with Schedule III Part A of SEBI (Listing Obligations and Disclosure 
+Requirements) Regulations, 2015 (“SEBI Listing Regulations”).   
+ 
+   Dear Sir/Madam,  
+ 
+  With reference to our intimation dated November 13, 2024 related to the Earnings Conference call, the 
+Company is submitting the transcripts of Earnings Conference call of the analyst/investor conference call 
+which was held on Tuesday, November 19, 2024 at 12:15 P.M to discuss the Unaudited Financial Results 
+of the Company for the Half Year ended 30th September 2024.   
+ 
+  Submitted for your kind information and necessary records.   
+ 
+  Kindly take the same on your records. 
+ 
+  
+Yours faithfully, 
+For Digikore Studios Limited 
+ 
+ 
+Heny Pahuja 
+Company Secretary & Compliance Officer 
+Heny 
+Pahuja
+Digitally signed 
+by Heny Pahuja 
+Date: 
+2024.11.22 
+19:42:57 +05'30'
+Page 1 of 14 
+ 
+  
+ 
+“Digikore Studios Limited 
+H1 FY25 Earnings Conference Call” 
+November 19, 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+MANAGEMENT: MR. ABHISHEK RAMESHKUMAR MORE – MANAGING 
+DIRECTOR – DIGIKORE STUDIOS LIMITED 
+ 
+MRS. HENY PAHUJA – COMPANY SECRETARY & 
+COMPLIANCE OFFICER – DIGIKORE STUDIOS LIMITED 
+ 
+MS. SUREKHA MISAL – CHIEF FINANCIAL OFFICER --
+DIGIKORE STUDIOS LIMITED 
+ 
+MR. SANJAY BOKADIA – GROUP CHIEF FINANCIAL 
+OFFICER – DIGIKORE STUDIOS LIMITED 
+ 
+MODERATOR:  
+MS. CHANDINI CHANDE – KIRIN ADVISORS 
+ 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 2 of 14 
+ 
+Moderator: 
+Ladies and gentlemen, good day and welcome to H1 FY25 Earnings Conference call of Digikore 
+Studios Limited hosted by Kirin Advisors. As a reminder, all participant lines will be in the 
+listen-only mode, and there will be an opportunity for you to ask questions after the presentation 
+concludes. Should you need assistance during the conference call, please signal an operator by 
+pressing star then zero on your touchtone phone. Please note that this conference is being 
+recorded. 
+ 
+I now hand the conference over to Ms. Chandini Chande from Kirin Advisors. Thank you and 
+go ahead please. 
+Chandini Chande: 
+Thank you. On behalf of Kirin Advisors, I welcome you all to the Conference Call of Digikore 
+Studios Limited. From management team, we have Mr. Abhishek More, Managing Director, 
+Ms. Surekha, CFO, Mr. Sanjay, Group CFO, Mrs. Heny, Company Secretary and Compliance 
+Officer. Now I hand over the call to Mr. Abhishek More. 
+Abhishek More: 
+Thank you, Chandini. Good afternoon, everyone, and welcome to the Earnings Call for Digikore 
+Studios Limited. As you all know, Digikore is into visual effects for film and television and very 
+recently last year, we started off our branded content division, which is also contributing now to 
+our revenues already. The new platform that we've launched in AI and which we - some of them 
+we've launched and some which we are launching very, very soon is what we are really, really 
+excited about because these are all B2C platforms.  
+In fact, we have the launch and demo of one of our music platforms, which is the first of its kind 
+in India on Friday. And it is a platform where we anticipate lakhs of users globally to be able to 
+generate songs for their loved ones and the click of a button everything under five minutes. We're 
+already getting excellent response even before we launched the platform. We've gotten almost 
+25 dealer/franchise inquiries for the platform.  
+And we anticipate our AI platforms to generate not only the top line, but also contribute 
+significantly to our bottom lines, not from next year, but as early as the last quarter of this 
+financial year. So this is a brief on where we stand. The visual effects industry is slowly creeping 
+back to normalcy which is a great sign for us. We have started work on several projects. We 
+have tons of projects in the horizon where we've received soft confirmation from our clients, 
+some of them starting in December, some of them starting in January, some of them starting in 
+February.  
+Cumulatively, if I were to look at it which I have the numbers right in front of me, we have a 
+business pipeline of approximately INR56 crores in visual effects to be delivered over the next 
+7 months to 8 months’ time. And out of this, we are anticipating somewhere between INR25 
+crores to INR28 crores to be invoiced by March, because obviously invoicing happens on 
+milestone based and certain invoicing happens only when the project gets over.  
+So that is on the visual effects side. We're looking at on a very conservative level INR25 crores 
+to INR26 crores worth of invoicing by March. On the branded content side, on a very 
+conservative side, we're looking at around INR20 crores of invoicing by March and on our AI 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 3 of 14 
+ 
+platform, we're looking at an invoicing of around INR5 crores by March. Keeping all this in 
+mind and looking at what we've done in H1, obviously H1 was I would say weak. I wouldn't say 
+flat. I would say weak because of the visual effects industry strikes.  
+The work is just picking up now. And as you can see from the numbers I just told you, based on 
+the orders that we have ongoing, which is around INR8 crores worth of visual effects work in 
+progress and the new business that we anticipate which is already production is over, or filming 
+is towards its last stage. That's a great sign for us when the filming is in the last stage, and we 
+know that the only thing left is editing before it moves on to the visual effects.  
+So all these projects are projects where the filming is either just got over and it's in editing or the 
+filming is in the last stage, and we'll go into editing maybe in December and then the visual 
+effects starts in January. So things are looking bright. It has been a slow 6 months to 8 months, 
+unfortunately beyond our control because that was by external factors which was the strike in 
+Los Angeles, Hollywood last year, but the good sign is that things are getting back. That's all 
+from my side for the time being and yes, open to any Q&A. 
+Moderator: 
+Thank you very much. We will now begin the question-and-answer session. We'll take a first 
+question from the line of Jishan Singhi from Krijuna Research And Analytics. Please go ahead. 
+Jishan Singhi: 
+Sir first of all, I would like to ask on the branded content platform that how it is contributing 
+today in your revenue and second my question is with respect to that virtual production sets. 
+Abhishek More: 
+Sorry, the?  
+Jishan Singhi: 
+First question, I would like to ask on the branded content platform that how much it is 
+contributing to your revenue? 
+Abhishek More: 
+So the branded content in H1, we did around INR5 crores, and H2 like I mentioned we are 
+targeting around INR20 crores, anywhere between INR20 crores to INR25 crores in H2 for 
+branded content. See, branded content actually, we would have done much more in H1 also, but 
+our agreement with Jio because we cannot go ahead and sign up partners for that unless we have 
+our back end agreement with Jio, which was supposed to get signed in June of this year, but 
+because of their merger with Hotstar which we all know, they put all agreements on hold. 
+We could only sign the agreement with Jio mid-September. And then in the last 15 days, 
+whatever quick agreements we could sign with the clients who had confirmed, we could manage. 
+So we did around INR5 crores in H1 and H2 on a very conservative level, anywhere between 
+INR20 crores to INR22 crores worth of agreements will get signed with our clients on that site.  
+I also heard the virtual production. When I say VFX I mean combination of VFX and virtual 
+production. So as an example, one of the projects in this entire pipeline of INR56 crores that we 
+have is a large Amazon project which is going to be approximately INR10 crores worth of virtual 
+production work in that.  
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 4 of 14 
+ 
+The whole movie is filmed on a virtual stage and all the assets for that are being developed by 
+us. So when I say VFX, please assume that it's VT and VFX together. If you want me to break 
+it up, I can, that's not a problem. 
+Jishan Singhi: 
+Okay. So in the branding content, what would be the number of episodes that you're currently 
+looking for? 
+Abhishek More: 
+So we've signed up a deal for 58 episodes with Jio Cinema for up to March 24. So that is what 
+that, and the total value of that is approximately INR30 crores. 
+Jishan Singhi: 
+Okay. And on the VP Sets, does any big studio have contacted for that virtual production? 
+Abhishek More: 
+For VP Sets, we have already installed and are already getting, not revenue from all, but our VP 
+Sets platform is already installed at over 65 virtual production stages in the US, Canada, 
+Singapore, Thailand, Korea, and UK. So we've already got 65 stages. So VP Sets is a B2B2C 
+platform. It's not a B2C platform for us.  
+For us, our partner is on virtual production stage. So for us, it's technically written with B2B, 
+then they go and give it to their partners. So our job is to increase our footprint in as many virtual 
+production stages as we can. And yes, like I just said, we've got almost 65 places. We've been 
+able to install this in the last 3 months, which is a huge number by itself. Our goal is to have 
+cross 100 before the end of this year. 
+Jishan Singhi: 
+Okay. So how much is our target for that by March?  
+Abhishek More: 
+See, on VP Sets, I keep saying that we've not kept any revenue targets because it's a very new 
+concept. It's never been done before. We're going to take it as it comes. We're going to analyse 
+what we are doing till March. We haven't even added that in our revenue numbers for this 
+financial year. We don't have any historical data. We don't have any data that we can say, okay, 
+we are going to do so much. So we want to wait and watch for the next 3 months to 4 months 
+before we give any projections for that for next year. 
+Jishan Singhi: 
+Okay. Thank you so much. 
+Abhishek More: 
+Thank you. 
+Moderator: 
+Thank you. Next question is from the line of Dheeraj Kumar, an Individual Investor. Please go 
+ahead. 
+Dheeraj Kumar: 
+Thank you for taking my question. I would like to – so basically the projections for March 2025 
+were INR25 crores in VFX, INR20 crores in branded content and INR5 crores for AI which 
+combined comes to INR50 crores. And if you combine the H1, H2 it is plus 27 which is INR77 
+crores, and it goes well beyond the projection of INR70 crores that the company had mentioned 
+earlier in the last presentation. So I think we are really going the good way.  
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 5 of 14 
+ 
+I would like to know if the other projections that the company has mentioned for FY26 which is 
+INR125 crores and FY27 which is INR200 crores. Do we still stick to those projections, or do 
+they look a bit difficult? 
+Abhishek More: 
+Right, Dheeraj. Thank you for your question. As of now, we don't see any challenges in our 
+projections for FY25, 26, 27, or beyond. If our AI platform, which we are very confident – like 
+I said, we are launching our AI platform on Friday and I urge all of you on this call to definitely 
+attend that, because I can only tell you one thing. If there is something that's going to blow your 
+mind it's this platform.  
+This platform, we are very, very confident and this could make all these numbers look like – 
+they could make all these numbers our AI platforms. They are B2C. We have full control on it. 
+We have full marketing and publicity control. We have a full marketing funnel that we've set 
+up, which is with the best of the best marketing teams and digital marketing teams in India.  
+So, like I said in the last – we just launched, soft-launched a partner program for this, where 
+people invest INR10 lakhs to become a partner with us for this platform and they can create a 
+white-label platform for themselves. We are sitting on almost 25 inquiries in the last two days 
+for that.  
+Our goal in the next 3 months is to have around 50 such partners. The music and our AI team – 
+why AI? Let's get back to why AI. I keep talking about a term which I like – pivot or perish. 
+Whether we like it or not AI – forget the VFX industry. AI is going to more or less disrupt every 
+service industry, whether you're a lawyer, whether you're an accountant, whether you're into 
+visual effects, whether you're into filmmaking because we are the ones doing it. We are the ones 
+who've created one of the best AI teams in India, and every day we get scared after some of the 
+possibilities of AI. 
+If we do not pivot into creating platforms which are in AI, and we remain purely as a VFX 
+service provider, I honestly don't see the company going beyond 3 years' time. A company that's 
+been built with sweat and blood over 24 years, the idea from a promoter has to be that the 
+company has to deliver long-term returns to its promoters and investors always. We see our AI 
+platforms that we are generating.  
+So as an example, iPod is the reason why Apple is there today. If Apple did not think beyond 
+their Mac and created the iPod, they wouldn't be there today. Today, the Mac contribute to less 
+than 8% of Apple's revenues. It is all your new-age technologies and new-age devices that have 
+made Apple into what it is today. So we want to stay ahead of the curve. We are looking at 
+creating all these platforms and honestly, once these platforms take off, all these numbers we 
+would have to just re-change and these numbers will be dropped to a very large extent. 
+Dheeraj Kumar: 
+Yes, totally agree with you. That was my next question because AI is disrupting all the industries. 
+And VFX being an outsourced industry, if AI could do the job that we are doing, there's no 
+reason for the clients to outsource their job to us in India. So I really like your approach of going 
+forward with innovation and following the future trend. And that has led me to keep or in fact 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 6 of 14 
+ 
+increase the confidence in the company and the management. Good luck for you and thank you 
+very much for clarifying? 
+Abhishek More: 
+I'm surprised to know one thing. I think Digikore today is probably the only or among the just 
+two or three VFX Studios in the world who have a full-fledged AI team in-house. We are 
+creating the tools to disrupt VFX. We are creating tools that will automate visual effects 
+processes, not only for us, but for other VFX studios as well because if we don't do it, somebody 
+else will. So rather than be a follower, we want to be a leader in that. 
+Dheeraj Kumar: 
+Indeed. What is the revenue share that we are looking at? It shouldn't be precise revenue share, 
+we're looking through these AI tools in maybe, let's say, 2 years or 3 years from now? 
+Abhishek More: 
+I'm going to tell you a statement right now which may offend some people out here but may not. 
+In 3 years' time, if somebody asks me what is Digikore, I might just tell you it's a technology 
+company, because we'll be going technology first. Like I said, I just gave you a figure of Apple. 
+In the 1990s, when you asked Apple, what is your product, they would have said we are an iMac. 
+We make iMac.  
+Today, they don't even talk iMacs, because iMac contributes to less than 8% of their revenue. 
+Time will tell. Our AI products, they are extremely positive. We are doing some ground-breaking 
+research and creating some future forward technologies time will say what this will contribute 
+to our revenues. 
+Dheeraj Kumar: 
+Thank you very much and good luck for the future. 
+Abhishek More: 
+Thank you Dheeraj. 
+Moderator: 
+Thank you. We'll take our next question from the line of Ronil Dalal from Ficom Family Office. 
+Please go ahead. 
+Ronil Dalal: 
+Good morning. My first question is that receivable days have increased quite a bit around 70% 
+or so half yearly to around INR41 crores and we were expecting this number to normalize 
+somewhat, but it has moved up. So any kind of comment on this and any concrete steps which 
+are taking place right now to recover the receivables? 
+Abhishek More: 
+Yes. Absolutely. Thank you for joining the call. So, I'll tell you what it is. I'll give you a little 
+background to this whole story. So, if you are in the IT industry or any other industry, you have 
+a set of probably 5,000, 10,000, or 20,000 clients that you can reach out to. If one client doesn't 
+pay, you just say I don't want to work with this client any longer. The unfortunate truth of the 
+VFX industry for companies based in India and depend a lot on outsourced work, which we are 
+changing now because as digital progresses, we are climbing up the value chain with our 
+Canadian operations.  
+And most of the future revenue that I've shown you, the majority of that is direct work and not 
+outsourced, but the minute you talk outsourced work, our entire universe revolves around maybe 
+100 clients to 150 clients, out of which 15 or 20 are the really big fish who give INR3 crores to 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 7 of 14 
+ 
+INR10 crores worth to VFX studios in India. And obviously, we have excellent relationships 
+with these 15 or 20 of the big fish that have been there.  
+When the strikes just got over, that was in November last year, there were lots of projects which 
+were in various stages of production. Some had just about started which shut down, some were 
+in mid the shooting shut down midway, out of eight episodes, one episode or two episodes was 
+left, but they had to shut down.  
+So as the strikes opened in January, the work that came in, it came up with a rider that what, 
+Abhishek, let's say I have a book this client, let's call him Mr. A, hypothetically, who gives us 
+INR5 crores to INR7 crores worth of business. And every VFX studio in India is after them to 
+get work from them.  
+What Abhishek, we've been through 8 months of torture. We have unpaid salaries over the last 
+8 months because there was a strike. We did not pay salaries. COVID situation, similarly. We 
+have bank loans that have piled up. We have all our expenses that have piled up. This is a project 
+that's coming. We are going to get our monies over a period of time because the project has just 
+started. If you want to take this, you know, it's going to take a while for payments. 
+So either you can say no or take it. At that point, if you told them no, trust me we would have 
+lost that INR5 crores client forever because then they would have gone to some other person and 
+then that person takes that client literally forever. And we don't have the luxury of 200 or 300 or 
+500 such clients if they went then I have somebody else. We did take up this project at that time. 
+And knowing very well that the payments are going to take time. Obviously, because we needed, 
+we couldn't let that client go away. 
+We started receiving payments, but to be very honest, most of these people have just started sort 
+of semi normalizing their cash flows. We do anticipate a majority of these collections to happen 
+over the next 4 months to 6 months’ time. This is something which we have been through once 
+already post COVID. When COVID also filming was shut for almost 7 months to 8 months. So 
+this cycle is not new to us. We have been through the cycle.  
+These are the trusted clients of ours who we've been working with for 5 years, 7 years, some of 
+them 10 years. So we don't have an issue with their payment. So it's not that we've taken a 
+business risk. It was a strategic decision that we had to take. 
+Ronil Dalal: 
+Right. Thank you for explaining that. My second question is that earlier. So earlier we had kind 
+of and also the beginning of the call, you said that INR150 crores and INR200 crores, 26 and 
+27. However, the presentation, which was released on 24th October the number was revised 
+down to INR125 crores. So I just want to clarify. So one is the revenue part and the second is 
+the EBITDA margin.  
+Similarly, the guidance is 30% to 35% in the VFX EBITDA margin and branded content, 40%. 
+But on a blended basis we're right now somewhere near 21%. So both these things together, so 
+the revenue as well as the margin. So what do you have to say about this? Any kind of 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 8 of 14 
+ 
+commentary on this or what is your expectation and is the number 125 or is it 150, which you 
+said earlier in this call?  
+Abhishek More: 
+No, it is 125. That is why we released that revised projections a month ago, maybe. The revised 
+projections for FY26 is 125. Obviously, we are best, we take every endeavour to try to beat that 
+as far as possible. Talking about the margin right now like I said, we set up our teams in North 
+America. We started setting up post-IPO in December, January, February. Most of the projects 
+that you heard about these numbers of INR25 crores and INR30 crores and almost a pipeline of 
+INR56 crores worth of projects which have been soft gotten by them because of their good 
+offices at Amazon and Netflix and CBS and all of that.  
+But these projects, majority of them went into filming in January, February, March. They're 
+finishing filming now. They're coming on to the board in between December, January. Our 
+margins in the last 6 months have taken a hit because of this added cost in North America and 
+these people don't come cheap. We are spending close to a little over a INR1.5 crores salaries in 
+North America currently. 
+With little more revenue out there, so that is affecting our current margin, but as these projects 
+begin, we normalize to our regular PAT margins which we've always anticipated of between 
+18% to 20%. 
+Ronil Dalal: 
+Right. And is there any reason that the guidance from like, just from around August, we have 
+moved from INR150 crores back to around INR125 crores it's been devised downwards? 
+Abhishek More: 
+Yes, I will tell you. We have seen trends which we've been learning as we progress that Netflix, 
+Amazon, Disney, CDs, they are all cutting down on their projects a little. It's not the same way 
+it was in 2022 or the early 2023 when average when Netflix was spending USD15 billion a year 
+on content. As for the latest news figures that we've got and after speaking to some senior people 
+at Netflix, they are all cutting down on their content spent slightly for 2025, the calendar year 
+2025.  
+So keeping all that in mind, so today if my end client is only going to reduce their spend, either 
+I go really aggressive and take a bigger piece of the pie. If I had X market share, I'd get more 
+market share, which is also great, which is also what we're trying, but to be on a conservative 
+level, because of their spend reducing, we anticipate that the volume of VFX will also reduce. 
+So that is why we have realigned our numbers, but I'm pretty confident now with the new AI 
+technologies and the new AI platforms we are launching.  
+So AI platforms will actually more than the top line, they will contribute more to the bottom line 
+because in all our AI platforms, we work with margins of anywhere between 60% to 80%, 
+because it's finally just a digital product and there's only a digital cost of delivery. It's not a 
+physical product or manpower required to deliver that product. So all our digital products will 
+contribute substantially to our PAT margins rather than top line. 
+Ronil Dalal: 
+Right. And the other thing is that on the employee, so two things. One is that the expansion 
+August around August, around that time, we were expecting the recovery to take place in the 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 9 of 14 
+ 
+next 3 months to 4 months. So maybe somewhere around December. We had also mentioned 
+that we might have to expand our workforce from 350 to 500 in December. So I'm assuming that 
+has been pushed out a few months. So could you please just clarify on the same? 
+Abhishek More: 
+The 350 to 500, it will happen somewhere between December and January. It depends on how 
+many projects of these which I've spoken about, come together at the same time. If they are 
+spread, if the December projects are, it's not that when VFX shots comes, you get suddenly 1,000 
+shots together. They will start sending shots in batches.  
+If I have two or three or four projects starting in December, then yes, we have to increase our 
+workforce in December itself. But yes, between December and February, we will definitely see 
+our workforce going up to at least 500 people, based on the projects that we have in hand. 
+Ronil Dalal: 
+And the other part, which was the recovery, how do you expect the second half of the year to 
+go? 
+Abhishek More: 
+So, yes, like I mentioned just sometime back also, we expect most of the recovery, majority of 
+the recoveries to happen over the next4 months to 6 months’ time. 
+Ronil Dalal: 
+I have one final suggestion actually. 
+Abhishek More: 
+We are actually in a very precarious time of the year, unfortunately, which is the truth that we 
+all have to live with. Thanksgiving, I don't know if any of you have been to the US market or 
+European market. After Thanksgiving, it's like a vacation period for the American markets. The 
+Thanksgiving is now it will be next week. Once Thanksgiving is done and then they get into 
+Christmas, New Year mode and production gets slow, communication goes slow and all of that. 
+Maybe till December end, it's going to be a little challenging on the recovery, but I do anticipate 
+a fast-paced recovery from January onwards. 
+Ronil Dalal: 
+Sure. I have one final suggestion actually. So, like a lot of - there has been some delays in the 
+entire VFX industry because of the recovery, but we report numbers only half yearly. So, I would 
+just request that in case there is any major change in either the economic environment, the order 
+environment or any changes which are major changes according to you. If investors could be 
+updated about those as and when they happen or maybe with like as an update on the BSE or 
+NSE, then that would be quite well appreciated like a profit warning on how you have ordered 
+win? 
+Abhishek More: 
+I think that's a great suggestion. I'm requesting our CS Heny to please make a note of that. And 
+I think it's really nice. Everybody should be informed on a monthly basis; I believe on what's 
+happening and we'll try to make this a practice of giving an update on if possible on a monthly 
+basis on the happenings with Digikore and what has happened and what we foresee. If they are 
+any changes, growth, degrowth, focus, whatever. I think it's a great suggestion, Ronil. Thank 
+you so much. 
+Ronil Dalal: 
+Sure. Thank you so much for patiently answering all my questions and taking my suggestions. 
+Thank you. All the best.  
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 10 of 14 
+ 
+Moderator: 
+Thank you. We'll take our next question from the line of Yashwanti from Kojin Finvest. Please 
+go ahead. 
+Yashwanti: 
+Thank you, sir, for the opportunity and a congratulations for the great development happening 
+at the company side. My first question is we have taken on board a couple of like Mr. David, 
+Ms. Jensen and now Ms. Scott and Ms. Tara. So how it has helped us to develop a new business 
+post Tara? Ms. Tara is a recent addition to the board, coming with a great experience, but our 
+past experience with Mr. David, Mr. Jensen, and Ms. Scott, how it has helped us to develop a 
+new business and new market, along with getting new contracts from them? 
+Abhishek More: 
+Absolutely, Yashwanti. Today, we are sitting on approximately, like I said again INR56 crores 
+worth of work in hand. Out of this, if I'm just going to break this, I'm going to break this up into 
+14, maybe around INR16 crores worth of this INR56 crores from our existing clients, which are 
+our outsource partners, who outsource work to us and the remaining INR41 crores-odd work 
+that is going to be starting is all the efforts of Jason, David, and Marina.  
+Because these are all direct projects from Amazon, from Hulu. One Piece is Netflix's star show, 
+which we've already signed the NDAs and started the paperwork on One Piece. One Piece is one 
+of Netflix's biggest shows. Marina is right now working on one of the Duffur Brothers shows, 
+which Duffer Brothers is the one who produced stranger things. So we loaned out Marina into 
+that show as a VFX producer.  
+That show, by itself, has a VFX budget of close to USD50 million. Obviously, we won't get a 
+lot of that, but yes our person, with permission from Netflix, in fact, it's a very amazing situation 
+that with permission from Netflix, Marina, who yet works for Digikore has been loaned out to 
+Duffer Brothers as VFX producer on a Netflix show. So that gives us a great front-row entry, 
+because our person is the VFX producer on that show. 
+Yashwanti: 
+Right. That's a good survey of branding. 
+Abhishek More: 
+Exactly. So we've taken all these strategic steps. Scott is really a consultant who adds tremendous 
+value. So I'll give you a background of Scott. Scott is the grandfather of the visual effects 
+industry worldwide. He was the founder of digital domain, which is one of the largest VFX 
+studios in the world today. His partner was James Cameron. So Scott and James started digital 
+domain in the early 90s.  
+Scott is like having Sachin Tendulkar coach your cricket team in simple words. So Scott brings 
+in tremendous value. Scott brings in tremendous connects into Digikore and he adds great value 
+to what we do. Tara has been Managing Director of a VFX studio in Montreal. She ran the studio 
+as the Managing Director for 4 years and now she comes in as Vice President of America for us. 
+Again, extremely well-networked in the industry. So we are building up a rock-solid team in 
+North America. And we do believe that this team has the capability to take this company to 
+becoming a USD100 million company in the next 3 years to 4 years' time. 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 11 of 14 
+ 
+Yashwanti: 
+Any further acquisition on the industry veteran on the board? Are you planning for that or you 
+wanted to first run the show with this veteran on the board and how is the things going you are 
+strategies, of course, going for the future? 
+Abhishek More: 
+Yes, so we don't have any acquisition plans in the immediate horizon. I believe that acquisition 
+when you acquire something, there should be intrinsic value in that, in terms of either captive 
+clients or technology. We don't foresee any VFX studio right now who is worth acquiring, who 
+brings in intrinsic value.  
+See, otherwise, if I had to pay, let's say, USD5, USD10, USD15, USD20 million to an owner of 
+a company just to take that brand name, there is no point. I can just pick up their top three 
+marketing people and I reach there. So there is no intrinsic value that we see currently. There 
+could be, there could be an opportunity that comes, but currently, we don't foresee an acquisition 
+at Digikore for sure. 
+Yashwanti: 
+And currently from our three business verticals that is the visual effects, virtual production and 
+the branded current. Currently, I believe the visual effects is the highest contributor, but going 
+forward, what are your plans for these three verticals? Where do you want it to focus and how 
+are the margins for each of these segments? 
+Abhishek More: 
+See, going forward, obviously the cash cow for us will be branded content in our AI platforms. 
+Why? Because they are products that are owned by us. When you own IP, when you own 
+copyright, when you create your own products, they keep giving you revenue again and again 
+on that same investment. VFX is a service. So a service is you get a one-time revenue and that's 
+about it.  
+So on VFX, as far as nothing changes crazy in the industry, we do plan to stick around those 
+margins of anywhere between 30% to 40% EBITDA levels. Because I'll tell you the situation 
+right now, what happened the last 6 months. People were high and dry; people did not have 
+work. So earlier we used to get, let's say, USD100 for something. Somebody went in and quoted 
+USD90.  
+So the client said I'm getting this at USD90. Do you want to do it or no? So then we had to say 
+yes. So the margins shrunk a little in the last 6 months to 8 months because there was a 
+completely dry spell for everyone for the last 12 months. So VFX is something which is not 
+majorly in our control, the margins. It is very market-driven, very external factors driven. In 
+branded content, in our AI platform, in VP sets, the margins are completely in our control. So 
+we will always enjoy much better margins in these divisions compared to visual effects service. 
+Yashwanti: 
+And what kind of a margin we enjoy, sir, in the branded and AI content? 
+Abhishek More: 
+See, branded content, we typically start off the show with approximately a 35% to 40% EBITDA 
+margin. But since we own the content and after it goes on Jio Cinema, then the content goes on 
+our YouTube platform. And now we've just tied up with In-flight Entertainment. We are 
+speaking to Vodafone to put it on their platform.  
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 12 of 14 
+ 
+So all these things are giving us recurring revenue. Now on our YouTube channel, over the next 
+5 years, another 100 million or 10 million people have seen that same episode. I get advertising 
+revenue out of that. So that is why I say that content gives us revenue in perpetuity. So today, if 
+I'm getting a 35% or 40% EBITDA on a branded content show that I produced in this financial 
+year, after the fifth year if you see have probably earned 300% or 400% margin on the same 
+content. 
+Yashwanti: 
+And sir, right now we are hiring the people, we are adding them to the board, but then as you 
+have just mentioned, because of the strike and whatever the international issue which has 
+happened, which has increased the receivable days, lowered the pressure on the margin. So are 
+we also planning to add these senior people who are there, but not at the board level or not at the 
+industry veteran level, but at the senior level, who are without a job, they have to agree upon the 
+lesser pace. So are we also having strategies to get them in the company to capitalize on their 
+experience, their contacts? 
+Abhishek More: 
+Oh, yes. Let me take an example of this Hulu project that I spoke to. That project has to be done 
+in Canada because of the tax credit reasons. That project will be executed in Montreal at our 
+studio there. So at that point, once the project starts, we'll be hiring not only a production team, 
+but a mid-management team as well in Canada for this projects and other projects that are going 
+to come out there.  
+The idea of having a Canadian entity was a lot of projects of Netflix and Amazon and Disney, 
+they are made on the principle of tax credits from their engines and the work has to happen there. 
+So the Hulu project is approximately a INR15 crores project by itself. So technically, why INR15 
+crores because if it was done in India, it would really be a INR1.5 crores, INR2 crores project, 
+but just because it has to be done in Canada, the value increases substantially on our books. 
+Yashwanti: 
+In that case, now as you're talking about the subsidies or the lots of tax benefit which we get, if 
+we create this content in Canada, even some months back, even the Indian government has given 
+a lot of facilities, lots of incentives for the VFX industry to grow up at the India level. So how 
+are we capitalizing on this and can we bang any contract, or can we see this differential where 
+you can compete with the international where we are having a base in India? 
+Abhishek More: 
+Absolutely, we are already doing that. So the thing out here is that every project does not qualify 
+for the tax rebate from India. So the Indian government has kept a rider out here that the project 
+has to be a minimum value of INR1.5 crores and only then you can apply for the tax rebate. In 
+our outsourced work that we've been doing so far, it's rare that one project is of this value. It 
+does not work per client. This works per project.  
+Now, when we start working directly on a One Piece or The Last of Us or the Star Trek series 
+that we are starting on, that is when we make use of this rebate from the Indian government. 
+Then again, there are certain projects like the Hulu project, which I just again mentioned, its 
+filming was done in Canada and then Netflix has certain commitments to certain governments 
+which they have given in terms of the spend that they have to do out there. 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 13 of 14 
+ 
+So while they know that if they actually do this project in India, they will actually do it at less 
+than half the cost, but they have to do it in Canada for certain commitment reasons of theirs. And 
+that is why we are sitting there in Montreal to help them execute it there. 
+Yashwanti: 
+Sir with the current project in hand, sorry if you had already answered, I'm repeating this 
+question. What kind of, I mean, where we can - what is the expected timeline to complete it? Is 
+it getting covered in the FY25 itself that is H2 FY25 ? 
+Abhishek More: 
+No, we don't compare with FY25. We have around INR55 crores, INR56 crores worth of projects 
+in hand on the VFX side of it. Out of which around INR25 crores, INR26 crores will get invoiced 
+in FY25 because we will start these projects only December, January. They will go on for 6 
+months, 7 months some of them.  
+We will be doing milestone-based billing that means a certain maybe 15%, 20% on advance, 
+some portion once certain number of shots are delivered. So we don't anticipate this entire 
+pipeline to be at INR56 crores to be delivered before 31st March. It's not technically possible. 
+Yashwanti: 
+Okay. So, and anything, any contract here standing with the Indian Production House? Is it 
+viable? Is it good from the profitability perspective or your focus will be always on the 
+international project? 
+Abhishek More: 
+No, as a principle, we don't work in Bollywood unless the project comes up with a 35%, 40% 
+margin, which no Bollywood project or South project has, honestly. They all work on margins 
+of 10% to 15%. We don't want to get in the market because once we get in there our bottom lines 
+will shrink tremendously, which we don't want that to happen. 
+Yashwanti: 
+Okay. And what is your current attrition rate and average salary which we pay to our specialized 
+cfs? 
+Abhishek More: 
+Ma’am the last 4 months, I'm proud to tell you, we had literally zero attrition because here people 
+don't have jobs in the industry. So anybody who has a job, it's worth its weight in gold. Nobody's 
+leaving right now, but yes once hiring starts December, January there will be attrition. 
+Yashwanti: 
+Okay. And any plans for yourself on adding the client talent pool towards it for the second half 
+of the current year? I mean, for the rest of the 5 months, 4 months? 
+Abhishek More: 
+Adding new clients is a constant process. So it's not something that we have plans for that is a 
+certain roles that have been given to certain people. Business developing people have targets 
+that they have to achieve in terms of onboarding new clients or getting more revenue from 
+existing clients. So, yes, it's a part and parcel of our business or any business if you add new 
+projects and new clients. 
+Yashwanti: 
+And I'll take one more opportunity to answer the last question. How are our receivable days? 
+Abhishek More: 
+So like I just answered recently, the last 6 months, 7 months have been a little tough for everyone 
+in the industry, including us, but now with the new project that we signed or signing and the 
+ 
+ 
+Digikore Studios Limited 
+ 
+ 
+November 19, 2024 
+ 
+Page 14 of 14 
+ 
+direct project clearly we just finished off the Star Trek movie that we finished off. Now, the 
+receivable days were absolutely okay because we were dealing directly with CBS on that. 
+What really sucks is the past receivable days of the outsourced work that we've received. Clients 
+continue to give us work thankfully, but don't continue to give us the payment on time because 
+they are in trouble. And we know that. We feel that for them because they are in the same boat 
+as them. We do anticipate over the next 4 months to 6 months, the majority of our receivables 
+should get realized. Yes, that's the situation currently. 
+Yashwanti: 
+In FY26 comparatively you foresee as a veteran as well as the receivable days are the working 
+capital prospect? 
+Abhishek More: 
+200% because in FY26, while we had initially planned that FY26, 50% of our revenue will be 
+outsourced and 50% direct. We anticipate more of it to be direct. The minute you go into the 
+direct project and direct revenue league, your receivable days become much more comfortable 
+compared to outsource because when you work with outsource, when the outsource vendor first 
+gets the money from their client, then if they have some cash flow situation, they will hold it 
+back. It's like a vendor payment and they are like kings.  
+If you chase them too much for money, they'll say I've got so many other vendors in India dying 
+for my business. Why should I give it to you? And they say okay we're stopping to work, 
+stopping work with you. So the minute as we progress and which we foresee, we are already 
+doing that to direct work that improves our cash flow substantially. 
+Yashwanti: 
+Okay. Thank you so much, sir. I wish you all the best. 
+Abhishek More: 
+Thank you, ma'am. 
+Moderator: 
+Thank you. As there are no further questions, I now hand over the call to Chandini Chande from 
+Kirin Advisors. Over to you. 
+Chandini Chande: 
+Thank you, everyone for joining the conference call of Digikore Studios Limited. If you have 
+any queries, you can write to us at research at kirinadvisors.com. Once again, thank you for 
+joining the conference. Thank you sir. Thank you team. 
+Abhishek More: 
+Thank you, everyone. And we look forward to your support as we grow this company into a 
+global VFX and technology powerhouse and look forward to our next call soon. Thank you. 
+Moderator: 
+Thank you. On behalf of Kirin Advisors, that concludes this conference. Thank you for joining 
+us and you may now disconnect your lines. 
