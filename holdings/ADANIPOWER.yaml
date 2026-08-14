@@ -1,0 +1,215 @@
+ticker: ADANIPOWER
+company: Adani Power Ltd
+list: holdings
+sector: Thermal Power Generation
+first_analysed: 2026-07-17
+last_analysed: 2026-07-17
+last_doc_seen: 2026-07-17
+
+thesis:
+  summary: >
+    India's largest private thermal producer (18,150 MW operating, 23,720 MW pipeline
+    targeting 41,870 MW by FY32) riding the country's thermal capex cycle. Moats in fuel
+    logistics, stressed-asset turnaround, and 67% share of SHAKTI PPA bids. At 32.7x
+    trailing earnings with negative FY26 FCF entering a Rs 2 lakh Cr capex cycle, the
+    market prices in flawless pipeline execution — first test is 2.9 GW in FY27.
+  bull:
+    - Pre-ordered BTG equipment for entire 23.7 GW pipeline (Rs 2 lakh Cr) before PPA signing gives a 2-3 year lead over competitors.
+    - New PPAs signed at Rs 4.11-4.30/kWh capacity charges vs Rs 2.89/kWh in FY21, structurally lifting per-MW EBITDA.
+    - Stressed-asset turnaround track record (7,450 MW revived) and 60% brownfield expansion lower per-MW cost and de-risk execution.
+  bear:
+    - 32.7x trailing earnings / 6.4x book with negative FCF leaves no margin of safety if FY27 commissioning slips.
+    - Capacity target and capex guidance keep moving (30 GW by FY30 → 42 GW by FY32; FY26 capex Rs 22-23K Cr vs guided Rs 13,000 Cr).
+    - Rs 60,000 Cr 7-year funding gap with FCF already negative means leverage must rise unless accruals outperform.
+  pillars:
+    - claim: 2.9 GW commissions in FY27 (Korba Phase-II 1,320 MW from Q2 FY27 plus partial Mahan), proving the 23.7 GW pipeline is executable on schedule.
+      falsifier: FY27 commissioning falls materially short of 2.9 GW or Korba Phase-II slips beyond Q2 FY27.
+      status: intact
+    - claim: Untied 10,400 MW of new capacity secures PPAs at capacity charges of at least Rs 4.11/kWh, holding the structural uplift in per-MW EBITDA.
+      falsifier: PPA win cadence stalls or capacity charges retreat toward FY21's Rs 2.89/kWh within the next 1-2 years.
+      status: intact
+    - claim: Internal accruals fund the bulk of the Rs 2 lakh Cr capex, keeping Net Debt/EBITDA below 3x through the cycle.
+      falsifier: Net Debt/EBITDA breaches 3x or FCF stays negative beyond FY27 as capex peaks.
+      status: intact
+
+monitorables:
+  - what: FY27 capacity commissioning (MW)
+    why: Pillar 1 — first proof of pipeline execution; slippage delays EBITDA growth and undermines the premium multiple.
+    threshold: 2900
+  - what: Korba Phase-II commissioning quarter
+    why: Pillar 1 — the first 1,320 MW unit is the leading indicator for the 23.7 GW ramp.
+    threshold: 2
+  - what: New PPA capacity charge tariff (Rs/kWh) on upcoming bids
+    why: Pillar 2 — retreat toward Rs 2.89/kWh would break the per-MW EBITDA uplift assumption.
+    threshold: 4.11
+  - what: PPA wins vs untied capacity (MW signed)
+    why: Pillar 2 — 10,400 MW untied must be progressively tied up; stall signals demand pushback.
+    threshold: 10400
+  - what: Net Debt/EBITDA
+    why: Pillar 3 — breach of 3x during the capex cycle would signal the funding gap is closing on debt.
+    threshold: 3
+  - what: Free Cash Flow (Rs Cr)
+    why: Pillar 3 — persistent negative FCF beyond FY27 means accruals are not covering capex as claimed.
+    threshold: 0
+
+key_metrics:
+  - name: Operating Capacity
+    unit: MW
+    latest: {value: 18150, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 18150, period: FY25}
+  - name: Pipeline Capacity
+    unit: MW
+    latest: {value: 23720, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: Plant Load Factor
+    unit: "%"
+    latest: {value: 67, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 71, period: FY25}
+  - name: EBITDA
+    unit: Rs. Cr
+    latest: {value: 23431, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 21418, period: FY25}
+  - name: EBITDA Margin
+    unit: "%"
+    latest: {value: 38, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 38, period: FY25}
+  - name: EBITDA per MW
+    unit: Rs. Cr/MW
+    latest: {value: 1.29, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: Revenue from Operations
+    unit: Rs. Cr
+    latest: {value: 54241, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 56203, period: FY25}
+  - name: PAT
+    unit: Rs. Cr
+    latest: {value: 12971, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 12750, period: FY25}
+  - name: EPS
+    unit: Rs.
+    latest: {value: 6.66, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 6.71, period: FY25}
+  - name: Net Debt
+    unit: Rs. Cr
+    latest: {value: 45022, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 31023, period: FY25}
+  - name: Net Debt/EBITDA
+    unit: "x"
+    latest: {value: 2.12, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 1.44, period: FY25}
+  - name: Debt/Equity
+    unit: "x"
+    latest: {value: 0.84, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Free Cash Flow
+    unit: Rs. Cr
+    latest: {value: -2817, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 9957, period: FY25}
+  - name: Cash Flow from Operations
+    unit: Rs. Cr
+    latest: {value: 20514, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 21501, period: FY25}
+  - name: ROCE
+    unit: "%"
+    latest: {value: 17.22, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 23, period: FY25}
+  - name: ROE
+    unit: "%"
+    latest: {value: 21, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: PPA Tie-Up Ratio
+    unit: "%"
+    latest: {value: 95, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: PPA Capacity Charge Realisation
+    unit: Rs./kWh
+    latest: {value: 4.30, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 2.89, period: FY21}
+  - name: Merchant Realisation
+    unit: Rs./kWh
+    latest: {value: 5.30, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: P/E (TTM)
+    unit: "x"
+    latest: {value: 32.69, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Market Cap
+    unit: Rs. Cr
+    latest: {value: 417591, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+
+management_promises:
+  - said: "30 GW by FY30 capacity target"
+    when: 2024-06-01
+    source: Q1 FY25 concall/investor presentation
+    status: dropped
+    note: Target grew 40% to 42 GW by FY32 (FY26 AR); goalposts moved repeatedly — 30 GW → 30+ GW by 2030 → 30.67 GW by FY30 → 23.5 GW addition → 23.7 GW by FY32 → 41.87 GW by FY32.
+  - said: "Rs 8,000 Cr capex for FY25, Rs 13,000 Cr for FY26"
+    when: 2025-04-01
+    source: FY25 management guidance
+    status: missed
+    note: FY26 actual capex ~Rs 22,000-23,000 Cr (per Q4 FY26 call) — capex numbers consistently revised upward as scope grew; FY27 guided Rs 25,000 Cr, FY28 Rs 33,000 Cr.
+  - said: "FY25 PLF 71%"
+    when: 2025-05-01
+    source: FY25 investor presentation
+    status: kept
+    note: FY25 PLF delivered at 71%; however FY26 fell to 67% on extended monsoons.
+  - said: "Internal accruals cover 70-90% of Rs 2 lakh Cr capex"
+    when: 2026-05-01
+    source: FY26 investor presentation / concall
+    status: pending
+    note: 7-year projected FFO Rs 1,40,000 Cr vs capex Rs 2,02,000 Cr — gap of Rs 60,000 Cr to be debt-funded; net debt already up Rs 15,175 Cr YoY in FY26.
+  - said: "Rs 50,000 Cr EBITDA by FY30-31"
+    when: 2026-05-01
+    source: FY26 investor presentation
+    status: pending
+    note: FY26 EBITDA Rs 23,431 Cr (~Rs 1.29 Cr/MW); target implies near-doubling — dependent on 42 GW commissioning and new PPA economics holding.
+  - said: "Debt-free by FY32-33"
+    when: 2026-05-01
+    source: FY26 investor presentation
+    status: pending
+    note: Net debt rose to Rs 45,022 Cr (FY26) from Rs 31,023 Cr (FY25); CWIP jumped from Rs 12,104 Cr to Rs 35,053 Cr; debt-free requires FCF inflection post capex peak.
+  - said: "Godda operations uninterrupted during Bangladesh political turmoil (Aug 2025)"
+    when: 2026-05-01
+    source: FY26 investor presentation
+    status: kept
+    note: 1,600 MW plant continued running through Aug 2025 turmoil; grid connectivity to India provides partial hedge.
+  - said: "67% market share of SHAKTI coal-linked PPA bids (13,945 MW of 20,920 MW awarded)"
+    when: 2026-05-01
+    source: FY26 investor presentation
+    status: kept
+    note: PPA wins across Assam (3,200 MW), Bihar (2,400 MW), Maharashtra (3,200 MW incl. 1,600 MW recent), UP (1,600 MW), MP (2,920 MW), Karnataka (625 MW); 13,320 MW (56%) of pipeline tied up.
+
+governance_flags:
+  - Repeated capacity-target and capex guidance revisions — 30 GW by FY30 grew to 42 GW by FY32; FY26 capex ~Rs 22-23K Cr vs guided Rs 13,000 Cr; investors should question whether 42 GW target will also be revised.
+  - Bangladesh single-counterparty concentration — Godda 25-year USD PPA with Bangladesh PDB; receivables at 1.5-2 months flagged as "regular" but geopolitical exposure underappreciated.
+  - FY24 PAT of Rs 20,829 Cr inflated by Rs 9,322 Cr one-time regulatory claims income (Supreme Court April 2023 ruling on alternate fuel cost recovery) — normalized PAT closer to FY26's Rs 12,971 Cr.
+  - No dividend since inception — all cash reinvested into growth; shareholder returns entirely capital-gain dependent.
+  - Q4 FY26 PAT spike to Rs 4,271 Cr (+64% YoY) driven by lower tax rate (3% vs 16% in Q3) — likely one-time deferred tax adjustment, not operational.
+  - Stock price CAGR partly momentum/Adani Group recovery-driven (1Y 79%, 3Y 64%, 5Y 59%, 10Y 44%) — premium multiple leaves little margin of safety at 32.7x trailing earnings / 6.4x book.
+
+latest_review:
+  date: 2026-07-17
+  new_since_last: >
+    First full analysis. Captured FY26 results (revenue Rs 54,241 Cr -3.5% YoY, EBITDA
+    Rs 23,431 Cr, PAT Rs 12,971 Cr, FCF Rs -2,817 Cr), PLF decline to 67%, capacity target
+    evolution to 41.87 GW by FY32, capex creep to Rs 25,000 Cr (FY27) / Rs 33,000 Cr (FY28),
+    net debt rise to Rs 45,022 Cr, SHAKTI PPA dominance (67% share, 13,320 MW tied up),
+    stressed-asset turnaround track record, Dhirauli captive mine (CY2026), and peer comparison.
+  changed_my_view: >
+    The stressed-asset turnaround and pre-ordering strategy are genuinely hard to replicate,
+    but the market at 32.7x earnings with negative FCF is pricing in flawless execution of
+    23.7 GW. The 8 GW FY30 ramp (from 2-3 GW/year) and the Rs 60,000 Cr funding gap are the
+    underappreciated risks; FY27's 2.9 GW commissioning (Korba Phase-II from Q2 FY27) is the
+    first real test. Bangladesh counterparty concentration on Godda is also underweighted.
+  next_check: "Q2 FY27 results (Oct-Nov 2026): Korba Phase-II (1,320 MW) commissioning, FY27 PLF recovery, Net Debt/EBITDA vs 3x threshold, PPA signing cadence (Rajasthan/Gujarat/UP bids)."
+  open_questions:
+    - Will the FY30 ramp to 8 GW/year commissioning actually be executable, given no private thermal operator in India has done this scale before?
+    - Does the 42 GW by FY32 target hold, or is another revision likely given the history of moving goalposts?
+    - Can FCF turn positive before FY30, or does the Rs 60,000 Cr funding gap keep debt rising through the cycle?
+    - Is Bangladesh PDB receivable position (1.5-2 months) genuinely stable, or is the "regular" framing masking deterioration?
+    - Do new PPA capacity charges (Rs 4.11-4.30/kWh) hold as renewable penetration increases and DISCOMs push back?
+
+history:
+  - date: 2026-07-17
+    note: Initial verdict — high-conviction thermal capex-cycle play with genuine moats, but 32.7x earnings with negative FCF prices in flawless 23.7 GW execution; FY27 Korba commissioning is the first test.

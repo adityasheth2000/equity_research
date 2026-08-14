@@ -1,0 +1,192 @@
+ticker: BLS
+company: BLS International Services Ltd
+list: holdings
+sector: Visa & Consular Outsourcing / Business Services
+first_analysed: 19 July 2026
+last_analysed: 19 July 2026
+last_doc_seen: 19 May 2026
+
+thesis:
+  summary: >
+    World's #2 visa/consular outsourcing pure-play (only listed globally), serving 46+ governments across 70+ countries.
+    Asset-light leased VACs, USD/EUR-denominated contracts with local collection, negative-WC model historically.
+    Trades at deep P/E discount (14x vs peer median 34x) despite ROCE ~29%; thesis rests on Visa margin sustainability and renewal retention.
+  bull:
+    - Visa & Consular EBITDA margin jumped from 14.6% (FY22) to 40.1% (FY26) on self-managed model transition; management guides hold at ~40%
+    - USD 1-2 Bn of contracts up for renewal over next 1-2 years; BLS wins ~90% of contracts it bids for renewal
+    - Net cash of Rs. 1,434 Cr funds Rs. 2,000 Cr earmarked M&A without leverage
+  bear:
+    - Tender/renewal concentration — Spain global and India MEA up for renewal FY27-28; single loss materially impacts revenue
+    - Digital segment EBITDA margin compressed from 14.3% (FY24) to 7.0% (FY26) despite 3x revenue growth — mix shift compressing blended margin
+    - Goodwill at Rs. 1,213 Cr (32% of total assets) from 4 acquisitions in 24 months — impairment risk if any underperforms
+  pillars:
+    - claim: Visa & Consular EBITDA margin sustains at ~40% (the source of ~90% of EBITDA from ~61% of revenue)
+      falsifier: "Any sequential quarter Visa & Consular EBITDA margin prints below 38% (within FY27)"
+      status: intact
+    - claim: BLS retains its major renewal contracts (Spain global, India MEA) at the historical ~90% win rate
+      falsifier: "Loss of either Spain global or India MEA contract at renewal during FY27-28"
+      status: intact
+
+monitorables:
+  - what: Visa & Consular EBITDA margin (quarterly)
+    why: Pillar 1 falsifier — core earnings power
+    threshold: 38
+  - what: Spain global and India MEA renewal outcomes
+    why: Pillar 2 falsifier — revenue continuity
+    threshold: 0
+
+key_metrics:
+  - name: Revenue
+    unit: "Rs. Cr"
+    latest: {value: 2998, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 2193, period: FY25}
+  - name: EBITDA
+    unit: "Rs. Cr"
+    latest: {value: 819, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 629, period: FY25}
+  - name: EBITDA Margin
+    unit: percent
+    latest: {value: 27.3, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 28.7, period: FY25}
+  - name: PAT
+    unit: "Rs. Cr"
+    latest: {value: 724, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 540, period: FY25}
+  - name: EPS
+    unit: "Rs."
+    latest: {value: 16.68, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 12.34, period: FY25}
+  - name: ROCE
+    unit: percent
+    latest: {value: 29, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 22.0, period: FY25}
+  - name: ROE
+    unit: percent
+    latest: {value: 29.4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 31.2, period: FY25}
+  - name: Visa application volume
+    unit: Lakhs
+    latest: {value: 44.1, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 37.5, period: FY25}
+  - name: Net revenue per application
+    unit: "Rs."
+    latest: {value: 3302, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 2903, period: FY25}
+  - name: Visa & Consular EBITDA margin
+    unit: percent
+    latest: {value: 40.1, period: FY26, basis: consolidated, source: concall}
+    previous: {value: 34.5, period: FY25}
+  - name: Digital segment EBITDA margin
+    unit: percent
+    latest: {value: 7.0, period: FY26, basis: consolidated, source: concall}
+    previous: {value: 11.0, period: FY25}
+  - name: Net cash position
+    unit: "Rs. Cr"
+    latest: {value: 1434, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 928, period: FY25}
+  - name: Working capital days
+    unit: days
+    latest: {value: 2, period: FY26, basis: consolidated, source: screener}
+    previous: {value: -42, period: FY25}
+  - name: CFO / Operating Profit
+    unit: percent
+    latest: {value: 120, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 139, period: FY25}
+  - name: Goodwill
+    unit: "Rs. Cr"
+    latest: {value: 1213, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 1026, period: FY25}
+  - name: P/E (TTM)
+    unit: x
+    latest: {value: 14.1, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: Market Cap
+    unit: "Rs. Cr"
+    latest: {value: 9705, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: 3-yr CAGR Revenue (FY24-26)
+    unit: percent
+    latest: {value: 34, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: 3-yr CAGR EBITDA (FY24-26)
+    unit: percent
+    latest: {value: 54, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: 3-yr CAGR PAT (FY24-26)
+    unit: percent
+    latest: {value: 49, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: Peer median P/E
+    unit: x
+    latest: {value: 34.4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+
+management_promises:
+  - said: "minimum 15-20%, target more (long-term growth)"
+    when: 2025-05
+    source: Q4 FY25 concall
+    status: kept
+    note: FY26 delivered Revenue +36.7%, EBITDA +30.1%, PAT +34.1% — above guidance
+  - said: "Visa & Consular EBITDA margin sustain above 30%"
+    when: 2025-05
+    source: Q4 FY25 concall
+    status: kept
+    note: FY26 margin at 40.1% (+560 bps YoY) — far exceeded
+  - said: "Transition from partner-run to self-managed model"
+    when: 2023-04
+    source: FY24 onwards concalls
+    status: kept
+    note: Completed incl. China (Jan 2025); margin uplift realized
+  - said: "iDATA EPS-accretive from day 1"
+    when: 2024-07
+    source: Press release
+    status: kept
+    note: Contributing ~Rs. 70 Cr/quarter revenue at visa-like margins
+  - said: "3-yr CAGR (FY24-26): Revenue 34%, EBITDA 54%, PAT 49%"
+    when: 2026-05
+    source: Q4 FY26 concall
+    status: kept
+    note: Verified against screener — matches
+  - said: "FY27 guidance 20-25% revenue and EBITDA growth"
+    when: 2026-05
+    source: Q4 FY26 concall
+    status: pending
+    note: TBD — Q1 FY27 seasonally strongest, going steady
+  - said: "Maintain Visa margins at ~40%"
+    when: 2026-05
+    source: Q4 FY26 concall
+    status: pending
+    note: TBD
+  - said: "Rs. 2,000 Cr earmarked for M&A over 4-5 years"
+    when: 2026-05
+    source: Q4 FY26 concall
+    status: pending
+    note: Atyati (Rs. 157 Cr) closed Jul 2026; remaining pipeline TBD
+
+governance_flags:
+  - "Promoter holding high at 70.39% (Mar 2026); free float only 29.6%; FII holding 6.14%"
+  - "Family-run — Diwakar Aggarwal (Chairman), Shikhar Aggarwal (JMD), Nikhil Gupta (MD), Gaurav Aggarwal (Director)"
+  - "MEA 2-yr debarment (Oct 2025) — later quashed by Delhi HC (Dec 2025); management did not see it coming"
+  - "Goodwill at Rs. 1,213 Cr = 32% of total assets from 4 acquisitions in 24 months — impairment watch"
+  - "Conservative guidance pattern (guide 20-25%, deliver 30%+) — may indicate deliberate under-promising"
+  - "Working capital swung from -42 days (FY25) to +2 days (FY26) — acquisitions changing model character"
+
+latest_review:
+  date: 19 July 2026
+  new_since_last: >
+    FY26 results (Revenue Rs. 2,998 Cr, PAT Rs. 724 Cr, Visa margin 40.1%, Digital margin 7.0%);
+    Atyati acquisition closed Jul 2026 (Rs. 157 Cr, adds 25,900 CSPs); CRISIL A+/Stable reaffirmed
+    Apr 2026; MEA debarment quashed Dec 2025; new MEA China contract + Spain orders Jan-Mar 2026.
+  changed_my_view: >
+    Visa margin expansion to 40.1% (from 14.6% in FY22) is the single most impressive operational
+    transformation; 1-year -38% stock price decline appears disconnected from fundamentals —
+    likely low free float, geopolitical overhang, and digital-mix-margin fears.
+  next_check: Q1 FY27 results and renewal pipeline win-rate (Spain global, India MEA)
+  open_questions:
+    - Will Digital margin stabilize at 7-8% or recover toward double-digits?
+    - Will USD 1-2 Bn renewal pipeline convert at historical ~90% win rate?
+    - Will working capital revert to negative territory or stay positive?
+
+history:
+  - date: 19 July 2026
+    note: Initial analysis — high-quality visa outsourcing pure-play trading at P/E 14x vs peer median 34x; added to holdings.

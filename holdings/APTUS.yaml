@@ -1,0 +1,159 @@
+ticker: APTUS
+company: Aptus Value Housing Finance India Ltd
+list: holdings
+sector: Affordable Housing Finance
+first_analysed: 2026-07-10
+last_analysed: 2026-07-10
+last_doc_seen: 2026-07-10
+
+thesis:
+  summary: >-
+    Affordable HFC focused on self-employed borrowers in South India Tier-2/3/4
+    cities; ₹13,107 Cr AUM, 339 branches across 7 states, dual-entity structure
+    (HFC + NBFC subsidiary AFIPL for SME/LAP, 48% non-housing book). Trading at
+    15x P/E with 20.1% RoE (PEG ~0.6) after a 1-year -18% drawdown.
+  bull:
+    - Q4 FY26 GNPA fell 4 bps QoQ to 1.52%, 30+ DPD improved to 6.21%, collection efficiency 100.5% — earliest sign of asset quality cycle peaking
+    - 26% AUM CAGR (FY21-FY26) with 29% PAT CAGR; 71% CRAR and 1.56x gearing mean 22-24% FY27 growth is fundable internally without dilution
+    - AA rating (CARE + ICRA) being actively repriced; CoB fell 8.7% to 8.3% in FY26, lifting spread to 8.9%
+  bear:
+    - GNPA rose from 1.19% to 1.52% through FY26; non-housing (48% of book) is the slippage source — if Q4 stabilization reverses, the cycle is not over
+    - Promoter stake down from 62% (Jun 2023) to 23.87% — continued selling would break the governance optics and cap re-rating
+    - Top 3 states = 91% of AUM (AP 44%, TN 28%) — single-state political/regulatory shock would hit both asset quality and growth
+  pillars:
+    - claim: The asset quality cycle peaked in Q4 FY26 — GNPA and 30+ DPD will not make new highs
+      falsifier: "Q1 FY27 (Aug 2026) GNPA rises above 1.56% AND 30+ DPD rises above 6.48% (Q3 FY26 high), reversing the Q4 improvement"
+      status: intact
+    - claim: FY27 AUM growth delivers within the 22-24% guidance band
+      falsifier: "FY27 exit AUM below ₹16,000 Cr (i.e., growth < 22%) or two consecutive quarters of sub-15% YoY disbursement growth"
+      status: intact
+    - claim: RoE sustains at or above 18% through FY27 as spread holds and operating leverage absorbs branch ramp
+      falsifier: "Any FY27 quarter annualized RoE below 18%, or FY27 spread compressing below 8.7% (CoB stays above 8.3% / yield drops below 17%)"
+      status: intact
+
+monitorables:
+  - what: Q1 FY27 GNPA and 30+ DPD
+    why: Pillar 1 — confirms or breaks the Q4 FY26 cycle-peak call
+    threshold: 1.56
+  - what: Non-housing (SME/LAP) portfolio slippage rate
+    why: Pillar 1 — leading indicator; 48% of book and source of most FY26 slippages
+    threshold: null
+  - what: FY27 quarterly AUM growth (YoY) and exit AUM
+    why: Pillar 2 — tests the 22-24% guidance credibility
+    threshold: 22
+  - what: FY27 quarterly RoE (annualized) and net interest spread
+    why: Pillar 3 — profitability durability under branch ramp and CoB repricing
+    threshold: 18
+
+key_metrics:
+  - name: AUM
+    unit: Cr
+    latest: {value: 13107, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 4068, period: FY21}
+  - name: PAT
+    unit: Cr
+    latest: {value: 943, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 751, period: FY25}
+  - name: RoE
+    unit: percent
+    latest: {value: 20.1, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 18.8, period: FY25}
+  - name: RoA
+    unit: percent
+    latest: {value: 7.9, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 7.7, period: FY25}
+  - name: GNPA
+    unit: percent
+    latest: {value: 1.52, period: Q4 FY26, basis: consolidated, source: ppt}
+    previous: {value: 1.49, period: Q1 FY26}
+  - name: NNPA
+    unit: percent
+    latest: {value: 1.15, period: Q4 FY26, basis: consolidated, source: ppt}
+    previous: {value: 1.12, period: Q1 FY26}
+  - name: 30+ DPD
+    unit: percent
+    latest: {value: 6.21, period: Q4 FY26, basis: consolidated, source: ppt}
+    previous: {value: 6.45, period: Q1 FY26}
+  - name: Gearing (D/E)
+    unit: x
+    latest: {value: 1.56, period: Mar 26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: CRAR (Standalone)
+    unit: percent
+    latest: {value: 71.0, period: Mar 26, basis: standalone, source: screener}
+    previous: {value: null, period: null}
+  - name: Credit Cost
+    unit: percent
+    latest: {value: 0.5, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 0.3, period: FY25}
+  - name: NIM (spread)
+    unit: percent
+    latest: {value: 8.9, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 8.7, period: FY25}
+  - name: Cost of borrowings (CoB)
+    unit: percent
+    latest: {value: 8.3, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 8.7, period: FY25}
+  - name: Cost-to-income ratio
+    unit: percent
+    latest: {value: 14, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: null}
+  - name: Non-housing share of AUM
+    unit: percent
+    latest: {value: 48, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: null}
+  - name: Promoter holding
+    unit: percent
+    latest: {value: 23.87, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 62, period: Jun 2023}
+  - name: P/E
+    unit: x
+    latest: {value: 15.1, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+
+management_promises:
+  - said: "AUM growth target of 22-24% in FY27"
+    when: 2026-05-01
+    source: Q4 FY26 Investor Presentation
+    status: pending
+    note: Q1 FY27 disbursement data (expected August 2026) is the first test
+  - said: "Reducing small-ticket loans below ₹7 lakh; increasing focus on ₹8-20 lakh ticket size HL and SME loans"
+    when: 2026-05-01
+    source: Q4 FY26 Investor Presentation
+    status: pending
+    note: Product mix shift in progress; watch ticket size disclosure next quarter
+  - said: "New branches take ~3 years to reach ₹52 Cr/branch productivity"
+    when: 2026-05-01
+    source: Q4 FY26 Investor Presentation
+    status: pending
+    note: Front-loaded FY27 branch additions; productivity ramp to be monitored
+  - said: "Active repricing of liabilities to lower CoB post AA upgrade"
+    when: 2026-05-01
+    source: Q4 FY26 Investor Presentation
+    status: pending
+    note: CoB fell 8.7% to 8.3% in FY26; further decline toward 8% expected in FY27
+
+governance_flags:
+  - Promoter stake declined from 62% (Jun 2023) to 23.87% (FY26) — large secondary selldown; being absorbed by FIIs/DIIs
+  - Dual-entity structure (HFC AVHFIL + NBFC subsidiary AFIPL) used to route SME/LAP loans — adds complexity and 48% non-housing exposure
+  - Top 3 states concentration of 91% (AP 44%, TN 28%) — single-state political/regulatory risk
+
+latest_review:
+  date: 2026-07-10
+  new_since_last: >-
+    Q4 FY26 NPA stabilization (GNPA 1.52%, 30+ DPD 6.21%, collection efficiency
+    100.5%); CARE reaffirmed AA/Stable in Jul 2026; FY26 results with PAT ₹943
+    Cr (+26%) and RoE 20.1%; Maharashtra/Odisha AUM at ₹143 Cr (+165% growth).
+  changed_my_view: >-
+    The Q4 FY26 asset quality stabilization is the most important data point — it
+    suggests the NPA cycle may be peaking rather than deteriorating structurally,
+    supporting the BUY thesis at PEG ~0.6.
+  next_check: Q1 FY27 results (expected August 2026) — NPA confirmation and disbursement growth vs 22-24% guidance
+  open_questions:
+    - Has M. Anandan stopped selling promoter stake, or will the decline continue?
+    - Will non-housing (LAP/SME) slippages remain contained as the book seasons?
+    - Can CoB reach 8% in FY27 given the AA rating?
+
+history:
+  - date: 2026-07-10
+    note: Initial verdict — BUY with medium conviction (6.5/10); CMP ₹283.80, P/E 15.1, FY26 RoE 20.1%

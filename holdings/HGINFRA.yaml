@@ -1,0 +1,159 @@
+ticker: HGINFRA
+company: H.G. Infra Engineering Ltd
+list: holdings
+sector: EPC / Infrastructure
+first_analysed: 2026-07-11
+last_analysed: 2026-07-11
+last_doc_seen: 2026-04-01
+
+thesis:
+  summary: >-
+    Mid-cap EPC operator with a 20%+ ROE track record, now at 12.4x P/E on
+    depressed FY26 earnings (PAT -35% YoY), hit by a CBI/ACB investigation
+    (CMD named in FIR, Jan 2026), working-capital stress, and rising leverage.
+    A Rs 1.57 Lakh Cr diversified order book (3.0x revenue) and a pending
+    Rs 1,149 Cr HAM monetization offer asymmetric recovery upside if the CBI
+    matter resolves and cash flows normalize.
+  bull:
+    - Cheapest in peer set at 12.4x P/E vs median 17.9x, pricing in significant pessimism on depressed earnings.
+    - Rs 1,149 Cr HAM monetization with Neo Infra expected in FY27 releases equity and cuts project debt.
+    - Rs 1.57 Lakh Cr order book (3.0x FY26 revenue) diversified across roads, railways, and energy gives strong revenue visibility.
+  bear:
+    - CBI/ACB FIR (Jan 2026) names the CMD; a chargesheet or NHAI/MoRTH debarment would be catastrophic.
+    - FY26 EBITDA margin compressed to 12.9% standalone (Q4 at 9.4%); ROE halved from 21% (10Y) to 10% (TTM).
+    - Persistently negative operating cash flows (FY24 -Rs 311 Cr, FY25 -Rs 878 Cr) and gearing up from 0.32x to 0.58x.
+  pillars:
+    - claim: The CBI/ACB investigation resolves without a chargesheet against the CMD or any contract debarment.
+      falsifier: Chargesheet filed against CMD or NHAI/MoRTH contract debarment announced by FY27 end.
+      status: intact
+    - claim: The Rs 1,149 Cr HAM monetization with Neo Infra closes in FY27 and is applied to project debt reduction.
+      falsifier: Deal delayed past FY27, cancelled, or proceeds diverted to operating obligations; consolidated debt fails to fall below Rs 4,092 Cr (FY25 level).
+      status: intact
+    - claim: Standalone EBITDA margin recovers above 12.9% (FY26 trough) as legacy low-margin orders burn off and new orders flow through.
+      falsifier: Standalone EBITDA margin stays at or below 12.9% for two consecutive halves through FY27.
+      status: weakening
+
+monitorables:
+  - what: CBI/ACB investigation outcome
+    why: Pillar 1 — adverse development is catastrophic, clean closure removes the valuation discount.
+    threshold: 0
+  - what: HAM monetization closure with Neo Infra (Rs Cr received)
+    why: Pillar 2 — deal must close and proceeds must reduce consolidated debt.
+    threshold: 1149
+  - what: Consolidated debt (Rs Cr)
+    why: Pillar 2 — debt must fall below the Rs 4,092 Cr FY25 base to confirm monetization is deleveraging, not refinancing.
+    threshold: 4092
+  - what: Standalone EBITDA margin (percent)
+    why: Pillar 3 — Q4 FY26 at 9.4% is the lowest in recent history; determines trough vs new normal.
+    threshold: 12.9
+  - what: TOL/TNW ratio
+    why: Pillar 2 — rating downside trigger if it sustains above 1.0x.
+    threshold: 1.0
+  - what: BESS / solar / transmission execution progress
+    why: Nice-to-have diversification — not a pillar, but cost overruns or delays on the 735 MW BESS portfolio (currently 0-8% complete) would compound the bear case.
+    threshold: null
+
+key_metrics:
+  - name: Revenue
+    unit: Rs Mn
+    latest: {value: 56667, period: FY26, basis: standalone, source: screener}
+    previous: {value: 60519, period: FY25}
+  - name: EBITDA
+    unit: Rs Mn
+    latest: {value: 7334, period: FY26, basis: standalone, source: screener}
+    previous: {value: 9507, period: FY25}
+  - name: PAT
+    unit: Rs Mn
+    latest: {value: 3891, period: FY26, basis: standalone, source: screener}
+    previous: {value: 5771, period: FY25}
+  - name: Consolidated PAT
+    unit: Rs Mn
+    latest: {value: 3298, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 5053, period: FY25}
+  - name: EBITDA margin
+    unit: percent
+    latest: {value: 12.9, period: FY26, basis: standalone, source: screener}
+    previous: {value: 15.7, period: FY25}
+  - name: Total consolidated debt
+    unit: Rs Cr
+    latest: {value: 4934, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: 4092, period: FY25}
+  - name: Overall gearing
+    unit: x
+    latest: {value: 0.58, period: 9M FY26, basis: consolidated, source: screener}
+    previous: {value: 0.32, period: FY24}
+  - name: Interest coverage
+    unit: x
+    latest: {value: 4.88, period: 9M FY26, basis: consolidated, source: screener}
+    previous: {value: 10.15, period: FY24}
+  - name: ROE
+    unit: percent
+    latest: {value: 10, period: TTM, basis: consolidated, source: screener}
+    previous: {value: 21, period: 10Y}
+  - name: Order book
+    unit: Rs Mn
+    latest: {value: 157386, period: post-Mar 2026, basis: consolidated, source: ppt}
+    previous: {value: 152812, period: Mar 2025}
+  - name: P/E
+    unit: x
+    latest: {value: 12.4, period: TTM, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: P/B
+    unit: x
+    latest: {value: 1.13, period: TTM, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: Operating cash flow
+    unit: Rs Cr
+    latest: {value: 250, period: FY26, basis: consolidated, source: screener}
+    previous: {value: -878, period: FY25}
+  - name: Gross current asset days
+    unit: days
+    latest: {value: 218, period: FY25, basis: consolidated, source: screener}
+    previous: {value: 171, period: FY24}
+
+management_promises:
+  - said: "Rs 1,149 Cr expected in FY27 from Neo Infra HAM monetization deal"
+    when: 2026-03-01
+    source: ppt
+    status: pending
+    note: 5 near-completion HAM projects sold to Neo Infra Income Opportunities Fund; ~Rs 235 Cr received so far.
+  - said: "BESS portfolio of 735 MW across 3 projects with GUVNL/NTPC"
+    when: 2026-03-01
+    source: ppt
+    status: pending
+    note: All 3 BESS projects at 0-8% completion; execution outcome unproven.
+  - said: "Asset recycling track record — 4 HAM projects sold earlier to Highways Infrastructure Trust"
+    when: 2025-03-01
+    source: ppt
+    status: kept
+    note: Demonstrated prior HAM monetization supporting the recycling model.
+
+governance_flags:
+  - CBI/ACB search operations (Jan 2026) at 3 company locations; CMD Harendra Singh named in FIR; interim court protection granted.
+  - Promoter holding declined from 74.5% (Sep 2024) to 71.8%.
+  - FII holding halved from 2.9% to 1.4%; DII holding declined from 12.0% to 10.7% — institutional exodus.
+  - Working capital intensity rising — gross current asset days up from 171 (FY24) to 218 (FY25).
+  - CARE facility reduced from Rs 200 Cr to Rs 140 Cr in Apr 2026 update.
+
+latest_review:
+  date: 2026-07-11
+  new_since_last: >-
+    FY26 results confirmed sharp earnings reversal (PAT -32.6% standalone,
+    -34.7% consolidated); CBI/ACB investigation emerged Jan 2026; HAM monetization
+    with Neo Infra announced; post-FY26 order wins of Rs 55,914 Mn including
+    Welspun Pune-Shirur.
+  changed_my_view: >-
+    The earnings compression is real and not transient — interest costs nearly
+    doubled on NCD issuance and working capital debt, and margins hit a
+    multi-year low. The thesis now hinges critically on CBI resolution and HAM
+    monetization rather than organic execution alone.
+  next_check: HAM monetization closure and FY27 Q2 results for margin/working capital trajectory.
+  open_questions:
+    - Will the CBI investigation result in chargesheet or contract debarment?
+    - Will HAM monetization proceeds actually reduce consolidated debt below the Rs 4,092 Cr FY25 base?
+    - Is Q4 FY26 EBITDA margin of 9.4% standalone a trough or a new normal?
+    - Can BESS/solar/transmission execution match the company's highways track record?
+
+history:
+  - date: 2026-07-11
+    note: Initial verdict — high-risk asymmetric bet on CBI resolution, HAM monetization, and margin recovery at 12.4x P/E.

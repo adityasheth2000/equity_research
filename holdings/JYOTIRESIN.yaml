@@ -1,0 +1,172 @@
+ticker: JYOTIRESIN
+company: Jyoti Resins and Adhesives Ltd
+list: holdings
+sector: Chemicals / Adhesives (Wood Adhesives)
+first_analysed: 2026-07-08
+last_analysed: 2026-07-08
+last_doc_seen: 2026-07-08
+
+thesis:
+  summary: >-
+    Wood adhesives maker (Euro 7000 brand, #2 India retail) with proven Gujarat
+    dominance (~35% share), zero-debt balance sheet, and strong capital
+    efficiency (ROCE 36.5%, FAT 6.3x). Thesis is that the carpenter-loyalty
+    distribution moat and the new brand push can replicate Gujarat's success
+    pan-India — but FY26 saw growth decelerate (3yr CAGR 6.4%), margins
+    compress (EBITDA 33%→27%), and debtor days balloon to 185. FY27 is the
+    inflection test on volume growth, working capital discipline, and VAM
+    pass-through.
+  bull:
+    - "Carpenter-loyalty flywheel (3.5L+ carpenters reached, 2L+ registered, 60% active) creates a bottom-up influencer moat in a category where carpenters are the decision-makers."
+    - "Zero-debt, capital-efficient model (ROCE 36.5%, FAT 6.3x) with brownfield 2,000→3,500 TPM for just Rs 5-7 Cr supports the volume-growth leg without straining the balance sheet."
+    - "Gujarat proven at ~35% share over 15+ years; 14-state footprint extended with Odisha/Chhattisgarh (May 2026), giving the replication thesis a real running start."
+  bear:
+    - "3yr revenue CAGR only 6.4% vs 5yr 25.4%; FY26 PAT fell 5.3% (Rs 74→70 Cr) and full-year growth was rescued by a single strong Q4."
+    - "Ad/branding spend nearly tripled (2%→4% of revenue, targeting 6-7%) while FY26 volume grew only ~8% — brand-spend ROI unproven."
+    - "Debtor days ballooning 133→161→185 with management guiding 120; new states (UP, WB, Karnataka) structurally demand higher credit, risking the working-capital leg."
+  pillars:
+    - claim: "The carpenter-loyalty distribution moat can replicate Gujarat's ~35% share in new states, with each new state reaching break-even within 3 years of entry."
+      falsifier: "Any state onboarded before FY26 fails to reach break-even (positive contribution margin) by FY28, OR new-state counter additions grow <10% YoY through FY27."
+      status: intact
+    - claim: "Elevated brand/distribution spend (4%→6-7% of revenue) will lift volume growth to 15%+ within FY27."
+      falsifier: "FY27 full-year volume growth stays below 12% despite ad spend at or above 6% of revenue."
+      status: weakening
+    - claim: "Working-capital discipline holds — debtor days revert to ≤150 by end of FY27 despite new-state expansion."
+      falsifier: "Debtor days cross 200 in any FY27 quarter, or show no downward trajectory by Q4 FY27."
+      status: weakening
+
+monitorables:
+  - what: "FY27 full-year volume growth (YoY)"
+    why: "Directly tests Pillar 2 — whether brand spend converts to the 15%+ growth needed to justify margin investment."
+    threshold: 15
+  - what: "Ad/branding spend as % of revenue (FY27)"
+    why: "Confirms Pillar 2's input side — spend must stay ≥6% for the test to be meaningful; lower spend invalidates the test rather than the pillar."
+    threshold: 6
+  - what: "Debtor days (quarterly)"
+    why: "Tests Pillar 3 — working-capital discipline under new-state expansion; guide is 120, structural break at 200."
+    threshold: 150
+  - what: "New-state break-even / counter-onboarding progress (UP, Delhi, WB, Odisha, Chhattisgarh)"
+    why: "Tests Pillar 1 — whether the carpenter-loyalty moat replicates outside Gujarat within the 3-year window."
+    threshold: null
+  - what: "VAM price/kg and gross margin (Q1-Q2 FY27)"
+    why: "Defensive monitorable (not a pillar) — VAM is 90% of RM cost, 100% imported; a May 2026 60-70% price hike tests near-term gross-margin resilience above 65%."
+    threshold: 65
+  - what: "Brownfield 3,500 TPM go-live (target Q2 FY27)"
+    why: "Enabler for Pillar 2 — capacity lift underpins the volume-growth test; a delayed ramp would invalidate the FY27 volume read."
+    threshold: null
+
+key_metrics:
+  - name: Revenue
+    unit: Rs Cr
+    latest: {value: 315, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 284, period: FY25}
+  - name: EBITDA
+    unit: Rs Cr
+    latest: {value: 85, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 89, period: FY25}
+  - name: EBITDA margin
+    unit: "%"
+    latest: {value: 27.0, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 31.5, period: FY25}
+  - name: PAT
+    unit: Rs Cr
+    latest: {value: 70, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 74, period: FY25}
+  - name: Gross margin
+    unit: "%"
+    latest: {value: 70.2, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 69.0, period: FY25}
+  - name: ROCE
+    unit: "%"
+    latest: {value: 36.5, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 50.0, period: FY25}
+  - name: ROE
+    unit: "%"
+    latest: {value: 27.0, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 35.0, period: FY25}
+  - name: Fixed asset turnover
+    unit: "x"
+    latest: {value: 6.3, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 5.9, period: FY25}
+  - name: Debtor days
+    unit: days
+    latest: {value: 185, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 161, period: FY25}
+  - name: Cash + Bank FDs + Investments
+    unit: Rs Cr
+    latest: {value: 166, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 154, period: FY25}
+  - name: P/E
+    unit: "x"
+    latest: {value: 16.5, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Promoter holding
+    unit: "%"
+    latest: {value: 54.4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 50.83, period: FY25}
+
+management_promises:
+  - said: "20% growth (reiterated across Q1, Q2, Q3 FY26 concalls)"
+    when: 2025-06-01
+    source: concall
+    status: missed
+    note: "FY26 revenue grew only ~10.8% YoY (8% volume); PAT fell 5.3%. Management acknowledged the miss in Q3 FY26 call, promised \"better planning,\" then declined to give specific FY27 numbers citing \"geopolitical issues.\""
+  - said: "Debtor days to come back to 120 days within 2 quarters"
+    when: 2025-09-01
+    source: concall
+    status: pending
+    note: "Debtor days instead rose to 185 in FY26 from 161 in FY25; attributed to new-state expansion (UP, West Bengal, Karnataka)."
+  - said: "NSE listing is \"in process\""
+    when: 2025-06-01
+    source: concall
+    status: pending
+    note: "Status has been \"in process\" for multiple quarters with no concrete progress as of FY26 verdict."
+  - said: "Working on auditor upgrade (to Big 4/5)"
+    when: 2025-06-01
+    source: concall
+    status: pending
+    note: "Currently R Kabra & Associates (Ecovis Germany affiliated); management says \"on it\" but no timeline given."
+  - said: "Brownfield expansion (2,000→3,500 TPM) live before Q2 FY27"
+    when: 2025-06-01
+    source: concall
+    status: pending
+    note: "80% complete as of FY26 verdict; go-live target Q2 FY27."
+  - said: "Rs 500 Cr revenue in next 2-3 years; Rs 1,000 Cr long-term aspiration"
+    when: 2025-06-01
+    source: concall
+    status: pending
+    note: "Requires ~17% CAGR from Rs 315 Cr FY26 base; FY26 grew only 10.8%."
+
+governance_flags:
+  - "Small/solo auditor (R Kabra & Associates, Ecovis Germany affiliated) — multiple investors have publicly called for Big 4/5 upgrade."
+  - "Hand-written corrections in concall transcripts (price rise clarification) undermine documentation quality."
+  - "Confusing \"redemption\" accounting for carpenters' points liability (~Rs 95 Cr in other current liabilities) — same question recurs every quarter."
+  - "NSE listing \"in process\" for multiple quarters with no concrete progress."
+  - "Growth guidance repeatedly missed (20% promised, 8% delivered) creating investor trust deficit."
+  - "Rs 166 Cr cash parked in low-yield FDs/MFs — drag on ROE/ROCE; no buyback despite investor calls for one."
+
+latest_review:
+  date: 2026-07-08
+  new_since_last: >-
+    First full verdict. Captures FY26 results (revenue Rs 315 Cr, PAT Rs 70 Cr
+    down 5.3%), VAM price spike (Rs 75-80→160-180/kg) in Q1 FY27 with 60-70%
+    pass-through from May 2026, brownfield 80% complete, Pankaj Tripathi brand
+    push, and Odisha/Chhattisgarh state additions (May 2026).
+  changed_my_view: >-
+    Brand-spend ROI is the central doubt — ad spend nearly tripled while FY26
+    revenue grew only ~11%, and growth was rescued by a single strong Q4.
+    Combined with ballooning debtor days (185) and immediate VAM headwinds,
+    this shifts the thesis from \"growth re-rating\" to \"wait for proof.\" The
+    pillars are now two-sharp tests on volume conversion and working-capital
+    reversion, plus the underlying new-state replication claim.
+  next_check: "Q1FY27 results — volume growth, gross margin impact from VAM pass-through, and debtor-days trajectory."
+  open_questions:
+    - "Will VAM pass-through fully protect gross margins in Q1-Q2 FY27, or will there be a temporary margin air-pocket?"
+    - "Can the Pankaj Tripathi brand campaign demonstrably lift FY27 volume growth above 15%?"
+    - "Will debtor days actually revert toward 150 (or 120) by FY27, or keep climbing as new states onboard?"
+    - "Will pre-FY26 new states (UP, Delhi, WB, Karnataka) demonstrably progress toward break-even within their 3-year window?"
+    - "Will the auditor upgrade / NSE listing materialize, addressing the investor-trust deficit?"
+
+history:
+  - date: 2026-07-08
+    note: "Initial verdict — WAIT AND WATCH; high-quality business but growth sputtering, margins compressing, FY27 is the inflection test."

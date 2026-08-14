@@ -1,0 +1,168 @@
+ticker: BALUFORGE
+company: Balu Forge Industries Ltd
+list: holdings
+sector: Precision Engineering / Forging
+first_analysed: 2026-07-19
+last_analysed: 2026-07-19
+last_doc_seen: 2026-06-01
+
+thesis:
+  summary: >
+    BFIL is a precision forging/CNC machining supplier to global OEMs, transitioning from
+    cyclical auto/agri crankshafts toward a defence/aerospace/railway platform. Defence is
+    50% of the order book but only 13% of FY26 revenue, so the re-rating hinges on that gap
+    closing at premium margins — but the thesis is gated by a working-capital cash furnace
+    (OCF 10.6% of EBITDA, debtor days 140) and a CRISIL Stable→Negative→Withdrawn trajectory.
+  bull:
+    - Defence/Aerospace/Railway is 50% of order book vs 13% of FY26 revenue; convergence at premium margins transforms the P&L.
+    - 5-year organic execution — Revenue 142→1,107 Cr (51% CAGR), PAT 8→259 Cr (102% CAGR) — with Hattargi operational and gross block at FY27 target.
+    - Trades at 21x TTM vs peer median 28.9x; re-rating room to 25-30x if both pillars hold.
+  bear:
+    - Working capital is a cash furnace — OCF Rs. 32 Cr on Rs. 300 Cr EBITDA, debtor days 140, payable days halved to 32, CCC 182 days; FCF negative in 4 of last 5 years.
+    - Credit-rating trajectory Stable→Negative→Withdrawn at company request; FII holding halved from 10.4% to 5.0%.
+    - Guidance credibility gap — 40-45% FY26 growth guided, 19.9% delivered; shell line "under commercialisation" since Aug 2025 with near-zero revenue.
+  pillars:
+    - claim: Defence/Aerospace/Railway order book (50% mix) converts to revenue at premium margins over FY27-FY28.
+      falsifier: Defence revenue share stays below 15% through H1FY27, or shell contribution remains near-zero past Dec 2026.
+      status: intact
+    - claim: The 140-day debtor blowout is temporary/geopolitical, not structural, and normalises within FY27.
+      falsifier: Debtor days stay above 130 through Q2FY27, or FY27 OCF stays below Rs. 150 Cr.
+      status: weakening
+
+monitorables:
+  - what: Defence/Aerospace/Railway revenue share (quarterly)
+    why: Tests pillar 1 — the order-book-to-revenue conversion.
+    threshold: 15
+  - what: Debtor days and FY27 OCF
+    why: Tests pillar 2 — whether the working-capital blowout is temporary or structural.
+    threshold: 130
+
+key_metrics:
+  - name: Revenue
+    unit: Rs. Cr
+    latest: {value: 1107, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 924, period: FY25}
+  - name: EBITDA Margin
+    unit: "%"
+    latest: {value: 27.0, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 27.2, period: FY25}
+  - name: PAT
+    unit: Rs. Cr
+    latest: {value: 259, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 204, period: FY25}
+  - name: Operating Cash Flow
+    unit: Rs. Cr
+    latest: {value: 32, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 148, period: FY25}
+  - name: Debtor Days
+    unit: days
+    latest: {value: 140, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 129, period: FY25}
+  - name: Cash Conversion Cycle
+    unit: days
+    latest: {value: 182, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 117, period: FY25}
+  - name: ROCE
+    unit: "%"
+    latest: {value: 21.7, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 30.1, period: FY25}
+  - name: Debt/Equity
+    unit: "x"
+    latest: {value: 0.10, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 0.04, period: FY25}
+  - name: Defence/Aerospace/Railway Revenue Share
+    unit: "%"
+    latest: {value: 13, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: Defence/Aerospace/Railway Order Book Share
+    unit: "%"
+    latest: {value: 50, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+  - name: P/E (TTM)
+    unit: "x"
+    latest: {value: 21.0, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+
+management_promises:
+  - said: "FY26 guidance: Revenue ~Rs. 1,107 Cr, EBITDA margin 27.0%, PAT margin 22.7%, EPS Rs. 23.90"
+    when: 2026-02-01
+    source: Feb 2026 earnings release / investor presentation
+    status: kept
+    note: Delivered precisely — Revenue Rs. 1,107 Cr, EBITDA 27.0%, PAT margin 22.7%, EPS Rs. 21.33 (PPT reports 23.90).
+  - said: "40-45% revenue growth for FY26"
+    when: 2025-07-01
+    source: Q1-Q2 FY26 investor presentations
+    status: missed
+    note: Actual FY26 growth was 19.9% (Rs. 1,107 Cr vs guided ~Rs. 1,300 Cr) — a significant shortfall.
+  - said: "5-year execution: Revenue Rs. 142 Cr (FY21) → Rs. 1,107 Cr (FY26)"
+    when: 2026-06-01
+    source: Investor presentations
+    status: kept
+    note: 51% revenue CAGR and 102% PAT CAGR (Rs. 8 Cr → Rs. 259 Cr) delivered organically.
+  - said: "Rs. 700+ Cr capex over FY24-FY26; Hattargi facility operational, 25T hammer under commissioning"
+    when: 2026-05-01
+    source: Investor presentation
+    status: kept
+    note: Hattargi greenfield (46 acres) operational; equipment sourced from Mercedes-Benz Truck, Thyssenkrupp, Ursus.
+  - said: "Shell line commercialisation — 360,000 shells/year capacity, 30,000-unit order, 5-year NATO MoU"
+    when: 2025-08-01
+    source: Investor presentations Aug 2025 – May 2026
+    status: pending
+    note: Repeatedly described as "under commercialisation" from Aug 2025 through May 2026; near-zero revenue contribution as of FY26.
+  - said: "OCF of Rs. 31.7 Cr framed as FY26 achievement"
+    when: 2026-05-01
+    source: FY26 investor presentation
+    status: dropped
+    note: An 80% drop from FY25's Rs. 148 Cr should not be framed as a target met; framing is misleading.
+  - said: "Working capital deterioration is a temporary issue from geopolitical disruption"
+    when: 2026-05-01
+    source: Investor presentation
+    status: pending
+    note: WC has worsened progressively — 104 → 109 → 140 days through FY26; needs to reverse in Q1-Q2FY27 to validate.
+  - said: "Machining capacity 80,000 MTPA (FY27 target met early); forging 100,000 → 150,000 MTPA"
+    when: 2026-05-01
+    source: Investor presentation
+    status: kept
+    note: FY27 machining target met early; forging expansion in progress.
+  - said: "Gross block Rs. 750-800 Cr FY27 target"
+    when: 2026-05-01
+    source: Investor presentation
+    status: kept
+    note: Gross block + CWIP at Rs. 824 Cr / gross block Rs. 765 Cr at FY26-end — essentially at target.
+  - said: "CRISIL rating concerns to be addressed"
+    when: 2025-11-27
+    source: CRISIL rationale
+    status: dropped
+    note: Company withdrew CRISIL ratings (with banker NOC) on Feb 27, 2026 rather than resolving the Negative outlook.
+
+governance_flags:
+  - Withdrew CRISIL ratings (BBB+/Negative) at company request rather than addressing the working-capital concerns — optically poor.
+  - Promoter dilution — 57.5% (Sep 2023) → 53.5% (Mar 2026); Rs. 500+ Cr equity raised in FY26 (other equity up Rs. 531 Cr).
+  - FII exodus — holding halved from 10.4% (Sep 2024) to 5.0% (Mar 2026).
+  - Shareholder count exploded 13,798 (Sep 2023) → 83,997 (Mar 2026) — retail surge, contrarian indicator.
+  - IT department search in Jan 2026 (no incriminating findings per management; CRISIL monitoring).
+  - PAT margin partly inflated by other income jump (Rs. 17 Cr → Rs. 33 Cr); Q4FY26 other income Rs. 23.5 Cr vs Rs. 4.5 Cr average.
+  - Misleading framing of OCF drop (Rs. 148 Cr → Rs. 32 Cr) as an "achievement" in FY26 PPT.
+
+latest_review:
+  date: 2026-07-19
+  new_since_last: >
+    First full analysis. Captured FY26 results, CRISIL downgrade→withdrawal trajectory,
+    ICRA A-/Stable rating (Feb 2026), Q4FY26 margin collapse to 22.7% on Middle East
+    disruption, 5-year financial history, defence order book vs revenue gap, and peer
+    comparison.
+  changed_my_view: >
+    The headline growth story (51% revenue CAGR, 102% PAT CAGR) is overshadowed by a
+    cash-furnace working-capital cycle (OCF 10.6% of EBITDA, CCC 182 days) and a
+    credit-rating trajectory of Stable→Negative→Withdrawn. PAT is being flattered by
+    elevated other income. Risk-reward is caution-tilted until Q1FY27 (Aug 2026) shows
+    debtor-day normalisation.
+  next_check: Q1FY27 results in August 2026 — working-capital days, OCF recovery, EBITDA margin trend, and defence revenue share.
+  open_questions:
+    - Is the 140-day debtor position truly geopolitical/temporary, or reflective of weaker customer mix or extended OEM payment terms?
+    - Why withdraw CRISIL ratings instead of addressing the underlying working-capital concerns within a reasonable timeframe?
+    - Will the 30,000-shell order translate into a repeatable pipeline or remain a one-off?
+
+history:
+  - date: 2026-07-19
+    note: Initial verdict — impressive growth + defence pivot, but working-capital cash furnace and CRISIL withdrawal tilt risk-reward to caution pending Q1FY27.

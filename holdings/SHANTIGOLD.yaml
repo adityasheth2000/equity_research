@@ -1,0 +1,165 @@
+ticker: SHANTIGOLD
+company: Shanti Gold International Ltd
+list: holdings
+sector: "Gems & Jewellery (B2B gold jewellery manufacturing)"
+first_analysed: 2026-07-01
+last_analysed: 2026-07-01
+last_doc_seen: 2026-05-01
+
+thesis:
+  summary: >-
+    B2B 22KT CZ studded cast gold jewellery maker supplying organized retailers
+    (Kalyan, Joyalukkas, Lalithaa, Alukkas). FY26 revenue ₹2,019 Cr (+82.5%),
+    PAT ₹140 Cr (+159%), but ~₹40-50 Cr of PAT was inventory gains from IPO
+    proceeds deployed at low gold prices, so normalized core PAT margin is ~4%
+    (real TTM P/E ~16-18x, not the reported 11.4x). The bet is execution on a 3x
+    capacity ramp to 7,900 kg by FY29 across two new facilities (Marol 4,000 kg,
+    Jaipur 1,200 kg) while the mix shifts toward lower-margin plain gold.
+  bull:
+    - Marol (4,000 kg) operational from June 2026; Andheri (2,700 kg) already at 90% utilization proves the model.
+    - Monte Carlo base case FY29 PAT ₹454 Cr at 3.5x forward P/E; 92.6% probability FY29 P/E < 5x, 0% > 10x.
+    - Volume CAGR ~45% (1,748 kg to ~5,700 kg over 3 years) alone justifies a richer multiple if execution delivers.
+  bear:
+    - Margin compression as mix shifts from high-margin CZ bridal (~20% premium) to low-margin machine-made plain gold (~6% premium) — could break the cheapness argument even if volumes ramp.
+    - Execution risk on 3x ramp across 2 new facilities plus unproven new product lines (plain gold, Mangalsutra, Turkish).
+    - Gold price explains 71% of PAT variance; related-party overlap with Utsav Jewellery, no dividend, Screener-flagged interest capitalization.
+  pillars:
+    - claim: "Marol (4,000 kg flagship) reaches commercial production at ~100 kg/month (~80% utilization) by Q2 FY27."
+      falsifier: "Marol output below ~50 kg/month by end of FY27, or utilization materially below 80% — ramp has stalled."
+      status: intact
+    - claim: "Jaipur (1,200 kg) is commissioned and producing by Q3 FY27 (Dec 2026)."
+      falsifier: "Jaipur commissioning delayed beyond Dec 2026 with no production evidence — third facility not real."
+      status: intact
+    - claim: "Normalized core PAT margin holds at or above ~3.5% as volumes scale and mix shifts through FY27-FY28."
+      falsifier: "Reported PAT margin falls below ~3% on a normalized (inventory-gain-stripped) basis over two consecutive halves — cheapness thesis is gone."
+      status: intact
+
+monitorables:
+  - what: Marol monthly production volume (kg)
+    why: Pillar 1 falsifier — proves the 4,000 kg flagship is ramping as modelled.
+    threshold: 100
+  - what: Jaipur facility commissioning and first production
+    why: Pillar 2 falsifier — unlocks the FY29 capacity math.
+    threshold: null
+  - what: Normalized core PAT margin (inventory-gain-stripped, percent)
+    why: Pillar 3 falsifier — tests whether mix-shift margin compression breaks the cheapness argument.
+    threshold: 3.0
+  - what: Gold price (₹/10g)
+    why: Dominant swing factor (71% of PAT variance) contextualizing Pillar 3; not itself a pillar — bear case ₹1.2L still leaves ₹335 Cr PAT at 4.8x P/E.
+    threshold: 120000
+
+key_metrics:
+  - name: Revenue
+    unit: INR Cr
+    latest: {value: 2019, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 1107, period: FY25}
+  - name: PAT
+    unit: INR Cr
+    latest: {value: 140, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 54, period: FY25}
+  - name: PAT margin (reported)
+    unit: percent
+    latest: {value: 6.9, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 4.9, period: FY25}
+  - name: Core PAT margin (normalized)
+    unit: percent
+    latest: {value: 4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Inventory-gain PAT inflation
+    unit: INR Cr
+    latest: {value: 45, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Total capacity
+    unit: kg
+    latest: {value: 7900, period: FY29E, basis: standalone, source: ppt}
+    previous: {value: 2700, period: FY26, basis: standalone, source: ppt}
+  - name: FY29E median utilization
+    unit: kg
+    latest: {value: 5700, period: FY29E, basis: standalone, source: ppt}
+    previous: {value: 1748, period: FY26, basis: standalone, source: ppt}
+  - name: Debtor days
+    unit: days
+    latest: {value: 49, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 42, period: FY25}
+  - name: Current ratio
+    unit: ratio
+    latest: {value: 3.3, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: TTM P/E (reported)
+    unit: multiple
+    latest: {value: 11.4, period: TTM, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Real P/E (normalized)
+    unit: multiple
+    latest: {value: 17, period: TTM, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: FY29E PAT (base case)
+    unit: INR Cr
+    latest: {value: 454, period: FY29E, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY28E}
+  - name: FY29E forward P/E (base case)
+    unit: multiple
+    latest: {value: 3.5, period: FY29E, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY28E}
+  - name: Market cap
+    unit: INR Cr
+    latest: {value: 1605, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Export revenue share
+    unit: percent
+    latest: {value: 4, period: FY26, basis: consolidated, source: ppt}
+    previous: {value: null, period: FY25}
+
+management_promises:
+  - said: "Marol facility (4,000 kg) operational from June 2026."
+    when: 2026-05-01
+    source: concall
+    status: pending
+    note: "Scheduled June 2026 commissioning; ramp to ~80% utilization and 100 kg/month by Q2 FY27 is the checkpoint."
+  - said: "Jaipur facility (1,200 kg) operational by Sep-Oct 2026."
+    when: 2026-05-01
+    source: concall
+    status: pending
+    note: Third facility under commissioning; no production evidence yet.
+  - said: "Expand exports from 4% to 10-20% of revenue via Dubai subsidiary."
+    when: 2026-05-01
+    source: concall
+    status: pending
+    note: Dubai subsidiary route; current export share still ~4%.
+  - said: "Transition to GML hedging without earnings volatility."
+    when: 2026-05-01
+    source: concall
+    status: pending
+    note: Hedging framework not yet demonstrated; carries mark-to-market earnings risk.
+  - said: "Launch new product lines — plain gold, Mangalsutra, Turkish jewellery."
+    when: 2026-05-01
+    source: concall
+    status: pending
+    note: "New lines announced; none proven at scale yet and blended margins expected to decline."
+
+governance_flags:
+  - Promoters run Utsav Jewellery, a separate listed entity — related-party overlap.
+  - No dividend declared despite repeated profits.
+  - Screener flags potential interest capitalization.
+  - "FY26 PAT inflated by ~₹40-50 Cr of inventory gains from IPO proceeds deployed at low gold prices during a rally — non-recurring."
+
+latest_review:
+  date: 2026-07-01
+  new_since_last: >-
+    Monte Carlo simulation (N=10,000, GBM μ=7%, σ=16%) quantifying FY27-FY29
+    PAT distribution; identification of ~₹40-50 Cr inventory-gain PAT inflation
+    in FY26; capacity roadmap table (Andheri/Marol/Jaipur) with utilization
+    assumptions; sensitivity decomposition (gold β=+124.0, volume β=+47.3, R²=71%).
+  changed_my_view: >-
+    Reported FY26 PAT ₹140 Cr overstates sustainable earnings — normalized core
+    margin is ~4%, so real TTM P/E is ~16-18x rather than the reported 11.4x.
+    The thesis is execution on capacity and margin hold, not cheap valuation.
+  next_check: "Q2 FY27 — Marol producing ~100 kg/month and Jaipur operational; normalized margin still ≥3.5%."
+  open_questions:
+    - Will GML hedging actually reduce or amplify earnings volatility once adopted?
+    - Can new product-line customers be onboarded fast enough to absorb 5,200 kg of new capacity without crushing blended margin?
+    - Is the inventory-gain tailwind fully behind us, or does IPO-proceed gold exposure still distort reported PAT?
+
+history:
+  - date: 2026-07-01
+    note: First Monte Carlo verdict; thesis restructured to 3 falsifiable pillars (Marol ramp, Jaipur commissioning, core margin hold).

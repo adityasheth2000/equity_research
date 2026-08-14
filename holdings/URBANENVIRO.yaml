@@ -1,0 +1,171 @@
+ticker: URBANENVIRO
+company: Urban Enviro Waste Management Ltd
+list: holdings
+sector: Municipal Solid Waste Management
+first_analysed: 8-July-2026
+last_analysed: 8-July-2026
+last_doc_seen: 8-July-2026
+
+thesis:
+  summary: "MSW services microcap (NSE SME, listed 2023) serving municipalities across 5 states with 18 projects and a 529-vehicle fleet. Revenue has compounded 63% over 5 years and the stock is optically cheap at 7.3x P/E, but earnings quality is weak: negative FCF in 5 of 7 years, CFO/OP at 38%, and debtor days at 130. The discount is justified by cash-flow risk; ownership depends on collectibility and cash conversion turning, not on growth alone."
+  bull:
+    - "Revenue still compounding 29% in FY26 on a larger base; sticky multi-year municipal contracts underpin the run-rate."
+    - "Stock at 7.3x P/E / 4.3x EV/EBITDA vs peer median 25x / 13.9x leaves re-rating room if cash quality improves."
+    - "Promoters hold 51.19% with zero pledge and have delivered on every growth promise to date."
+  bear:
+    - "A 10-15% provision on the ₹65-70 Cr receivable book would wipe out FY26 PAT of ₹15 Cr entirely."
+    - "CFO/OP stuck at 38-53% for 4 years means growth must be debt/equity-funded, not self-financed."
+    - "Family-dominated board, 26% free float, no dividend, near-zero institutional ownership — exit and governance risk on any disappointment."
+  pillars:
+    - claim: "Receivables are real and collectible — PAT is not a fiction of aggressive recognition."
+      falsifier: "Any write-off/provision exceeding 10% of receivables, or a disputed-bill disclosure, or debtor days crossing 150 — observable in FY27 annual report / auditor notes within 12 months."
+      status: weakening
+    - claim: "Cash conversion (CFO/PAT) will rise above 60%, enabling self-funded growth and positive FCF."
+      falsifier: "FY27 CFO/PAT remains below 60% while debtor days fail to fall below 100 — observable in FY27 cash flow statement within 12-15 months."
+      status: weakening
+    - claim: "Revenue growth stays at or above 20%, large enough to outrun the SME liquidity discount."
+      falsifier: "Two consecutive halves of revenue growth below 15%, or loss of the Chhattisgarh cluster contract — observable in H1/H2 FY27 results within 12 months."
+      status: intact
+
+monitorables:
+  - what: "Receivable write-offs / provisions as % of receivables"
+    why: "Pillar 1 (collectibility) — if the book is impaired, PAT is fictional."
+    threshold: 10
+  - what: "Debtor days"
+    why: "Pillar 1 and Pillar 2 — rising days signal both collectibility and cash-conversion failure."
+    threshold: 150
+  - what: "CFO/PAT ratio"
+    why: "Pillar 2 — must cross 60% for the re-rating thesis to hold."
+    threshold: 60
+  - what: "Half-yearly revenue growth (H1/H2 FY27)"
+    why: "Pillar 3 — two sub-15% halves break the growth pillar."
+    threshold: 15
+  - what: "Chhattisgarh cluster contract status"
+    why: "Pillar 3 — loss of the 42%-of-revenue cluster would break growth and concentration pillar."
+    threshold: 1
+
+key_metrics:
+  - name: Revenue
+    unit: "₹ Cr"
+    latest: {value: 182, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 141, period: FY25}
+  - name: Revenue CAGR 5Yr
+    unit: "%"
+    latest: {value: 63, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: PAT
+    unit: "₹ Cr"
+    latest: {value: 15, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 10, period: FY25}
+  - name: PAT Margin
+    unit: "%"
+    latest: {value: 8, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 7, period: FY25}
+  - name: OPM
+    unit: "%"
+    latest: {value: 17, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 18, period: FY25}
+  - name: Debtor Days
+    unit: days
+    latest: {value: 130, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 107, period: FY25}
+  - name: Working Capital Days
+    unit: days
+    latest: {value: 84, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 66, period: FY25}
+  - name: CFO/PAT
+    unit: "%"
+    latest: {value: 38, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 53, period: FY25}
+  - name: Free Cash Flow
+    unit: "₹ Cr"
+    latest: {value: -4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 0, period: FY25}
+  - name: Cumulative 7Yr FCF
+    unit: "₹ Cr"
+    latest: {value: -17, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: D/E
+    unit: x
+    latest: {value: 0.72, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 1.28, period: FY25}
+  - name: Borrowings
+    unit: "₹ Cr"
+    latest: {value: 34, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 41, period: FY25}
+  - name: Interest Coverage
+    unit: x
+    latest: {value: 5.56, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: ROE
+    unit: "%"
+    latest: {value: 32, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 31, period: FY25}
+  - name: ROCE
+    unit: "%"
+    latest: {value: 33, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 28, period: FY25}
+  - name: P/E
+    unit: x
+    latest: {value: 7.30, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: EV/EBITDA
+    unit: x
+    latest: {value: 4.29, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Peer Median P/E
+    unit: x
+    latest: {value: 25.14, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Free Float
+    unit: "%"
+    latest: {value: 26, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+  - name: Promoter Holding
+    unit: "%"
+    latest: {value: 51.19, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: FY25}
+
+management_promises:
+  - said: "Expand footprint in existing states (Maharashtra, Gujarat, MP, Rajasthan, J&K)"
+    when: Sep-2024
+    source: ppt
+    status: kept
+    note: "Revenue grew across states; Chhattisgarh emerged as #1 state (42% of FY24 revenue), geographic mix shifted."
+  - said: "Enter new Tier-2/3 cities"
+    when: Sep-2024
+    source: ppt
+    status: kept
+    note: "Project count grew to 18 ongoing projects across 5 states."
+  - said: "Invest in advanced vehicles, equipment, technology"
+    when: Sep-2024
+    source: ppt
+    status: kept
+    note: "Capex consistently ₹10-12 Cr/year into vehicle fleet; fleet at 529 vehicles; CWIP of ₹7 Cr in FY26."
+  - said: "Focus on recycling and waste-to-resource (move up the value chain)"
+    when: Sep-2024
+    source: ppt
+    status: pending
+    note: "No evidence yet of meaningful move into higher-margin processing/recycling; Door-to-Door Collection (57% of FY24 revenue) remains the most labor-intensive, lowest-margin segment."
+
+governance_flags:
+  - "Family-dominated board (Kamlesh Sharma CMD, Suresh Sharma WTD, Vikas Sharma ED, Sheela Sharma NED) with limited institutional oversight."
+  - "Near-zero FII/DII ownership and SME listing with only 26% free float."
+  - "No dividend despite repeated profits; no return of capital to minority shareholders."
+  - "Promoters hold 51.19% with zero pledge (positive skin in the game)."
+  - "IPO oversubscribed 255x indicating initial market confidence."
+
+latest_review:
+  date: 8-July-2026
+  new_since_last: "First analysis; established baseline financials, half-yearly seasonality pattern, and valuation framework across FY20-FY26."
+  changed_my_view: "H2 consistently underperforms H1 (PAT drops 33-62% H2 vs H1) — pronounced seasonality not well-explained, possibly tied to contract billing cycles or expense recognition. Cash conversion has worsened for 4 straight years, not stabilized."
+  next_check: "Q1 FY27 results — debtor days trajectory, CFO/PAT, and Chhattisgarh contract status."
+  open_questions:
+    - "Is the ₹65-70 Cr receivable book genuinely collectible, or do disputed bills / weak municipal counterparties lurk inside?"
+    - "Did one large Chhattisgarh contract drive 42% of FY24 revenue, leaving concentration risk intact?"
+    - "Why does H2 consistently underperform H1 — contract billing cycles or expense recognition timing?"
+    - "Will the company ever move up the value chain into higher-margin processing/recycling, or remain a low-margin D2D collector?"
+
+history:
+  - date: 8-July-2026
+    note: "Initial verdict — high-growth microcap, optically cheap at 7.3x P/E, but poor cash conversion and 130 debtor days justify the discount; fairly valued, monitor for improvement."

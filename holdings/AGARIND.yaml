@@ -1,0 +1,160 @@
+ticker: AGARIND
+company: Agarwal Industrial Corporation Limited
+list: holdings
+sector: Bitumen Manufacturing & Trading / Shipping / Wind Energy
+first_analysed: 2026-07-08
+last_analysed: 2026-07-08
+last_doc_seen: 2025-08-01
+
+thesis:
+  summary: >-
+    A commodity bitumen processor that rode the post-COVID infra cycle to 5x returns
+    and is now in mean reversion. Owns 11 vessels (1,25,000 MT) and 7 plants / 7
+    terminals, with deep PSU relationships (IOCL, BPCL, HPCL) — but revenue -31% YoY,
+    ROCE collapsed 22% to 8%, and management credibility destroyed after 5 quarters of
+    guidance misses. Held only while the structural cost advantage and book-value
+    floor remain intact.
+  bull:
+    - Own vessel fleet is a structural cost moat versus competitors using third-party shipping.
+    - Indian road / NHAI capex continues; bitumen demand grows 4-6% CAGR with rising import dependence favouring integrated players.
+    - Stock trades at 1.10x consolidated book (₹461) — downside cushion if ROE stabilises.
+  bear:
+    - Q1 FY26 volumes -27% while industry imports flat/slightly up — clear market share loss.
+    - ₹500 Cr+ vessel capex over FY22-FY25 has not lifted OPM above 8% — capex is a treadmill.
+    - 5 consecutive guidance misses with shifting external blame; no concall in 11 months.
+  pillars:
+    - claim: "Own vessel fleet delivers a structural cost advantage visible in shipping EBIT margins above 18%."
+      falsifier: "Shipping segment EBIT margin stays below 15% for 3 consecutive quarters (was 25-31%, now 11.3%) — moat gone, would sell."
+      status: weakening
+    - claim: "AICL retains market share in a growing bitumen market — volumes grow at or above industry import growth."
+      falsifier: "AICL bitumen volumes decline >10% YoY while industry imports are flat/up for 2 consecutive quarters — structural share loss, would sell."
+      status: broken
+    - claim: "Management guidance is achievable and trustworthy within 10% of target."
+      falsifier: "A 6th consecutive guidance miss by >10%, OR no concall held for 12+ months — credibility unrecoverable, would sell."
+      status: broken
+
+monitorables:
+  - what: Shipping segment EBIT margin
+    why: Pillar 1 — vessel cost moat must show up in shipping economics
+    threshold: 15
+  - what: AICL bitumen volume YoY vs industry import growth
+    why: Pillar 2 — market share retention vs structural loss
+    threshold: -10
+  - what: Next concall + achievement of next volume guidance
+    why: Pillar 3 — guidance credibility rebuild
+    threshold: 10
+  - what: Consolidated EBITDA margin
+    why: Pillar 1/2 — must recover above 8% to justify capex and book-value floor
+    threshold: 8
+  - what: FII holding trend
+    why: Continual FII selling signals low confidence; stabilisation needed
+    threshold: 4.69
+
+key_metrics:
+  - name: Revenue (Consolidated)
+    unit: INR Cr
+    latest: {value: 1652, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 2399, period: FY25}
+  - name: Net Profit (Consolidated)
+    unit: INR Cr
+    latest: {value: 44, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 116, period: FY25}
+  - name: Operating Profit Margin (Consolidated)
+    unit: percent
+    latest: {value: 7.1, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 8.4, period: FY25}
+  - name: ROCE
+    unit: percent
+    latest: {value: 8, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 17, period: FY25}
+  - name: ROE
+    unit: percent
+    latest: {value: 7, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 19, period: FY25}
+  - name: Net Debt / Equity
+    unit: ratio
+    latest: {value: 0.36, period: FY26, basis: consolidated, source: screener}
+    previous: {value: 0.54, period: FY25}
+  - name: Volume (Bitumen)
+    unit: lakh MT
+    latest: {value: 5.36, period: FY25, basis: standalone, source: concall}
+    previous: {value: 4.91, period: FY24}
+  - name: Shipping Segment EBIT Margin
+    unit: percent
+    latest: {value: 11.3, period: Q1 FY26, basis: consolidated, source: concall}
+    previous: {value: 25, period: FY24}
+  - name: Free Cash Flow (Consolidated)
+    unit: INR Cr
+    latest: {value: 164, period: FY26, basis: consolidated, source: screener}
+    previous: {value: -65, period: FY25}
+  - name: P/E (Consolidated, TTM)
+    unit: x
+    latest: {value: 17.4, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: P/B (Consolidated)
+    unit: x
+    latest: {value: 1.10, period: FY26, basis: consolidated, source: screener}
+    previous: {value: null, period: null}
+  - name: FII Holding
+    unit: percent
+    latest: {value: 4.69, period: Q1 FY26, basis: consolidated, source: screener}
+    previous: {value: 6.32, period: FY25}
+  - name: Vessel Fleet Capacity
+    unit: MT
+    latest: {value: 125000, period: FY26, basis: standalone, source: ppt}
+    previous: {value: null, period: null}
+
+management_promises:
+  - said: "FY25: 6 lakh MT (+20%) volume target"
+    when: 2024-06-01
+    source: FY24 concall (Jun 2024)
+    status: missed
+    note: "Actual 5.36 lakh MT — missed by 11%."
+  - said: "FY25 volume cut to 5.5-5.7 lakh MT"
+    when: 2025-02-01
+    source: Q3 FY25 concall (Feb 2025)
+    status: kept
+    note: "Barely met the lowered bar at 5.36 lakh MT."
+  - said: "FY26: 6.5-7.0 lakh MT (+20%) volume target"
+    when: 2025-05-01
+    source: Q4 FY25 concall (May 2025)
+    status: missed
+    note: "Q1 FY26 alone -27% YoY — immediately off-track."
+  - said: "FY26 volume cut to 6 lakh MT (+10%)"
+    when: 2025-08-01
+    source: Q1 FY26 concall (Aug 2025)
+    status: pending
+    note: "FY26 full-year volumes likely ~3.5-4 lakh MT — highly unlikely to meet."
+  - said: "3-year doubling narrative maintained for FY28"
+    when: 2025-08-01
+    source: Q1 FY26 concall (Aug 2025)
+    status: pending
+    note: "Management admitted max fleet capacity is only 5-6 lakh tons yet kept the doubling target."
+
+governance_flags:
+  - "5 consecutive quarters of overpromised volume guidance followed by misses"
+  - "Pattern of shifting blame to external factors (floods, elections, geopolitics, monsoon) while keeping 3-year narrative unchanged"
+  - "No concall in 11 months (last was Aug 2025) — unusual silence suggests nothing positive to share"
+  - "Geopolitical disclaimers added to forecasts in Aug 2025 call — preparing investors for further misses"
+  - "Earnings quality concern — other income (₹24 Cr standalone) is ~50% of PBT, masking weak core operations"
+
+latest_review:
+  date: 2026-07-08
+  new_since_last: >-
+    FY26 full-year results showing revenue -31% YoY, ROCE collapse to 8%, Q1 FY26
+    volume -27%, and shipping EBIT collapse to 11.3% along with management's own
+    admission that max fleet capacity is only 5-6 lakh tons against the FY28 doubling target.
+  changed_my_view: >-
+    The ₹500 Cr+ vessel capex has not expanded margins — it is a treadmill to stay
+    competitive — and management credibility is destroyed after 5 quarters of guidance
+    misses, making the bull case untenable. Two of three pillars already broken.
+  next_check: Q2 FY27 results and the next concall for any guidance reset
+  open_questions:
+    - Is the H2 FY26 volume recovery seasonal or genuinely structural?
+    - Will management finally reset guidance to realistic levels?
+    - Can shipping EBIT margins recover above 15% or is vessel overcapacity structural?
+    - Is AICL regaining or continuing to lose market share to bitumen imports?
+
+history:
+  - date: 2026-07-08
+    note: First analysis — Avoid / wait for evidence of turnaround; revenue and credibility collapsing.
