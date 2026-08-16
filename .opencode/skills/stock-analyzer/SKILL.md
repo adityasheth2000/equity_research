@@ -36,16 +36,17 @@ This does:
 
 ### Step 2: Analyze PPTs (parallel with Steps 3 & 4)
 
-Invoke the **ppt-analyzer** skill — run its script on each downloaded PPT to extract content via vision model. Idempotent — skips if `.md` already exists.
+Invoke the **ppt-analyzer** skill — run `pdf_vision_to_md.py` on each downloaded PPT to extract content via vision model. Requires `--start-page` and `--num-pages` (max 30 per run). Idempotent at page level — already-extracted pages are skipped.
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/ppt-analyzer/ppt_analyzer.py --pdf {TICKER}/presentation/PPT_May2026.pdf
+python .opencode/utils/pdf_vision_to_md.py \
+  --pdf {TICKER}/presentation/PPT_May2026.pdf --start-page 1 --num-pages 30
 ```
 
 ### Step 3: Extract Credit Ratings (parallel with Steps 2 & 4)
 
-Invoke the **credit-rating-analyzer** skill — find rating links in the `screener_analysis.md` (documents → credit ratings section) and extract each one. Most CRISIL reports are HTML pages; use `--html`. Older reports may be PDFs; use `--pdf`.
+Invoke the **credit-rating** skill — find rating links in the `screener_analysis.md` (documents → credit ratings section) and extract each one. Most CRISIL reports are HTML pages; use `html_text_to_md.py --preset credit-rating`. Older reports may be PDFs; use `pdf_vision_to_md.py --doc-type credit-rating`.
 
 ### Step 4: Web Research (parallel with Steps 2 & 3)
 
@@ -82,6 +83,11 @@ Synthesize ALL sources — `screener_analysis.md`, `tavily_company.md`, `tavily_
 - Financial analysis 
 - Quarterly progression and trends
 - Strategy, growth outlook, and management quality
+- **Thesis and anti-thesis** — a table with two columns: **Thesis (bull case)** and **Anti-thesis (bear case)**. These are the points to *track across the next 2–4 quarters* to judge whether the investment case is playing out. Rules:
+  - Each thesis/anti-thesis point must be **falsifiable and specific** (e.g., "new plant ramps to 70% utilization by Q3FY27" — not "company will grow").
+  - For **every** point, explicitly state **why it matters and its direct impact on the financials** — tie it to a concrete line item and direction (revenue growth, gross/EBITDA margin, ROE/ROCE, working capital, debt/equity, cash flow, EPS). Example: "Delay in capex → higher depreciation before revenue arrives → EBITDA margin dilution of ~X bps."
+  - Structure each row as: the claim + the metric it moves + the direction and rough magnitude of the impact.
+  - End with a **"What would change my mind"** line for each side — the single data point (quarterly result, KPI, macro indicator) that would invalidate that case.
 - Risks including credit rating trajectory (from `credit_ratings/*.md`)
 - Valuation context and peer comparison
 - Key monitorables

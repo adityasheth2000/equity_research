@@ -28,15 +28,28 @@ agent-browser wait --load networkidle
 
 # Login (click the "LOGIN" link in top nav)
 agent-browser snapshot -i
-agent-browser click @eX                    # link "LOGIN"
+agent-browser click @eX                    # link "LOGIN" (top-right nav)
 agent-browser wait --load networkidle
 agent-browser snapshot -i
 agent-browser fill @eX "$SCREENER_EMAIL"   # textbox "Email"
 agent-browser fill @eY "$SCREENER_PASSWORD" # textbox "Password"
 agent-browser click @eZ                    # button "LOGIN"
-agent-browser wait --url "**/company/**"
+# NOTE: successful login redirects to https://www.screener.in/dash/ (NOT back to /company/).
+agent-browser wait --url "**/dash/**"
+agent-browser wait --load networkidle
+
+# Verify login worked — the top nav should show the account button (e.g. "NIVESTINDIA"),
+# and the "LOGIN" link is gone. Then re-open the company page:
+agent-browser open "https://www.screener.in/company/{TICKER}/consolidated/"
 agent-browser wait --load networkidle
 ```
+
+**Login details:**
+- The login page shows `heading "Welcome back!"`, `textbox "Email"`, `textbox "Password"`, `button "LOGIN"`.
+- After a successful login screener.in redirects to the **dashboard** (`https://www.screener.in/dash/`), not back to the company page. Wait for `**/dash/**`, then re-open the company URL.
+- Verify by checking the top nav now shows the account name (e.g. `button "NIVESTINDIA"`) instead of `link "LOGIN"`.
+- To confirm programmatically, grep the snapshot: `agent-browser snapshot -i | grep -iE "LOGIN|dash"`.
+- Login is required to see: the **"Important"** tab under Announcements, the full **Insights** section, and watchlist features.
 
 ### Step 2: Full-Page Screenshot
 
@@ -78,7 +91,29 @@ python .opencode/skills/screener-navigator/download_docs.py \
 
 Downloads the 5 most recent investor presentations to `{TICKER}/presentation/` and concall transcripts to `{TICKER}/concall/`. Transcript PDFs are auto-converted to `.txt`. Idempotent — skips existing files.
 
-### Step 5: Close Browser
+### Step 5: Check Important Announcements (login required)
+
+The **"Important"** tab under Announcements is login-gated and flags material events (orders, acquisitions, divestments, management changes, financial results, dividends). Capture these while the browser is still logged in:
+
+```bash
+# Scroll to the bottom of the company page and wait for the Announcements section
+agent-browser scroll down 5000
+agent-browser wait --text "Announcements"
+
+# Find the "Important" tab button (next to "Recent" / "Search" / "All")
+agent-browser snapshot -i
+agent-browser click @eX                    # button "Important"
+agent-browser wait --load networkidle
+
+# List the important announcements
+agent-browser snapshot -i -u
+```
+
+The snapshot now shows a list of `link "Announcement under Regulation 30 (LODR)-<type> <date> - <summary>"` entries (or raw headings like `Reappointment Of Auditors`, `Award of Order`, `Financial Results ...`). The button's down-chevron is hidden once fully expanded — if a `button "show more"` with a visible down-chevron (`icon-down ink-600`) remains, click it to load older items and re-snapshot.
+
+Announcements worth noting for the verdict: award/receipt of orders, acquisitions & divestments (with stake % and value), restructuring, change in management/auditors, dividend declarations, and financial results.
+
+### Step 6: Close Browser
 
 ```bash
 agent-browser close
@@ -162,6 +197,8 @@ agent-browser screenshot --full output.png   # full-page visual capture
 **Insights (Login Required)** — Headcount, client metrics, revenue mix, order book, attrition, AI revenue, R&D spend.
 
 **Documents** — Announcements, Annual reports, Credit ratings, Concalls (PPT/REC/Transcript links).
+
+**Announcements (in Documents)** — has `Recent` / `Important` / `Search` tab buttons plus an `All` link that opens the BSE corp-announcements page (`https://www.bseindia.com/stock-share-price/{slug}/{TICKER}/{BSE_CODE}/corp-announcements/`). The **"Important"** tab is login-gated and shows material events (orders, M&A, restructuring, management changes, dividends, results).
 
 ## Important Notes
 

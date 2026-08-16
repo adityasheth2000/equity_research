@@ -1,0 +1,768 @@
+Page 1 of 18 
+ 
+ 
+ 
+ 
+“Caplin Point Laboratories Q4 FY26 Earnings Conference Call” 
+ 
+May 14, 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MANAGEMENT: MR. C.C. PAARTHIPAN – CHAIRMAN 
+MR. VIVEK PARTHEEBAN – VICE-CHAIRMAN 
+MR. ASHOK PARTHEEBAN – VICE-CHAIRMAN 
+DR. SRIDHAR GANESAN – MANAGING DIRECTOR 
+MR. D. MURALIDHARAN – CHIEF FINANCIAL OFFICER 
+MR. M. SATHYA NARAYANAN – DEPUTY CHIEF 
+FINANCIAL OFFICER 
+ 
+MODERATOR: 
+MS. JULIE MEHTA – 360 ONE CAPITAL MARKET PRIVATE 
+LIMITED  
+ 
+ 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 2 of 18 
+ 
+Moderator: 
+Ladies and gentlemen, good day and welcome to Caplin Point Laboratories Q4 FY26 Earnings 
+Conference Call hosted by 360 ONE Capital Market Private Limited. 
+As a reminder, all participant lines will be in listen-only mode. There will be an opportunity for you 
+to ask questions after the presentation concludes. Should you need any assistance during this 
+conference, please signal for an operator by pressing star and then zero on your touchtone telephone. 
+Please note that this conference call is being recorded. 
+I now hand the conference over to Ms. Julie Mehta from 360 ONE Capital Market Private Limited. 
+Thank you and over to you ma'am. 
+Julie Mehta: 
+Thank you Farah, and good afternoon, everyone. On behalf of 360 ONE Capital, we would like to 
+welcome you all to the Q4 FY26 Conference Call of Caplin Point Laboratories Limited. 
+Today, we have with us Senior Management of the company represented by Mr. C.C. Paarthipan – 
+Chairman; Mr. Vivek Partheeban –Vice-Chairman; Mr. Ashok Partheeban – Vice-Chairman; Dr. 
+Sridhar Ganesan – Managing Director, Mr. D. Muralidharan – CFO and Mr. M Sathya Narayanan – 
+Deputy Chief Financial Officer. 
+I would now like to hand the conference over to Caplin Point Management for the Opening Remarks. 
+Over to you, sir. 
+Vivek Partheeban: 
+Thank you, Julie. Thank you, everyone, for joining and welcome to our Q4 & FY26 Results & 
+Earnings Call. 
+Please note that a copy of all our disclosures are available on the investor section of our website as 
+well as on the stock exchanges, and also do note that anything said on this call which reflects our 
+outlook for the future or which could be construed as a forward-looking statement must be reviewed 
+in conjunction with the risks that the company faces. 
+The conference call is being recorded and the transcript along with the audio will be made available 
+on the company's website as well as the exchanges. 
+Please do note that audio conference call is copyright material of Caplin Point and cannot be copied, 
+rebroadcasted or attributed in press or media without specific written consent of the company. 
+I would like to now hand over the floor to Chairman for his Opening Remarks. 
+C.C. Paarthipan: 
+Thank you. Good evening and Welcome to our Investors Call. 
+Let me first list out the differentiation that we have created in the last five years: 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 3 of 18 
+ 
+Revenue doubles from INR 1,085 crores to INR 2,300 crores in FY25-26. Liquid assets tripled from 
+INR 928 crores to INR 2,726 crores. Free cash reserves tripled from INR 470 crores to INR 1,471 
+crores. EBITDA, PBT and PAT increased by 2.5x. Investment in capex stands at INR 900 crores in 
+the last five years. The gross contribution improved due to operational efficiency. 
+Currently, we are building new factories for injectables. All the machines for the new factories are 
+imported mostly from Germany and Italy. In the next two-to-three years, we will have 17 injectable 
+lines for USA and other regulated markets of the world. 
+Our factories will be digitalized. Every machine that enters the factory, will have Video Master to 
+make the qualifications easier and also for operational efficiency. 
+Our Video SOP, for which we filed the patent has some unique features. It is visual before verbal. 
+We do not depend on one QA or one QC or one production or one engineer. The knowledge will be 
+stored in the video library. 
+Our Visual SOP ecosystem is both kinetic and non-kinetic. The kinetic side involves cameras, screen, 
+voiceover, online monitoring, and dashboard. 
+And on non-kinetic side, visual intelligence, behavioral discipline, institutional learning and memory, 
+compliance consciousness, operator confidence, and quality mindset. For example, China’s rise is a 
+kinetic and a non-kinetic story. 
+The present world affects the following APIs, solvents, freight, and lead time to destination, currency 
+swings, energy unpredictability. However, our model of keeping the goods next to the customer in 
+the last 20-years has produced these compounding effects. Hence, we always keep the goods in our 
+subsidiary warehouses for a minimum of six-months stock in the form of stock in the warehouse, 
+stock-in transit, and work-in progress. This anti-fragile model has really helped us for the best 
+fundamentals even in ROW markets of lead time in the last five years. 
+Now, that we have substantial ANDAs, in addition to that, we also buy for our business. In the next 
+three years, we will have maximum products registered in the highly regulated markets such as USA, 
+Mexico, South Africa, Brazil, Chile, and Colombia. 
+Further, we have increased the number of women employees in our shop floor, which ensured the 
+discipline. The discipline that resulted due to women empowerment also guaranteed the integrity and 
+quality, which are very, very essential for regulatory inspection. The financial freedom for the rural 
+women made them comfortable at their home and also in our shop floors. We always arranged to 
+pick them up from their houses for all the shifts, which ensures their safety too. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 4 of 18 
+ 
+During volatile periods, the cash becomes the strategic oxygen. Our cash flow helps us to build new 
+factories, and we are also buying, as I told you before, more and more ANDAs for the U.S. market, 
+and we have been trying to buy a distribution company either in Chile, Mexico, or Brazil, and we are 
+sure that we will be able to reach the maximum products in this region. That way, it will help our 
+distribution company in case if we buy, that will actually take us to the nook-and-corner of the private 
+markets of these countries. 
+This one is not the mainstay for big companies, hence the focus of our business will be more on 
+private markets in addition to the tender businesses. 
+We will also focus more on R&D for hormone injection and inhaler areas, which are unique in the 
+regulated markets. 
+Further, we are also on the lookout for a meaningful acquisition of a facility as we have enough cash 
+resource in our system. 
+Let me also convey that I read actually in (BS) Business Standard 1000 of March 2026. They 
+mentioned that we, Caplin, stand at 673 among the 1,000 listed companies of India, which comprises 
+of all segments in addition to pharmaceuticals. They also mentioned that we stand at 42nd position 
+among the pharmaceutical companies. When I looked into the details, I have found that 16 companies 
+above us had lower profits than us. The statistics is based on the top line, not on bottom line or cash 
+flow. 
+Finally, when our revenue doubled and the liquid cash and liquid assets tripled, we never had the 
+extraordinary fundamentals that we are creating now. We only have one USFDA factory with three-
+old lines and two-new lines. Now that we are going for a massive infrastructure expansion, as I told 
+you that we would have 17-lines of injectable in the next two-to-three years. 
+And we would also have automation, digitization, and visual SOPs. 
+More ANDAs and more registration in the regulated markets of LATAM, entering in countries like 
+Brazil and South Africa also, will increase the prospects of our business. 
+The variety of injectables in the form of liquid injections, ophthalmic, PFS, BAGS, BFS, Fill-Finish, 
+LYO, Onco injectable, hormone injectable, will be there in the next two to three years' time, and will 
+also take us to the next orbit, which is for sure. 
+Finally, as you all know well, business in the formative years is the puddle of unknown, unknowns. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 5 of 18 
+ 
+When you develop the credence for your business over a period of time and you establish the KPIs 
+through video SOPs, then it is simply going above and beyond. That is the deliberate growth. Thank 
+you very much. 
+Vivek Partheeban: 
+Thank you, Chairman. Now I request Ashok to give us a few comments. 
+Ashok Partheeban: 
+Thank you, all, and welcome to our Investor Call. 
+I will be talking about our Latin American facts and a few points about how we have been growing 
+in Latin America: 
+I would like to start with Chile, which is our newest market. We have 135-products to the tune of 
+$10 million for the next 18 months to be supplied. We have also received 135-registrations in Chile 
+so far. We have submitted around 40 more products. 
+Our private market is the most important in all the countries where we are. So, as Chairman 
+mentioned, we have two candidates that we are looking to offer to buy. There are two solid 
+distribution companies that reach nook and corners of the country in Chile. 
+We have these two candidates because they actually have their own sales team, they have their own 
+logistics team also. So, we are currently doing bio-studies for more than 40-different products that 
+are of very good margins and have a very few players in Chile. 
+I would like to move on to Central America where we have been present since 2002. So, a peculiar 
+thing about Central America and what happened during COVID was that a lot of independent 
+pharmacies started growing a lot. And during COVID, what they basically did was they just started 
+opening pharmacies wherever they could find a space because a lot of people were going out of jobs 
+and they put their savings into the businesses. So, we made sure that all these individual pharmacies 
+survived. And if we did a recent enquiry into it, we found out that the shelf space for Caplin products 
+are 41% in these individual pharmacies. 
+So, while we were talking about this with the board, we want to start a liquid manufacturing facility. 
+And the reason for this is once we register all these liquids, our shelf space in these independent 
+pharmacies will go from 41% to 57%. 
+We are also getting into Brand Marketing in Dominican Republic, Guatemala, and Nicaragua. We 
+chose the central nervous system line where we already have bio-equivalence for more than 12-
+products, and we will be starting with that in September of this year. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 6 of 18 
+ 
+Going forward to Mexico, our biggest market in Latin America so far, we have received 25-
+registrations so far. We participated in eight different products for a two-year tender, which we won 
+all of them. 
+We also participated in an Oncology tender with a partner of ours from China who gave us four 
+different products and we won those products too. We plan to do a sale of around $4 million in the 
+coming two quarters in Mexico. 
+As you all know, we already purchased the land in Mexico to build our first-factory in Mexico also, 
+because we get a 16% advantage over price when you participate in the tenders in Mexico. 
+We will be having liquid ovules, suppositories, and blister packing facility for tablets and capsules. 
+This is the update from my side, and I would like to pass it on to Vivek. Thank you. 
+Vivek Partheeban: 
+Thanks, Ashok. 
+I will just take a few minutes to very quickly brief everyone on our progress in the US, which is 
+continuing to be one of the most important pillars of our growth and long-term strategy. 
+As many of you would have seen from the results, FY26 has been a very strong and meaningful year 
+with progress on almost the all parameters. From a few years ago, we were a cash-burn EBITDA 
+negative company. Today, we completed around INR 470 crores with EBITDA that sort of mirrors 
+or comes very close to the parent company's numbers, which have been benchmarked amongst the 
+companies of our size. So, we're very happy and proud to report that. 
+On the product front, this has been a standout year for us. We have received approvals for 10-ANDAs 
+in the last four quarters, and we have also acquired another 15 ANDAs with five in Caplin one in 
+May, taking our total tally as on date to 60-ANDAs as of this morning. 
+Importantly, this expansion is not just in numbers, it is also in depth because we cover the entire 
+gamut of sterile products. We have products which is in vials, in pre-filled syringes, in IV bags, in 
+three-piece dropper bottles for ophthalmic, we are now getting into cartridges, we are also getting 
+into blow-filled seals. 
+Not only are we showing good progress with the products that we have been doing, we are getting 
+into uncharted territory for Caplin Point as we get into some of these complex technologies. 
+In addition to the US, we will start seeing some meaningful revenue out of non-US markets in the 
+coming few years as well because we have already filed 54-products globally in non-US markets 
+such as Canada, Europe, Australia, South Africa, etc., we will start to see some progress there. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 7 of 18 
+ 
+From a capacity standpoint, as the Chairman said, we are building Phase-III. It is at a very advanced 
+stage and we are also expanding capacities internally in Phase-I and II with the expansion of our IV 
+bag line to 3x the capacity. It is a very niche area where we have multiple products already approved. 
+As we get into the slightly more complex platforms, this opens up new opportunities for us when we 
+put up our retail arm of the company shortly. So, this, I think, would be a good time to touch upon 
+Caplin's own label in the US. 
+A lot of people are very skeptical about Caplin launching our own label because our B2B business 
+was doing so well, people were a little bit skeptical saying that this might distract our partners and 
+this might probably show some degrowth. But very happy to say that in our first full year of 
+operations, we have nearly touched INR 100 crores in revenue. We were about 11 million plus in 
+revenue with our own label, and we have done this with no degrowth whatsoever in the B2B business 
+as well. We had launched 30-products under our own label in the last year, and another 15 products 
+are going to be launched in the coming year. We have weekly ordering from the four largest 
+wholesalers in the US and pretty much most of the large IDMs that do business in injectables are our 
+customers right now as we move from strength to strength. 
+I would say that in summary, our US business is transitioning from a phase of foundation building to 
+one that is scaling and growing in depth. So, with a very strong pipeline, expansion of capacities, 
+entry into complex technologies, etc., we are very well positioned for sustained and profitable growth 
+in the years ahead. 
+I would like to request our CFO to throw some light on the numbers before we open up for the 
+questions. 
+D. Muralidharan: 
+Thank you, Mr. Vivek. Good afternoon to all who have taken time off to take part in these investors 
+call post FY26 Results. 
+The results have been highly gratifying, and we are pleased that we have done well in all these across 
+all parameters. Numbers are already there with you for a couple of hours now and we would be glad 
+to clarify your queries on the results. 
+Instead of going over the numbers again, I would like to present distinct financial points of 
+Considerations: 
+• 
+One, there is an exceptional balance sheet compounding effect has happened in this year. 
+Our net worth expanded by about INR 745 crores during the year to INR 3,331 crores from 
+INR 2,886 crores in the previous year. This is 26% in one year. That is a signal for intrinsic 
+value creation by the company. 
+• 
+Massive forex translation reserve uplift is a written value that has accrued to us in the form 
+of net worth also. So, forex asset is INR 177 crores against liability of INR 22.2 crores. So, 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 8 of 18 
+ 
+as you all know that we are 100% export-oriented company and assets outnumber the 
+liability. So, this has resulted in FCTR movement of about INR 141 crores which has gone 
+directly into the reserve of the company. 
+• 
+And then third point will be, as already Chairman put it, Cash-Rich and Zero Leverage. 
+We are continuing to strengthen our balance sheet with INR 1,471 crores in cash and INR 
+2,726 crores in liquid assets. This strength provides us significant strategic flexibility as 
+Chairman also put it that we are on the lookout for meaningful acquisition. 
+Earnings Quality and Cash Conversion: 
+CFO remained strong at INR 523 crores, representing 80% of the cash conversion of PAT. This 
+shows profits are real cash, not only in goods. Profit growth of 20% ahead of revenue growth of 13%. 
+Profitability grew materially ahead of revenue growth, reflecting operating leverage and improving 
+business mix. 
+Before capex, I would like to inform the investors that our capex R&D spend this year has been at 
+almost 5% of our turnover. And this is the first time we have crossed INR 100 crores in R&D spend. 
+And capex peak rate for the last year was INR 248 crores. 
+And just a summary of the ongoing project, out of the INR 1,000 crores what we have envisaged, we 
+have capitalized INR 154 crores. CWIP was INR 144 crores primarily representing what is our 
+oncology injection plant, which incidentally has been capitalized in the month of April post our MOH 
+approvals. 
+And advances what we have faced, we have talked about the enhancing of the line capacities. We 
+have already paid an advance of INR 109 crores for various imported equipment. And the balance 
+about INR 500 crores will be incurred in the next 18-to-24-months from out of our own cash 
+generation. 
+Then fixed assets turnover ratio, people were asking it last time. So, glad to inform this is about 
+3.91x. 
+And the inventory held in market and WIP, which has a potential of raising about INR 900 crores in 
+terms of sales. So, our strategy to keep the inventory closer to the customer and then is paying high 
+dividends. This is exclusive of course inventory in the US factory and the warehouse there. 
+In summary, FY26 was not only a growth year, but also a year of strong balance sheet compounding. 
+Net worth increased by INR 745 crores. Operating cash flow above INR 500 crores. Liquidity pool 
+strengthened to INR 2,726 crores by remaining virtually debt-free. 
+This is all from me for the first instance. We will be more than glad to take any questions. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 9 of 18 
+ 
+Moderator: 
+Ladies and gentlemen, we will now begin the question-and-answer session. The first question is from 
+the line of Aman Soni from Seven Alpha. Please go ahead. 
+Aman Soni: 
+Yes. Hi. Thanks for the opportunity and good evening and congrats for a good set of numbers. The 
+question is on the growing cash generation. How does management is going to prioritize between the 
+inorganic opportunities and the incremental capex and the higher shareholder payouts? 
+C.C. Paarthipan: 
+As I told you before, the inorganic opportunity, in fact, we are waiting in the wings. It can be in the 
+form of actually buying the ANDAs, which, of course, we have been doing actually. We are waiting 
+for more and more opportunity on that aspect. And as I told you, the distribution company will also 
+open up a bigger opportunity for us for the private market, especially in Latin America. And see, 
+going for the sake of acquisition, I would not advise us to go for actually acquisition without going 
+for a meaningful acquisition. That will be a vanity. I do not think it is advisable. And as I told you, 
+what is important today, especially in the OCA world, we are going for the completion of the 
+facilities. And we will be completing most of the facilities that are injectable, there are hardly three 
+or four companies who would have 16 or 17-lines of injectable actually in India. When we complete 
+all these injectables, we are aiming to go for US and the other major markets. That means that is a 
+great opportunity, which will open up in the form of not only for our own products to be sold in US, 
+but also in the form of CMO. Second one is we are concentrating more on R&D for complex products. 
+This is one of the things which is very important as you know well. And the third one, we are 
+increasing the registration in many of the larger geographies. These are a few things which are very 
+important.  
+Aman Soni: 
+Got it, sir. Secondly, on the receivables part, receivables have grown materially ahead of the revenue 
+or revenue growth. So, is this timing-related thing or any other reason for that, sir? 
+D. Muralidharan: 
+Yes, as we have mentioned in the press release also, while the assets results, which I talked about 
+improving my net worth, that also increased my receivables. So, out of 136-days, what we reported, 
+11-days is attributable to this FCTR, which is non-interest receivable, but it is not shown to me in the 
+P&L. So, but for this, my receivables would have been 125 days. We have been prompting on 120-
+days. As rightly said, timing also is one of the factors. Last quarter, we have won a big tender in 
+Salvador, and a lot of supplies have gone into that thing, which are in the process of being received 
+in the market, and the receivables will be collected by end of Q2. So, this is a big tender, and most 
+of the supplies have gone during February, March, and then we are in the process of receipt today. 
+So, this is one of the factors that also contributed to the increasing receivables. 
+C.C. Paarthipan: 
+I would like to add one more. The currency in El Salvador is US dollar. And when I was working in 
+this Latin American market, I used to see Colombians giving a lot of credit in Ecuador, where the 
+currency is dollar. The currency of Colombia used to get weakened, and actually deliberately, they 
+used to give credit more so that their earnings also more because of the depreciation of their own 
+currency. Here, of course, we do not want to do that way. Even if the delay that happens from El 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 10 of 18 
+ 
+Salvador is going to contribute to actually in the form of increased profit for our company, as you 
+know well, the dollar actually is getting strengthened and the rupee is getting weaker. In no way, this 
+is going to affect our bottom line also. 
+Aman Soni: 
+Understood. And just last question on the outlook for FY27, in terms of the top line and specifically 
+on the kind of margins, these are very exceptional margins we are doing. So, how much structural 
+are these margins are going at? 
+D. Muralidharan: 
+We will continue to do well. As I told you in the course of my speech, the best is yet to come, maybe 
+the best will come after two to three years. If you look at actually the past, in the last five years, I do 
+not want to repeat again actually what all tripled, what all doubled and all you have seen. So, the next 
+three to five years is going to be the best period for Caplin Point. And of course, we will do well 
+actually, but it is difficult to tell anything on a quarter-on-quarter basis or on a yearly basis. Whatever 
+we say, everything actually is happening in the form of building the factories or whatever it is, 
+because you do not see many companies of our size building so many factories without a debt. And 
+after having invested in the capex, still we have enough cash flow that will also help us to go for 
+inorganic growth, as you mentioned. But we are waiting for actually that kind of opportunity. It will 
+happen. When it happens, whatever you expect in the form of the growth can come even in actually 
+six months or one year also, if you go for an inorganic actually opportunity. But again, we do not 
+want to simply grab anything and everything, but rather we would prefer to wait and actually go for 
+something which is meaningful.  
+Aman Soni: 
+Yes, got my answer, sir. Thank you very much and all the very best. 
+Moderator: 
+The next question is from the line of Ahmed Madha from Unifi Capital. Please go ahead. 
+Ahmed Madha: 
+Thanks for the opportunity. I have a few questions. Firstly, the revenue growth in the LATAM Africa 
+business, I mean ex-US has been pretty strong, and in the last few quarters, we had it close to high-
+single-digit, mid-single-digit growth, and this quarter is relatively exceptional. So, can you give some 
+sense what has led to high growth in the specific geography? 
+C.C. Paarthipan: 
+See, sometimes markets fluctuate. And whether it is B2B or B2C, generic business is based on supply 
+and demand. We know we have an advantage of keeping the goods actually in the warehouse. If the 
+profitability is not there in our sales, we will not sell. Selling for the sake of selling does not make 
+any difference to the company. Sometimes you wait and actually do it. Sometimes, of course, we 
+bundle it and sell also. At that point of time, there is a possibility that profit may come in single-digit 
+also. But overall, if you look at it, as you rightly said, the overall profitability for the year 2025-26, I 
+think it is fairly good. Am I right? 
+Ahmed Madha: 
+My question was from the front of revenue growth. If I look at the revenue growth of non-US piece 
+of the company, that revenue growth percentage was in single-digits for the last few quarters, and we 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 11 of 18 
+ 
+have spoken on the call that it will take a couple of years for us to jump up, and you have been doing 
+a lot of initiatives on Chile, Mexico, and the other markets. So, the question was that this growth is 
+higher in this quarter. Is there any specific factor which explains it? 
+C.C. Paarthipan: 
+I can even highlight. See, today we do not have a dearth of order. The facilities we have is running 
+actually at the optimum capacity. If you look at actually our business, you will see at least 40% to 
+50% of it is in the form of actually outsourcing for the LATAM market. Especially when we go for 
+outsourcing, it is not easy to get a good facility where you can do the outsourcing very effectively. 
+That is also one of the reasons for us to actually limit the top line. But at the end of the day, what is 
+important, whether it is a Latin American growth or US growth, overall only you will have to look 
+at it. The Latin American growth will start flourishing actually after we complete the registrations, 
+mainly in the markets like Mexico. Now that, as Ashok told, the business of Chile will start from this 
+year, and it will start actually increasing manifolds over a period of time. 
+D. Muralidharan: 
+What you are referring to is the growth from INR 432 crores to INR 470 crores this quarter, 
+especially. Just as I was answering the previous question on the debtors. It has a bearing on this as 
+well. So, we did supply a lot of material close to about INR 50-55 crores in the quarter to the Salvador. 
+The tender was valued at about 16 million, and most of the parts have gone from India. That is the 
+reason this growth in Latin America is showing a better than normal growth, and the US has grown 
+about 20%. Mix is slightly distorted, but this is the reason.  
+C.C. Paarthipan: 
+Yes, tender business, of course, we had to rush and then export everything. Probably that is the reason 
+why you are telling. Okay. I did not get it properly. 
+Ahmed Madha: 
+Okay. Fair. And on the US side, this year, I mean, we have done exceptionally well in terms of 
+growing the business and having our own labels. From here on with whatever ANDAs we have 
+acquired and organic approvals, we have got about 10 of them, is it fair to assume the growth rate of 
+20%, 25% that sort of a run rate in the US shall continue till we reach a larger number? 
+Vivek Partheeban: 
+Yes, we are very confident that current numbers can be sustained. In fact, we are confident that it can 
+grow from here even further. Again, the most important thing, as what Chairman was saying, is we 
+are not seeing a dearth of orders. In fact, we have an order book that is full for another six months 
+almost. And to an extent where some of these lower margins, very high-volume products, we are not 
+even taking them onboard. So, I think we are certainly on track to see a very strong next year for 
+CSL, in fact, very strong next few years for CSL with all the capacity coming through. When it comes 
+to our own label, the target we have set for ourselves is to double what we did last year. And I am 
+fairly confident that we should be in a position to achieve that. 
+Ahmed Madha: 
+Would you like to sort of give a range of number, what sort of growth we can achieve, at least for 
+the next year? I know you do not give guidance. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 12 of 18 
+ 
+Vivek Partheeban: 
+So, when it comes to what current growth was, I think it was close to 30%. I think we can see another 
+25% to 30% next year on the overall Caplin Steriles business. When it comes to our own label, we 
+did close to INR 100 crores. So, the idea is to touch or go very close to INR 200 crores for the coming 
+year. 
+Ahmed Madha: 
+You have spoken about considering an acquisition even last quarter and similar this quarter, and you 
+spoke about obviously buying ANDAs and that sort of profile, but considering the amount of cash 
+balance we have, what profile of acquisition we will consider apart from buying ANDAs, which I 
+am assuming would not be a large ticket size, so if you can give some sense of the profile of a 
+company we are looking for? 
+Vivek Partheeban: 
+When it comes to acquisitions, there are many things. See, of course, being a listed company, all of 
+our reserves, surplus, everything is in public domain and for everyone to see. So, you would not be 
+surprised when I tell you that almost on a weekly basis, we receive a few opportunities, right, there 
+are some opportunities that come in the US, there are some that come in Latin America, one or two, 
+in fact, come for the domestic market as well. So, the ones that we will be targeting is, similar to 
+what Chairman was saying, is good distribution entities, especially in the countries where we are 
+very early or we are very new, or in the countries like the US where it makes meaningful sense in 
+terms of the knowledge that we gather. And when it comes to ANDAs, I am looking at it personally, 
+we will be very opportunistic in terms of what we can acquire because we need to sort of strike the 
+right balance between making sure that we launch all our approvals on time, and at the same time not 
+run into any sort of dearth in the pipeline. Because typically for most companies, including ours, the 
+R&D outstrips the capacity, right? So, in injectable, an area of high criticality in terms of compliance 
+and manufacturing, scaling up is not as easy as it is in oral solids. So, taking that into account, we 
+will be very opportunistic in terms of acquiring some ANDAs in place of doing exhibit batches for 
+the new products and stuff like that. That is what we have done in the last year. We are actively 
+working on another one right now. Hopefully, that should get over the line in the coming weeks. 
+Ahmed Madha: 
+Sure. Thank you so much and all the best. 
+Moderator: 
+The next question is from the line of Chirag from MS Capital. Please go ahead. 
+Chirag: 
+Hi, good afternoon. Thank you for the opportunity and congratulations Chairman sir for a strong set 
+of numbers. I just wanted to first ask a question on the Central American, Latin American operations, 
+and we have a chance to hear from Ashok ji right now also. So, if you can just elaborate a little bit 
+on the operations in that region? A couple of annual reports ago, we heard that you have almost 
+14,000 daily touch points. How much has that grown to? We also believe that there is a split between 
+smaller wholesalers around 60%, direct pharmacy 20%. Could you just overall give us a view of the 
+operations in the Central American market, if that is possible? 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 13 of 18 
+ 
+Ashok Partheeban: 
+Every time we open a new country, obviously, the number of points that we touch actually increases. 
+So, we opened Chile this year in a very big way. And obviously, so there are four big chain 
+pharmacies in Chile. And on top of that, 30% of the pharmacies are also independent. So, we 
+obviously do not reach all the independent pharmacies right now through our own sales team, but we 
+reach them through distributors that we sell to. And I cannot give you an exact number on how many 
+points we have grown by, but what we are doing is, as I said, our shelf space in these individual 
+pharmacies that we sell to Latin America is about 41%. What we are trying to do is strengthen our 
+shelf space to get to 50%, 55% where we are completely indispensable to these pharmacies. Does 
+that answer your question? 
+Chirag: 
+Yes, that was helpful. And Ashok ji, if you can also give us a little bit of understanding on what 
+proportion of our customers would be still distributors or middlemen? What proportion would come 
+from pharmacies, institutions, or smaller wholesalers? 
+Ashok Partheeban: 
+Okay. So, in the whole of Central America, the business that we do, about 18% to 20% is institutional, 
+which is government, the rest is completely private market. So, what we do have to do in Central 
+America, in these countries, is you have to have two co-distributors at least so that they reach to those 
+pharmacies that cannot fill in the everyday ticket sale, which is, let us say, we only do around about 
+300-products, a pharmacy that does, let us say, a sale of $150 per day cannot buy all the 300-products, 
+though they have to buy through our co-distributors. So, in each of these countries, we have two or 
+three strong co-distributors, they sell around about 10% to 12% of our sales, and the rest of it all is 
+us going directly to the pharmacies. 
+Chirag: 
+Understood. Just to clarify, you said 10% to 12% through those distributors? 
+Ashok Partheeban: 
+Yes, 10% to 12% of our sales is through the co-distributors, 20% is through the government, and the 
+rest is all directly to the pharmacies. And when I say the rest, it all includes the chain pharmacies 
+also. 
+Chirag: 
+Understood. Very helpful. Thank you. The second question is just doubling down on a previous 
+participant's question on the receivable days. I understand, Chairman sir mentioned that a part of that 
+is just FX change between the time the sale was booked and, I guess, the closing of the books. And 
+that still brings us down to 125-days, which is at least 25 days higher than what we have seen in the 
+past. Is this how we think the new normal would be? And is this a strategic call, or how do we 
+understand that? 
+Vivek Partheeban: 
+Yes. So, Chirag, in the past as well, we have been giving the messaging out that we are comfortable 
+with somewhere around the 100 to 120-days range. Now, we are still within that range pretty much, 
+but as CFO and Chairman were saying before, we have entered into a tender in one of our Central 
+American markets, a very highly profitable tender by the way, where we needed to make sure that 
+the supplies were done within 60-days. And it was a fairly large tender as well. So, those numbers 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 14 of 18 
+ 
+sort of moved it up by five, six days. But typically, I think we are happy to be anywhere between the 
+100, 110, 120-days, and that is a sweet spot for us. But the larger picture that I want everybody to 
+really see is we have been consistently able to invest hundreds of crores into our own capex, our own 
+distributions. And despite all of that, we are still increasing our reserves and surplus by a considerable 
+number every year. So, you can imagine that even if we do see another five days or 10-days increase 
+in the future, we are going to be okay with it, because when that money comes in, more often than 
+not, it comes in at a higher exchange rate compared to what it was previously, right? So, the cash 
+flow, I would say that we are benchmarked amongst peers. We are probably among the most other 
+companies in the same segment. So, we are not worried about that. Anywhere between, like I said, 
+100 to 130-days even is probably still okay for us going forward. 
+C.C. Paarthipan: 
+Just to add to what Mr. Vivek said, our history of writing-off debts have been virtually negligible and 
+close to zero. We have not had any bad debts in the past which we did not recover. There was only a 
+delay, but not writing off. And most of these receivables now attributing to a higher number is from 
+government. So, for sure, we will receive, give or take a few weeks here and there. 
+Chirag: 
+Chairman, thank you. 
+Moderator: 
+The next question is from the line of Richa from Equity Masters. Please go ahead. 
+Richa: 
+Thank you for the opportunity. Sir, my question was on what is happening around the world, the 
+Middle East tension? I know that is not your core market, and being closer to the customer helps to 
+overcome the short-term disruption. But how do you think, if at all, this could impact the business or 
+margin or prices, or maybe because of economic slowdown in the end geography, if it could have 
+any impact on your business and any vulnerabilities that you may want to highlight? 
+C.C. Paarthipan: 
+Yes. I would like to actually give you an answer on this. In fact, if you look at our past business, in 
+fact, we increased the business, our profitability and everything actually went up only after COVID 
+and during COVID. So, what is happening today, as our Prime Minister said, is something closer to 
+COVID. So, we all have to actually follow the frugal ways and he started advising, he is very, very 
+correct. But, as a businessman, we should not allow the crisis to go waste. And how we are managing 
+it, as I told you before, for the next six months, we do not have to produce any products that we have 
+to sell in the market in Latin America. And the same way, even in our U.S. market, the goods are 
+already available there in the U.S. warehouse. In addition to these six months, we have also bought 
+raw materials. Yes, there is some increase in the prices, but it is not going to impact us. The reason 
+being, when the prices go up, if you have already agreed actually to a price to a customer in the form 
+of a B2B business or an LC, then of course, what happens is, you will have to honor the commitment, 
+and then that is how you lose money. In our case, we are selling actually through our own 
+subsidiaries, through our own warehouses. So, that is not going to create any major impact to our 
+business. On the contrary, this will open up the opportunity. The reason being, a), these smaller 
+geographies where we are today in Latin America, the big players are only into brand marketing. I 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 15 of 18 
+ 
+am talking of multinationals. Second, small companies, they do not have anything in the form of 
+actually stock-and-sale. They all actually sell it to some importer. So, they will be very worried if 
+they supply to the importer, they may or may not pay. The reason being, most of the transactions 
+today happens on credit. Nobody actually pays cash for a generic. But if you have your own 
+warehouse, if you have people like, we have more than 700 people working in the whole of actually 
+Latin America. So, it helps us to collect the money. We are there for the last 20, 22-years. And coming 
+to currency crisis also, Guatemala is very stable. There is nothing in the form of no fluctuation in the 
+currency. And coming to Nicaragua and Honduras, maybe slight fluctuation in the form of 3% to 4%. 
+The rest of the markets are like El Salvador and then Panama, Ecuador, the currency is dollar. So, it 
+is not going to create any issue. Costa Rican currency also stable. Chile also for the last four, five 
+years, the currency is stable.  
+Richa: 
+Yes, thank you so much and all the best. 
+Moderator: 
+The next question is from the line of Prince from Family Office. Please go ahead. 
+Prince: 
+Thank you for taking my question. So, going forward, can the company maintain around double-digit 
+revenue growth rate in pharma and the PAT margin between 25% to 29% during the year FY27, 
+FY28 and FY29? 
+Vivek Partheeban: 
+So, as I have explained previously, we remain very confident that the business will continue to do 
+well. We need to be patient for the next 12-to-18 months, actually, because there is a period of 
+stabilization in pharmaceuticals. So, with all the things, when it comes to pharmaceuticals, especially 
+in the regulated market, things take a lot more time because your product development to approval 
+itself takes around two years-plus. So, as we enter into the larger markets of Latin America and the 
+US, things are going to take a little bit longer. But once it starts fructifying, I think it will be a very 
+sticky business. 18 months and beyond, we feel that these numbers are going to get back to what they 
+were before. I am talking about Latin America. So, what we are seeing today in terms of the bottom 
+line is, please take into account that we have certain segments of our facilities that are not breaking 
+even yet. If you are talking about our API unit, and if you are talking about Amaris Clinical, which 
+is basically completely backward integration. So, despite all these drags on our bottom line, we are 
+still looking at 27%, 28% PAT and 38%, 39% EBITDA, which in my opinion, at least from whatever 
+I have seen in our size segment, nobody else has these numbers. So, with all these drag, if we can 
+continue to maintain these numbers, you can imagine that 18, 24-months beyond, these are going to 
+be definitely maintained at the same level or potentially even inch up a little bit. So, I hope we have 
+answered that. 
+Prince: 
+Thank you very much. All the best. 
+Moderator: 
+The next question is from the line of Ahmed Madha from Unifi Capital. Please go ahead. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 16 of 18 
+ 
+Ahmed Madha: 
+Yes, thanks for the opportunity again. Just one question on forex gains. Can you quantify what was 
+the gain on foreign exchange booked in Q4 as well as for financial year, if CFO sir can help? 
+D. Muralidharan: 
+We have had about INR 20 - 21 crores of realized gain over the year. The remaining about INR 40- 
+50 crores will be unrealized gain, which is reflecting in the receivables. 
+Ahmed Madha: 
+Out of INR 116 crores other income, what number will be roughly forex gains for the full year, if 
+you can give just one number? 
+Vivek Partheeban: 
+We can even write that to you, Ahmed, so that we do not take everybody's time. 
+Ahmed Madha: 
+Yes, no problem. Just another question, considering your answer on the volatility part, but 
+considering the volatility and RM costs in general, obviously a lot of forex volatility. And assuming 
+we are net beneficiary of the INR depreciation, but overall, considering everything, are we able to 
+manage the current supply chain, raw material volatility, or has there been any issues considering we 
+have a fair amount of dependency on China, how would you judge the current situation, if you can 
+give some remarks on that? 
+C.C. Paarthipan: 
+Our business in the form of outsourcing is much lesser compared to actually what we used to do in 
+China and all. There was a time it was more of a natural hedging. Now that, of course, I think it is in 
+the region of 20%-30%. And coming to the volatility, see, the global economy is drowning in debt 
+rather than water. That will happen. But coming to us, what is happening to the big companies need 
+not happen actually the same way to a company where the fundamentals are unique or the business 
+model is unique. If you try and do something which is unique, then, of course, you will not allow this 
+crisis to go waste. That is what I told before also. Prices are going up. No doubt. Definitely it is going 
+to go up also. When it happens, it is the model that makes actually you to make money or lose money. 
+The moment we understand that the price of a material which we bought is higher, we also actually 
+design the price at which we have to sell the product in the market. That is why we do not face any 
+major issues, to be honest with you. 
+Vivek Partheeban: 
+And just to quantify, obviously, with regards to input materials like glass and plastics and all of those 
+things, we keep getting increases from the suppliers. Of course, we fight all of them back and then 
+try to rationalize it to the lowest amount possible. But just to give you an idea, the highest impact 
+product for us that we have been doing, especially for the US, is less than 1.5% to 2%. The COGS I 
+am talking about, that has gone up by. So, we have not yet seen any major negative impact in the 
+form of input materials going up significantly. 
+Ahmed Madha: 
+That is it. Thank you so much. 
+Moderator: 
+The next question is from the line of Pavan Kumar from RT Capital. Please go ahead. 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 17 of 18 
+ 
+Pavan Kumar: 
+Sir, can you comment on the capex that is expected in FY27 and FY28 and what would that we spent 
+on? 
+Vivek Partheeban: 
+When it comes to capex, the residual capex that we have is the phase-III of our injectable plant. We 
+call it internally as POL-2. And also, two other ones, which is we are constructing a much larger 
+capacity oral solids and derma facility in Pondicherry next to what we call our CP-1 plant, our 
+existing plant. And thirdly, we also will be completing our oncology API plant. In addition to this, 
+we are drawing up plans for our building in Mexico, it will start by Q3 or Q4. When it comes to exact 
+numbers, CFO, any numbers you can shed some light on? 
+D. Muralidharan: 
+Yes. As I mentioned during my opening remarks, also, although we would envisage the capex plan 
+of close to INR 1,000 crores, INR 510 crores remain to be spent, the rest have been spent, they are 
+raised in the form of CWIP, the capitalization is INR 150 crores and INR 143 crores is WIP, and we 
+paid advances to the extent of INR 109 crores for various lines that are being imported. This yields 
+about INR 510 crores. It can vary. This INR 510 crores will be spent over the next 18 to 24 months. 
+This is the plan as of now. And we expect this does not contemplate the inorganic growth, it does not 
+contemplate Mexico, it does not contemplate Chile, warehouses, and the quality control lab, which 
+we are planning right now. These are all not even a point for the drawing table right now. So, once 
+we get some clarity, probably we will update in the next quarter. So, INR 510 crores for sure will be 
+the amount that is already identified and will be spent in the next 18 to 24 months. 
+Pavan Kumar: 
+Okay, sir. Thanks.  
+Moderator: 
+The next question is from the line of Julie Mehta from 360 ONE Capital. Please go ahead, ma'am. 
+Julie Mehta: 
+Thank you for the opportunity. Firstly, congratulations on a great set of numbers to the entire team 
+at Caplin. So, my question basically caters to the US business. So, the US business has now picked 
+up decent scale and size. So, if we want to understand the growth breakup, how much of that would 
+be organic and how much do we still have to account for through the new launches, be it the ones 
+coming in or the pipeline or the ANDAs that we are yet to acquire? And if you could also share the 
+EBITDA margins for CSL for Q4 and FY26? 
+Vivek Partheeban: 
+So, on the breakup in revenue, I would say that more than 90% of the revenue has come from the 
+older products that were already in the market. So, the 10- ANDAs that were approved over the 
+period of the last 12-months, we have launched a couple of them, but the majority of it, especially 
+the larger ones, are in the process of getting launched in the next few weeks. In addition to that, I 
+would also suggest that the 15-ANDAs that we acquired from outside, we are in the process of 
+launching them, which will only happen this year. So, you can assume that, like I said, around 90% 
+of all the growth that you have seen is from the products that were already launched in the market. 
+This is actually a good statistic as well, because when most other companies, I think are somewhere 
+in the region of their average earnings per ANDA, I believe, if I am not wrong, is somewhere around 
+ 
+Caplin Point Laboratories Limited 
+May 14, 2026 
+ 
+Page 18 of 18 
+ 
+800, 1,000 to a million, whereas ours is more than 50% higher itself. And of all the products that we 
+have approvals for, we were just discussing about this yesterday, literally just one product is the one 
+that we have technically taken off the market, because there were no sales. Every other product 
+continues to show good sales, and we continue to receive repeat orders. And when it comes to the 
+EBITDA margin for CSL, I request CFO to answer this thing. 
+M. Sathya Narayanan: 
+Sure, thanks, Vivek. Thanks for your question. The EBITDA of CSL for the financial year 2025-26 
+is INR 142 crores, which is 30%, as compared to INR 102 crores last year, which is 27.9%. 
+Julie Mehta: 
+Okay. Sir, for the Q4, if we could get a specific number? 
+M. Sathya Narayanan: 
+Yes, it is 33%. 
+Julie Mehta: 
+Okay, that is helpful. Also, since you are almost on a last leg of capex now, so do we have any plans 
+for capex going forward in the next two to three years, or will that largely be maintenance and nothing 
+that major? 
+Vivek Partheeban: 
+As we just discussed, we have taken on close to INR 1,100 crores of capex, of which 50% is done, 
+and then the other 50% will be completed in the next 18-24-months. This does not take into account 
+the ones that we are going to be planning in Mexico, Chile, etc., So, yes, there is still certain amount 
+of residual capex that needs to be completed. In addition to that, I will just give you some statistics. 
+Last year, we were able to add close to INR 400 crores to our surplus, right? That is over and above 
+what was spent in terms of capex. So, if you were to do some numbers over the next 18-24-months, 
+you can assume that despite the capex that we will be putting up, the likelihood is that our reserves 
+and surplus will continue to rise even further. 
+Julie Mehta: 
+Okay, that is really helpful. Thank you. 
+Moderator: 
+Ladies and gentlemen, that was the last question. I now hand the floor over to the Management for 
+closing comments. 
+Vivek Partheeban: 
+Yes, thank you to 360 ONE Capital Market and Rohit and Julie for conducting and thanks to 
+everybody took time out to attend our call and we hope to stay in touch with in the future as well. 
+Thank you. 
+C.C. Paarthipan: 
+Thank you very much. 
+Moderator: 
+On behalf of 360 ONE Capital Market Private Limited, that concludes this conference call. Thank 
+you all for joining us and you may now disconnect your lines. 

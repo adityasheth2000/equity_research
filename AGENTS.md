@@ -22,13 +22,22 @@ equity_research/
 ├── .env                          # API keys (OPENROUTER_API_KEY, etc.)
 ├── .venv/                        # Python virtual environment
 ├── .opencode/
+│   ├── utils/                    # Reusable extraction CLI tools (shared by skills)
+│   │   ├── _common.py            # Shared OpenRouter API + image + concat helpers
+│   │   ├── pdf_vision_to_md.py   # PDF → page images → vision LLM → markdown
+│   │   ├── pdf_text_to_md.py     # PDF → PyMuPDF text → optional LLM → markdown
+│   │   ├── html_text_to_md.py    # HTML → BeautifulSoup → LLM → markdown
+│   │   └── requirements.txt
 │   └── skills/
-│       ├── ppt-analyzer/         # Vision-based PPT extraction
-│       │   ├── SKILL.md
-│       │   └── ppt_analyzer.py
-│       └── stock-analyzer/       # Document download & workflow
-│           ├── SKILL.md
-│           └── download_docs.py
+│       ├── ppt-analyzer/         # Vision-based PDF extraction (presentations, announcements)
+│       │   └── SKILL.md          # → pdf_vision_to_md.py
+│       ├── credit-rating/        # Credit rating reports (PDF + HTML)
+│       │   └── SKILL.md          # → pdf_vision_to_md.py + html_text_to_md.py
+│       ├── transcript/           # Concall transcript extraction
+│       │   └── SKILL.md          # → pdf_text_to_md.py
+│       ├── screener-navigator/   # Screener.in browser automation + downloads
+│       ├── stock-analyzer/       # End-to-end company analysis workflow
+│       └── tavily-research/      # Web research
 └── COMPANY/
     ├── presentation/             # PPTs and vision-extracted .md (shared across dates)
     │   ├── PPT_May2026.pdf
