@@ -87,6 +87,7 @@ def call_vision_model(image_path, prompt, model=MODEL, max_tokens=4096, timeout=
             }
         ],
         "max_tokens": max_tokens,
+        "reasoning": {"enabled": False},
     }
     return _post_chat(payload, timeout)
 
@@ -97,6 +98,7 @@ def call_text_model(prompt, model=MODEL, max_tokens=8192, timeout=180):
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": max_tokens,
+        "reasoning": {"enabled": False},
     }
     return _post_chat(payload, timeout)
 

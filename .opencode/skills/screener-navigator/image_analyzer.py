@@ -69,6 +69,7 @@ def call_vision_model(image_path, prompt, model):
             }
         ],
         "max_tokens": 8192,
+        "reasoning": {"enabled": False},
     }
 
     headers = {
