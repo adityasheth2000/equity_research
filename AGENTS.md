@@ -74,20 +74,15 @@ Refer to `.opencode/skills/screener-navigator/SKILL.md` for exact agent-browser 
 
 **2b. Read Transcripts** — launch task subagents per transcript in `TICKER/concall/`. Each reads the PDF and extracts management commentary, Q&A highlights, guidance, risk flags.
 
-**2c. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
+**2c. Read Annual Reports** — launch a task subagent for the latest annual report in `TICKER/annual_reports/`. Reads the PDF and extracts business overview, director's report, corporate governance, auditor notes, and risk factors.
 
-**2d. Read Screener Screenshot** — read `TICKER/tmp/screener_full.png` to extract financial data (P&L, balance sheet, cash flows, ratios, shareholding, peers).
+**2d. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
+
+**2e. Read Screener Screenshot** — read `TICKER/tmp/screener_full.png` to extract financial data (P&L, balance sheet, cash flows, ratios, shareholding, peers).
 
 ### Step 3: Synthesize Verdict
 
-Once all parallel steps complete, write `TICKER/<dated-folder>/verdict.md` covering:
-- What the company does (plain language business model)
-- Key metrics to track (5-8 KPIs, why each matters)
-- Management track record (guidance vs actuals)
-- Financial analysis and quarterly trends
-- Thesis / Anti-thesis table (falsifiable, tied to financial line items)
-- Risks including credit rating trajectory
-- Valuation context and peer comparison
+Once all parallel steps complete, write `TICKER/<dated-folder>/verdict.md`. Do not follow a rigid template — the model should decide what matters most for this specific company and present it clearly. Cover everything needed to understand the business, its financial position, strategic direction, and investment case in simple, accessible language. Assume the reader knows nothing about the industry. Use tables, comparisons, and data visualizations where helpful. Every claim must be traceable to a source document.
 
 Skills provide specialized instructions and workflows for specific tasks.
 Use the skill tool to load a skill when a task matches its description.
