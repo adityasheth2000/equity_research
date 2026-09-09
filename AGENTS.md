@@ -23,12 +23,15 @@ equity_research/
 ├── .venv/                        # Python virtual environment
 ├── .opencode/
 │   └── skills/
-│       └── screener-navigator/   # Screener.in browser automation + downloads
-│           ├── SKILL.md          # agent-browser navigation + download_docs.py usage
-│           └── download_docs.py  # Downloads PPTs + transcripts + annual reports
-│                                 #   → TICKER/presentation/
-│                                 #   → TICKER/concall/
-│                                 #   → TICKER/annual_reports/
+│       ├── screener-navigator/   # Screener.in browser automation + downloads
+│       │   ├── SKILL.md          # agent-browser navigation + download_docs.py usage
+│       │   └── download_docs.py  # Downloads PPTs + transcripts + annual reports
+│       │                         #   → TICKER/presentation/
+│       │                         #   → TICKER/concall/
+│       │                         #   → TICKER/annual_reports/
+│       └── multimodal-subagent/  # PDF → OpenRouter multimodal analysis
+│           ├── SKILL.md          # Usage instructions
+│           └── pdf_analyze.py    # Sends PDF(s) to Gemini via OpenRouter with custom prompt
 └── TICKER/
     ├── presentation/             # Investor PPTs (shared across dates)
     ├── concall/                  # Transcripts PDFs (shared across dates)
@@ -70,11 +73,32 @@ Refer to `.opencode/skills/screener-navigator/SKILL.md` for exact agent-browser 
 
 ### Step 2: Parallel Analysis (run all simultaneously after Step 1)
 
-**2a. Read Presentations** — launch task subagents per PPT file in `TICKER/presentation/`. Each reads the PDF and extracts financials, guidance, segment data, KPIs.
+**2a. Read Presentations** — launch task subagents per PPT file in `TICKER/presentation/`. Each subagent invokes the **multimodal-subagent** skill:
 
-**2b. Read Transcripts** — launch task subagents per transcript in `TICKER/concall/`. Each reads the PDF and extracts management commentary, Q&A highlights, guidance, risk flags.
+```bash
+source .venv/bin/activate
+python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/presentation/PPT_May2026.pdf \
+  -p "Extract all financial data, segment breakdowns, guidance, capex plans, KPIs, and strategic commentary. Be thorough." \
+  -o TICKER/tmp/analysis_PPT_May2026.md
+```
 
-**2c. Read Annual Reports** — launch a task subagent for the latest annual report in `TICKER/annual_reports/`. Reads the PDF and extracts business overview, director's report, corporate governance, auditor notes, and risk factors.
+**2b. Read Transcripts** — launch task subagents per transcript in `TICKER/concall/`. Each subagent invokes the **multimodal-subagent** skill:
+
+```bash
+source .venv/bin/activate
+python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/concall/Transcript_May2026.pdf \
+  -p "Extract management commentary on demand and margins, all Q&A highlights and analyst concerns, guidance, risk flags, and competitive positioning." \
+  -o TICKER/tmp/analysis_Transcript_May2026.md
+```
+
+**2c. Read Annual Reports** — launch a task subagent for the latest annual report in `TICKER/annual_reports/`. Invoke the **multimodal-subagent** skill:
+
+```bash
+source .venv/bin/activate
+python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/annual_reports/AnnualReport_2026.pdf \
+  -p "Extract business overview, segment details, director's report, MD&A, corporate governance, auditor qualifications, risk factors, and financial statement commentary." \
+  -o TICKER/tmp/analysis_AnnualReport_2026.md
+```
 
 **2d. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
 
