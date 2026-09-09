@@ -23,32 +23,71 @@ equity_research/
 ├── .venv/                        # Python virtual environment
 ├── .opencode/
 │   └── skills/
-│       └── screener-navigator/   # Screener.in document downloads
-│           ├── SKILL.md          # Skill documentation
-│           └── download_docs.py  # Downloads PPTs + transcripts → TICKER/presentation/, TICKER/concall/
+│       └── screener-navigator/   # Screener.in browser automation + downloads
+│           ├── SKILL.md          # agent-browser navigation + download_docs.py usage
+│           └── download_docs.py  # Downloads PPTs + transcripts + annual reports
+│                                 #   → TICKER/presentation/
+│                                 #   → TICKER/concall/
+│                                 #   → TICKER/annual_reports/
 └── TICKER/
-    ├── presentation/             # PPTs (shared across dates)
-    │   ├── PPT_May2026.pdf
-    │   └── ...
+    ├── presentation/             # Investor PPTs (shared across dates)
     ├── concall/                  # Transcripts PDFs + .txt (shared across dates)
-    │   ├── Transcript_May2026.pdf
-    │   ├── Transcript_May2026.txt
-    │   └── ...
+    ├── annual_reports/           # Annual report PDFs from BSE (shared across dates)
     ├── credit_ratings/           # Rating reports (shared across dates)
     ├── tmp/                      # Intermediate artifacts (gitignored)
-    └── dated-folder/             # e.g., 27-august-2026
-        ├── screener_full.png     # Screener.in snapshot
+    └── dated-folder/             # e.g., 9-september-2026
+        ├── screener_full.png     # Screener.in full-page screenshot
         └── verdict.md            # Final analysis summary
 ```
 
-## Workflow
+## Stock Analysis Workflow
 
-Since modern LLMs support direct PDF reading, the analysis pipeline is simplified:
+### Step 0: Setup
 
-1. **Download documents** using the `screener-navigator` skill — fetches PPTs and transcripts from Screener.in into `TICKER/presentation/` and `TICKER/concall/`
-2. **Read PDFs directly** — use the read tool on downloaded PDFs for direct model interpretation (no intermediate extraction scripts needed)
-3. **Capture screener data** — take a full-page screenshot of the Screener.in company page to `TICKER/tmp/screener_full.png` for financial data reference
-4. **Synthesize** findings into a verdict.md in a dated folder
+Extract the TICKER from the screener.in URL. The folder name must match the screener link symbol:
+
+```
+URL:  https://www.screener.in/company/GRAVITA/consolidated/
+TICKER: GRAVITA
+Folder: ./GRAVITA/
+```
+
+Create the folder structure and dated analysis folder:
+
+```bash
+mkdir -p GRAVITA/{presentation,concall,annual_reports,tmp}
+mkdir -p GRAVITA/$(date -u +%-d-%-B-%Y | tr '[:upper:]' '[:lower:]')
+```
+
+### Step 1: Navigate Screener.in & Download Documents
+
+This step must complete first. Use the **screener-navigator** skill to:
+- Open screener.in, log in, take full-page screenshot → `TICKER/tmp/screener_full.png`
+- Download PPTs, transcripts, and annual reports via `download_docs.py`
+- Close browser
+
+Refer to `.opencode/skills/screener-navigator/SKILL.md` for exact agent-browser and download commands.
+
+### Step 2: Parallel Analysis (run all simultaneously after Step 1)
+
+**2a. Read Presentations** — launch task subagents per PPT file in `TICKER/presentation/`. Each reads the PDF and extracts financials, guidance, segment data, KPIs.
+
+**2b. Read Transcripts** — launch task subagents per transcript in `TICKER/concall/`. Each reads the PDF and extracts management commentary, Q&A highlights, guidance, risk flags.
+
+**2c. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
+
+**2d. Read Screener Screenshot** — read `TICKER/tmp/screener_full.png` to extract financial data (P&L, balance sheet, cash flows, ratios, shareholding, peers).
+
+### Step 3: Synthesize Verdict
+
+Once all parallel steps complete, write `TICKER/<dated-folder>/verdict.md` covering:
+- What the company does (plain language business model)
+- Key metrics to track (5-8 KPIs, why each matters)
+- Management track record (guidance vs actuals)
+- Financial analysis and quarterly trends
+- Thesis / Anti-thesis table (falsifiable, tied to financial line items)
+- Risks including credit rating trajectory
+- Valuation context and peer comparison
 
 Skills provide specialized instructions and workflows for specific tasks.
 Use the skill tool to load a skill when a task matches its description.
