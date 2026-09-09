@@ -150,7 +150,6 @@ def extract_page(img_path, pages_dir, page_num, prompt):
         return (page_num, "ok", len(content))
     except Exception as e:
         print(f"  ERROR page {page_num}: {e}", flush=True)
-        md_path.write_text(f"## Page {page_num}\n\n*Extraction failed: {e}*\n", encoding="utf-8")
         return (page_num, "fail")
 
 
