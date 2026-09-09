@@ -92,20 +92,19 @@ python .opencode/skills/screener-navigator/download_docs.py \
   --max 5
 ```
 
-Downloads the 5 most recent investor presentations to `{TICKER}/presentation/`, concall transcripts to `{TICKER}/concall/`, and the 2 most recent annual reports to `{TICKER}/annual_reports/`. Transcript PDFs are auto-converted to `.txt` via PyMuPDF. Idempotent — skips existing files.
+Downloads the 5 most recent investor presentations to `{TICKER}/presentation/`, concall transcripts to `{TICKER}/concall/`, and the 2 most recent annual reports to `{TICKER}/annual_reports/`. Idempotent — skips existing files.
 
 Options:
 - `--max N` — max recent concall entries to download (default 5)
 - `--max-annual-reports N` — max annual reports to download (default 2)
 - `--skip-annual-reports` — skip annual report downloads
-- `--skip-transcript-text` — skip transcript → text conversion
 
 ### Output Structure
 
 ```
 TICKER/
 ├── presentation/                       # PPT PDFs
-├── concall/                            # Transcript PDFs + .txt
+├── concall/                            # Transcript PDFs
 ├── annual_reports/                     # Annual report PDFs from BSE
 └── tmp/                                # Intermediate (gitignored)
     └── screener_full.png

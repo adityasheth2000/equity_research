@@ -3,7 +3,6 @@
 
 Fetches the page HTML, parses the Concalls and Annual Reports sections, downloads PPTs to
 presentation/, transcripts to concall/, and annual reports to annual_reports/ with proper naming.
-Transcripts are auto-converted to plain text via PyMuPDF.
 """
 
 import os
@@ -13,7 +12,6 @@ import argparse
 from pathlib import Path
 
 import requests
-import fitz  # PyMuPDF
 from bs4 import BeautifulSoup
 
 
@@ -183,26 +181,6 @@ def download_annual_reports(entries, annual_dir):
     return downloaded
 
 
-def convert_transcripts_to_text(transcript_pdfs):
-    for pdf_path in transcript_pdfs:
-        txt_path = pdf_path.with_suffix(".txt")
-        if txt_path.exists():
-            print(f"  skip: {txt_path.name} already exists")
-            continue
-
-        print(f"  Converting: {pdf_path.name}...", end=" ", flush=True)
-        try:
-            doc = fitz.open(str(pdf_path))
-            text = ""
-            for page in doc:
-                text += page.get_text()
-            doc.close()
-            txt_path.write_text(text, encoding="utf-8")
-            print(f"-> {txt_path.name} ({len(text)} chars)")
-        except Exception as e:
-            print(f"FAILED: {e}")
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Download investor presentations, concall transcripts, and annual reports from screener.in"
@@ -212,7 +190,6 @@ def main():
     parser.add_argument("--max-annual-reports", type=int, default=2, help="Max annual reports to download (default: 2)")
     parser.add_argument("--skip-annual-reports", action="store_true", help="Skip annual report downloads")
     parser.add_argument("--skip-download", action="store_true", help="Skip downloading, only list entries")
-    parser.add_argument("--skip-transcript-text", action="store_true", help="Skip transcript -> text conversion")
     args = parser.parse_args()
 
     url = args.url.rstrip("/")
@@ -266,10 +243,6 @@ def main():
     if annual_entries and not args.skip_annual_reports:
         print("\n=== Downloading Annual Reports ===")
         download_annual_reports(annual_entries[: args.max_annual_reports], annual_dir)
-
-    if not args.skip_transcript_text and transcript_list:
-        print("\n=== Converting Transcripts to Text ===")
-        convert_transcripts_to_text(transcript_list)
 
     print("\nDone.")
 

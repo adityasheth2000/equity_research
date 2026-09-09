@@ -31,7 +31,7 @@ equity_research/
 │                                 #   → TICKER/annual_reports/
 └── TICKER/
     ├── presentation/             # Investor PPTs (shared across dates)
-    ├── concall/                  # Transcripts PDFs + .txt (shared across dates)
+    ├── concall/                  # Transcripts PDFs (shared across dates)
     ├── annual_reports/           # Annual report PDFs from BSE (shared across dates)
     ├── credit_ratings/           # Rating reports (shared across dates)
     ├── tmp/                      # Intermediate artifacts (gitignored)
