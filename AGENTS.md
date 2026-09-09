@@ -22,37 +22,33 @@ equity_research/
 ├── .env                          # API keys (OPENROUTER_API_KEY, etc.)
 ├── .venv/                        # Python virtual environment
 ├── .opencode/
-│   ├── utils/                    # Reusable extraction CLI tools (shared by skills)
-│   │   ├── _common.py            # Shared OpenRouter API + image + concat helpers
-│   │   ├── pdf_vision_to_md.py   # PDF → page images → vision LLM → markdown
-│   │   ├── pdf_text_to_md.py     # PDF → PyMuPDF text → optional LLM → markdown
-│   │   ├── html_text_to_md.py    # HTML → BeautifulSoup → LLM → markdown
-│   │   └── requirements.txt
 │   └── skills/
-│       ├── ppt-analyzer/         # Vision-based PDF extraction (presentations, announcements)
-│       │   └── SKILL.md          # → pdf_vision_to_md.py
-│       ├── credit-rating/        # Credit rating reports (PDF + HTML)
-│       │   └── SKILL.md          # → pdf_vision_to_md.py + html_text_to_md.py
-│       ├── transcript/           # Concall transcript extraction
-│       │   └── SKILL.md          # → pdf_text_to_md.py
-│       ├── screener-navigator/   # Screener.in browser automation + downloads
-│       ├── stock-analyzer/       # End-to-end company analysis workflow
-│       └── tavily-research/      # Web research
-└── COMPANY/
-    ├── presentation/             # PPTs and vision-extracted .md (shared across dates)
+│       └── screener-navigator/   # Screener.in document downloads
+│           ├── SKILL.md          # Skill documentation
+│           └── download_docs.py  # Downloads PPTs + transcripts → TICKER/presentation/, TICKER/concall/
+└── TICKER/
+    ├── presentation/             # PPTs (shared across dates)
     │   ├── PPT_May2026.pdf
-    │   ├── PPT_May2026.md
     │   └── ...
-    ├── concall/                  # Transcripts PDFs and .txt (shared across dates)
+    ├── concall/                  # Transcripts PDFs + .txt (shared across dates)
     │   ├── Transcript_May2026.pdf
     │   ├── Transcript_May2026.txt
     │   └── ...
+    ├── credit_ratings/           # Rating reports (shared across dates)
     ├── tmp/                      # Intermediate artifacts (gitignored)
-    └── dated-folder/             # e.g., 1-July-2026
-        ├── screener.html         # Screener.in snapshot
-        ├── screener_files/       # Screener.in assets
+    └── dated-folder/             # e.g., 27-august-2026
+        ├── screener_full.png     # Screener.in snapshot
         └── verdict.md            # Final analysis summary
 ```
+
+## Workflow
+
+Since modern LLMs support direct PDF reading, the analysis pipeline is simplified:
+
+1. **Download documents** using the `screener-navigator` skill — fetches PPTs and transcripts from Screener.in into `TICKER/presentation/` and `TICKER/concall/`
+2. **Read PDFs directly** — use the read tool on downloaded PDFs for direct model interpretation (no intermediate extraction scripts needed)
+3. **Capture screener data** — take a full-page screenshot of the Screener.in company page to `TICKER/tmp/screener_full.png` for financial data reference
+4. **Synthesize** findings into a verdict.md in a dated folder
 
 Skills provide specialized instructions and workflows for specific tasks.
 Use the skill tool to load a skill when a task matches its description.

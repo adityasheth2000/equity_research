@@ -1,210 +1,49 @@
 ---
 name: screener-navigator
-description: Use whenever the user wants to navigate screener.in to extract financial data, quarterly results, profit & loss, balance sheet, cash flows, ratios, shareholding patterns, peer comparisons, concall links, credit ratings, or annual reports for a company. Trigger on "fetch screener data for...", "get financials from screener", "extract quarterly results", "download screener data", "screener snapshot for X", "export screener data", or any task requiring screener.in interaction via agent-browser.
-allowed-tools: Bash(agent-browser:*), Bash(source .opencode/skills/screener-navigator/.env:*)
+description: Use whenever the user wants to download investor presentations and concall transcripts from screener.in. Trigger on "download docs from screener", "fetch screener documents for...", "get PPTs and transcripts", or any task requiring screener.in document downloads.
+allowed-tools: Bash(python .opencode/skills/screener-navigator/*)
 ---
 
-# screener-navigator
+# Screener Navigator
 
-Automates navigation and data extraction from screener.in using agent-browser. Handles login, full-page screenshots, vision-based financial data extraction, and document downloads (PPTs, transcripts, credit ratings).
+Downloads investor presentations (PPTs) and concall transcripts from a screener.in company page into the proper stock folder structure.
 
 ## Prerequisites
 
-- `agent-browser` CLI installed (`npm i -g agent-browser && agent-browser install`)
-- Repo-level `.venv` with dependencies installed (`requests`, `python-dotenv`, `beautifulsoup4`, `PyMuPDF`)
-- Credentials in `.opencode/skills/screener-navigator/.env`
-- `OPENROUTER_API_KEY` in repo `.env`
+- Repo-level `.venv` with `requests`, `beautifulsoup4`, and `PyMuPDF` installed
+- `OPENROUTER_API_KEY` in repo `.env` (not needed for downloads)
 
-## Primary Workflow: Full Company Analysis
-
-This is the end-to-end workflow for analyzing a company on screener.in. Steps 3 and 4 can run in parallel.
-
-### Step 1: Open Company Page & Login
-
-```bash
-source .opencode/skills/screener-navigator/.env
-agent-browser open "https://www.screener.in/company/{TICKER}/consolidated/"
-agent-browser wait --load networkidle
-
-# Login (click the "LOGIN" link in top nav)
-agent-browser snapshot -i
-agent-browser click @eX                    # link "LOGIN" (top-right nav)
-agent-browser wait --load networkidle
-agent-browser snapshot -i
-agent-browser fill @eX "$SCREENER_EMAIL"   # textbox "Email"
-agent-browser fill @eY "$SCREENER_PASSWORD" # textbox "Password"
-agent-browser click @eZ                    # button "LOGIN"
-# NOTE: successful login redirects to https://www.screener.in/dash/ (NOT back to /company/).
-agent-browser wait --url "**/dash/**"
-agent-browser wait --load networkidle
-
-# Verify login worked — the top nav should show the account button (e.g. "NIVESTINDIA"),
-# and the "LOGIN" link is gone. Then re-open the company page:
-agent-browser open "https://www.screener.in/company/{TICKER}/consolidated/"
-agent-browser wait --load networkidle
-```
-
-**Login details:**
-- The login page shows `heading "Welcome back!"`, `textbox "Email"`, `textbox "Password"`, `button "LOGIN"`.
-- After a successful login screener.in redirects to the **dashboard** (`https://www.screener.in/dash/`), not back to the company page. Wait for `**/dash/**`, then re-open the company URL.
-- Verify by checking the top nav now shows the account name (e.g. `button "NIVESTINDIA"`) instead of `link "LOGIN"`.
-- To confirm programmatically, grep the snapshot: `agent-browser snapshot -i | grep -iE "LOGIN|dash"`.
-- Login is required to see: the **"Important"** tab under Announcements, the full **Insights** section, and watchlist features.
-
-### Step 2: Full-Page Screenshot
-
-```bash
-agent-browser screenshot --full {TICKER}/tmp/screener_full.png
-```
-
-The screenshot is saved to `{TICKER}/tmp/screener_full.png`. All intermediate artifacts go under the company's `tmp/` directory (gitignored).
-
-### Step 3: Vision Analysis of Screenshot
+## Usage
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/screener-navigator/image_analyzer.py \
-  --image {TICKER}/tmp/screener_full.png \
-  --screener \
-  --output {TICKER}/tmp/screener_analysis.md
-```
 
-This uses the OpenRouter vision model (`qwen/qwen3.5-flash-02-23`) to extract ALL financial data from the screenshot — quarterly results, annual P&L, balance sheet, cash flows, ratios, shareholding pattern, peer comparison, and documents listing. Output is a comprehensive markdown file.
-
-For custom analysis of any image:
-
-```bash
-python .opencode/skills/screener-navigator/image_analyzer.py \
-  --image path/to/image.png \
-  --prompt "Your custom prompt here" \
-  --output analysis.md
-```
-
-### Step 4: Download Documents (parallel with Step 3)
-
-```bash
-source .venv/bin/activate
 python .opencode/skills/screener-navigator/download_docs.py \
   --url "https://www.screener.in/company/{TICKER}/consolidated/" \
   --max 5
 ```
 
-Downloads the 5 most recent investor presentations to `{TICKER}/presentation/` and concall transcripts to `{TICKER}/concall/`. Transcript PDFs are auto-converted to `.txt`. Idempotent — skips existing files.
+Downloads the 5 most recent investor presentations to `{TICKER}/presentation/` and concall transcripts to `{TICKER}/concall/`. Transcript PDFs are auto-converted to `.txt` via PyMuPDF. Idempotent — skips existing files.
 
-### Step 5: Check Important Announcements (login required)
-
-The **"Important"** tab under Announcements is login-gated and flags material events (orders, acquisitions, divestments, management changes, financial results, dividends). Capture these while the browser is still logged in:
-
-```bash
-# Scroll to the bottom of the company page and wait for the Announcements section
-agent-browser scroll down 5000
-agent-browser wait --text "Announcements"
-
-# Find the "Important" tab button (next to "Recent" / "Search" / "All")
-agent-browser snapshot -i
-agent-browser click @eX                    # button "Important"
-agent-browser wait --load networkidle
-
-# List the important announcements
-agent-browser snapshot -i -u
-```
-
-The snapshot now shows a list of `link "Announcement under Regulation 30 (LODR)-<type> <date> - <summary>"` entries (or raw headings like `Reappointment Of Auditors`, `Award of Order`, `Financial Results ...`). The button's down-chevron is hidden once fully expanded — if a `button "show more"` with a visible down-chevron (`icon-down ink-600`) remains, click it to load older items and re-snapshot.
-
-Announcements worth noting for the verdict: award/receipt of orders, acquisitions & divestments (with stake % and value), restructuring, change in management/auditors, dividend declarations, and financial results.
-
-### Step 6: Close Browser
-
-```bash
-agent-browser close
-```
-
-## Output Structure After Full Workflow
+## Output Structure After Download
 
 ```
 TICKER/
 ├── presentation/                       # PPT PDFs downloaded from concalls
+│   ├── PPT_May2026.pdf
+│   └── ...
 ├── concall/                            # Transcript PDFs + .txt files
-├── tmp/                                # Intermediate artifacts (gitignored)
-│   ├── screener_full.png               # Full-page screenshot
-│   └── screener_analysis.md            # Vision-extracted financial data
-└── (later: dated analysis folders)
+│   ├── Transcript_May2026.pdf
+│   ├── Transcript_May2026.txt
+│   └── ...
+└── (analysis folders and artifacts are managed separately)
 ```
 
-## Ad-Hoc Navigation Workflow
+## Analysis Workflow
 
-For interactive exploration of specific sections without screenshot + analysis:
+Since modern LLMs can directly read PDFs, the analysis workflow is now model-driven rather than script-driven:
 
-### URL Conventions
-
-```
-https://www.screener.in/company/{TICKER}/consolidated/   # main company page
-https://www.screener.in/login/                            # login page
-```
-
-### Snapshot & Navigate
-
-```bash
-agent-browser snapshot -i -u
-```
-
-The snapshot reveals all interactive elements. Key sections to identify:
-
-| Section | Snapshot Marker |
-|---------|----------------|
-| **Peer Comparison** | `heading "Peer comparison"` |
-| **Quarterly Results** | `heading "Quarterly Results"` |
-| **Profit & Loss** | `heading "Profit & Loss"` |
-| **Balance Sheet** | `heading "Balance Sheet"` |
-| **Cash Flows** | `heading "Cash Flows"` |
-| **Ratios** | `heading "Ratios"` |
-| **Shareholding** | `heading "Shareholding Pattern"` |
-| **Documents** | `heading "Documents"` |
-
-### Navigate Between Tabs
-
-```bash
-agent-browser click @eX          # e.g., click "Profit & Loss"
-agent-browser wait --load networkidle
-agent-browser snapshot -i
-```
-
-Tab links: Chart, Analysis, Peers, Quarters, Profit & Loss, Balance Sheet, Cash Flow, Ratios, Investors, Documents.
-
-### Extract Data
-
-```bash
-agent-browser read              # full page rendered text
-agent-browser screenshot --full output.png   # full-page visual capture
-```
-
-## Navigation Reference
-
-### Key Sections Deep Dive
-
-**Quarterly Results** — 12+ quarters, expandable rows (Sales+, Expenses+, Other Income+, Net Profit+). Click the `+` buttons to expand/collapse.
-
-**Profit & Loss (Annual)** — 10+ years. Key rows: Sales, Operating Profit, OPM %, Net Profit, EPS, Dividend Payout %. Bottom: Compounded Sales/Profit Growth, Stock Price CAGR, ROE.
-
-**Balance Sheet (Annual)** — 10+ years. Key rows: Equity Capital, Reserves, Borrowings, Fixed Assets, Investments.
-
-**Cash Flows (Annual)** — Operating/Investing/Financing activities, Free Cash Flow, CFO/OP ratio.
-
-**Ratios (Annual)** — Debtor Days, Working Capital Days, ROCE %.
-
-**Shareholding (Quarterly)** — Promoters, FIIs, DIIs, Government, Public % + No. of Shareholders.
-
-**Insights (Login Required)** — Headcount, client metrics, revenue mix, order book, attrition, AI revenue, R&D spend.
-
-**Documents** — Announcements, Annual reports, Credit ratings, Concalls (PPT/REC/Transcript links).
-
-**Announcements (in Documents)** — has `Recent` / `Important` / `Search` tab buttons plus an `All` link that opens the BSE corp-announcements page (`https://www.bseindia.com/stock-share-price/{slug}/{TICKER}/{BSE_CODE}/corp-announcements/`). The **"Important"** tab is login-gated and shows material events (orders, M&A, restructuring, management changes, dividends, results).
-
-## Important Notes
-
-- Always `source .opencode/skills/screener-navigator/.env` before using credentials.
-- Re-snapshot after every navigation or page change (refs become stale).
-- Use `wait --load networkidle` after tab switches or form submissions.
-- The screenshot flag is `--full` (not `--fullpage`).
-- Some rows have `+` suffix (e.g., "Sales+") meaning they are expandable clickable buttons.
-- Avoid hardcoding credentials in commands; always use `$SCREENER_EMAIL` / `$SCREENER_PASSWORD`.
+1. **Download documents** using this skill
+2. **Read PDFs directly** — use the read tool on PPT PDFs and transcript PDFs for direct model interpretation
+3. **Read financial data** from the Screener.in webpage snapshot
+4. **Synthesize** into a verdict — no intermediate extraction scripts needed
