@@ -33,23 +33,22 @@ def build_messages(prompt, pdf_paths):
     content = [{"type": "text", "text": prompt}]
     for path in pdf_paths:
         content.append({
-            "type": "file",
-            "file": {"data": pdf_to_data_uri(path)},
+            "type": "image_url",
+            "image_url": {"url": pdf_to_data_uri(path)},
         })
     return [{"role": "user", "content": content}]
 
 
 def call_openrouter(messages, model=DEFAULT_MODEL):
-    headers = {
-        "Authorization": f"Bearer {API_KEY}",
-        "Content-Type": "application/json",
-    }
-    payload = {
-        "model": model,
-        "messages": messages,
-        "reasoning": {"enabled": True},
-    }
-    resp = requests.post(API_URL, headers=headers, json=payload, timeout=300)
+    resp = requests.post(
+        API_URL,
+        headers={
+            "Authorization": f"Bearer {API_KEY}",
+            "Content-Type": "application/json",
+        },
+        json={"model": model, "messages": messages},
+        timeout=300,
+    )
     resp.raise_for_status()
     return resp.json()
 
