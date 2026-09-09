@@ -62,14 +62,18 @@ mkdir -p GRAVITA/{presentation,concall,annual_reports,tmp}
 mkdir -p GRAVITA/$(date -u +%-d-%-B-%Y | tr '[:upper:]' '[:lower:]')
 ```
 
-### Step 1: Navigate Screener.in & Download Documents
+### Step 1: Download Documents
 
-This step must complete first. Use the **screener-navigator** skill to:
-- Open screener.in, log in, take full-page screenshot → `TICKER/tmp/screener_full.png`
-- Download PPTs, transcripts, and annual reports via `download_docs.py`
-- Close browser
+This step must complete first (it unblocks all parallel subagents). Use `download_docs.py` to fetch PPTs, transcripts, and annual reports into the TICKER folder:
 
-Refer to `.opencode/skills/screener-navigator/SKILL.md` for exact agent-browser and download commands.
+```bash
+source .venv/bin/activate
+python .opencode/skills/screener-navigator/download_docs.py \
+  --url "https://www.screener.in/company/{TICKER}/consolidated/" \
+  --max 5
+```
+
+Refer to `.opencode/skills/screener-navigator/SKILL.md` for full usage.
 
 ### Step 2: Parallel Analysis (run all simultaneously after Step 1)
 
@@ -102,7 +106,10 @@ python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/annual_reports
 
 **2d. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
 
-**2e. Read Screener Screenshot** — read `TICKER/tmp/screener_full.png` to extract financial data (P&L, balance sheet, cash flows, ratios, shareholding, peers).
+**2e. Screener Data & Competitor Analysis** — navigate screener.in via the **screener-navigator** skill to:
+- Open the company page, log in, take a full-page screenshot → `TICKER/tmp/screener_full.png`
+- Read and extract financial data from the screenshot (P&L, balance sheet, cash flows, ratios, shareholding, peers)
+- Close browser
 
 ### Step 3: Synthesize Verdict
 
