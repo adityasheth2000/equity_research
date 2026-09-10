@@ -76,13 +76,14 @@ Refer to `.agents/skills/screener-navigator/SKILL.md` for full usage.
 
 ### Step 2: Parallel Analysis (run all simultaneously after Step 1)
 
-**2a. Read PDF documents** — launch running agents/subagents directly for the PDFs in `TICKER/presentation/`, `TICKER/concall/`, and `TICKER/annual_reports/`. Do not invoke a PDF-analysis script or a separate multimodal skill. Give each agent the relevant PDF path and ask it to read the document directly, preserving page-level references and extracting the information needed for the final verdict:
+**2a. Read PDF documents** — launch running agents/subagents directly for the PDFs in `TICKER/presentation/`, `TICKER/concall/`, and `TICKER/annual_reports/`. Do not invoke a PDF-analysis script or a separate multimodal skill. Give each agent the relevant PDF path and ask it to read the document fully, decide for itself what is material to understanding the business and investment case, and report the key findings with page-level references. Agents should use their judgment rather than follow a fixed extraction checklist.
 
-- Presentations: financial data, segment breakdowns, guidance, capex plans, KPIs, and strategic commentary.
-- Transcripts: management commentary on demand and margins, Q&A highlights, analyst concerns, guidance, risk flags, and competitive positioning.
-- Annual reports: business overview, segment details, director's report, MD&A, corporate governance, auditor qualifications, risk factors, and financial-statement commentary.
+**2b. Dedicated Web Research** — launch a separate web-research subagent to investigate the company's recent external context. It should independently determine the most relevant developments, with particular emphasis on:
 
-**2b. Web Research** — search online for recent news, stock price movement, analyst ratings, and industry developments.
+- Analyst and broker ratings, target-price changes, consensus expectations, upgrades/downgrades, and the reasoning behind them.
+- Industry developments, including demand and supply trends, competitors, market structure, commodity or input-cost movements, and relevant tailwinds or headwinds.
+- Government policy, regulation, budgets, incentives, trade measures, and other policy developments that could materially affect the company or its industry.
+- Recent company news and stock-price movement, with dates, credible source links, and a clear distinction between reported facts and analytical inference.
 
 **2c. Screener Data & Competitor Analysis** — navigate screener.in via the **screener-navigator** skill to:
 - Open the company page, log in, take a full-page screenshot → `TICKER/tmp/screener_full.png`
