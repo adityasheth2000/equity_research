@@ -1,7 +1,7 @@
 ---
 name: screener-navigator
 description: Use whenever the user wants to navigate screener.in via agent-browser or download documents. Covers login, full-page screenshots, tab navigation, and document downloads (PPTs, transcripts, annual reports). Trigger on "navigate screener", "screener login", "download screener docs", "take screener screenshot", "screener screenshot".
-allowed-tools: Bash(agent-browser:*), Bash(source .opencode/skills/screener-navigator/.env:*), Bash(python .opencode/skills/screener-navigator/*)
+allowed-tools: Bash(agent-browser:*), Bash(source .agents/skills/screener-navigator/.env:*), Bash(python .agents/skills/screener-navigator/*)
 ---
 
 # Screener Navigator
@@ -14,7 +14,7 @@ Two capabilities:
 
 - `agent-browser` CLI installed (`npm i -g agent-browser && agent-browser install`)
 - Repo-level `.venv` with `requests`, `beautifulsoup4`, `PyMuPDF` installed
-- Credentials in `.opencode/skills/screener-navigator/.env`
+- Credentials in `.agents/skills/screener-navigator/.env`
 
 ---
 
@@ -23,7 +23,7 @@ Two capabilities:
 ### Open Company Page & Login
 
 ```bash
-source .opencode/skills/screener-navigator/.env
+source .agents/skills/screener-navigator/.env
 agent-browser open "https://www.screener.in/company/{TICKER}/consolidated/"
 agent-browser wait --load networkidle
 
@@ -87,7 +87,7 @@ agent-browser close
 ```bash
 source .venv/bin/activate
 
-python .opencode/skills/screener-navigator/download_docs.py \
+python .agents/skills/screener-navigator/download_docs.py \
   --url "https://www.screener.in/company/{TICKER}/consolidated/" \
   --max 5
 ```
@@ -112,7 +112,7 @@ TICKER/
 
 ### Important Notes
 
-- Always `source .opencode/skills/screener-navigator/.env` before using credentials.
+- Always `source .agents/skills/screener-navigator/.env` before using credentials.
 - Re-snapshot after every navigation (refs become stale).
 - Use `wait --load networkidle` after tab switches or form submissions.
 - The screenshot flag is `--full` (not `--fullpage`).

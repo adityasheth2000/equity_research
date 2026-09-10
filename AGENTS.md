@@ -4,6 +4,8 @@
 
 Always use the personal GitHub account for pushing changes to this repository.
 
+Work directly on the current checkout and branch for local changes. Do not create or switch to a separate git worktree for this repository. Keep all changes on the branch currently checked out.
+
 **Remote:** `git@github.com-personal:adityasheth2000/equity_research.git`
 
 The SSH alias `github.com-personal` is configured in `~/.ssh/config`:
@@ -21,7 +23,7 @@ Host github.com-personal
 equity_research/
 ├── .env                          # API keys (OPENROUTER_API_KEY, etc.)
 ├── .venv/                        # Python virtual environment
-├── .opencode/
+├── .agents/
 │   └── skills/
 │       ├── screener-navigator/   # Screener.in browser automation + downloads
 │       │   ├── SKILL.md          # agent-browser navigation + download_docs.py usage
@@ -68,12 +70,12 @@ This step must complete first (it unblocks all parallel subagents). Use `downloa
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/screener-navigator/download_docs.py \
+python .agents/skills/screener-navigator/download_docs.py \
   --url "https://www.screener.in/company/{TICKER}/consolidated/" \
   --max 5
 ```
 
-Refer to `.opencode/skills/screener-navigator/SKILL.md` for full usage.
+Refer to `.agents/skills/screener-navigator/SKILL.md` for full usage.
 
 ### Step 2: Parallel Analysis (run all simultaneously after Step 1)
 
@@ -81,7 +83,7 @@ Refer to `.opencode/skills/screener-navigator/SKILL.md` for full usage.
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/presentation/PPT_May2026.pdf \
+python .agents/skills/multimodal-subagent/pdf_analyze.py TICKER/presentation/PPT_May2026.pdf \
   -p "Extract all financial data, segment breakdowns, guidance, capex plans, KPIs, and strategic commentary. Be thorough." \
   -o TICKER/tmp/analysis_PPT_May2026.md
 ```
@@ -90,7 +92,7 @@ python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/presentation/P
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/concall/Transcript_May2026.pdf \
+python .agents/skills/multimodal-subagent/pdf_analyze.py TICKER/concall/Transcript_May2026.pdf \
   -p "Extract management commentary on demand and margins, all Q&A highlights and analyst concerns, guidance, risk flags, and competitive positioning." \
   -o TICKER/tmp/analysis_Transcript_May2026.md
 ```
@@ -99,7 +101,7 @@ python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/concall/Transc
 
 ```bash
 source .venv/bin/activate
-python .opencode/skills/multimodal-subagent/pdf_analyze.py TICKER/annual_reports/AnnualReport_2026.pdf \
+python .agents/skills/multimodal-subagent/pdf_analyze.py TICKER/annual_reports/AnnualReport_2026.pdf \
   -p "Extract business overview, segment details, director's report, MD&A, corporate governance, auditor qualifications, risk factors, and financial statement commentary." \
   -o TICKER/tmp/analysis_AnnualReport_2026.md
 ```
