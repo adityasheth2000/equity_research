@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
-"""Download investor presentations and concall transcripts from a screener.in company URL.
+"""Download investor presentations, concall transcripts, and annual reports from a screener.in company URL.
 
-Fetches the page HTML, parses the Concalls section, downloads PPTs to
-presentation/ and transcripts to concall/ with proper naming, and converts
-transcripts to plain text.
+Fetches the page HTML, parses the Concalls and Annual Reports sections, downloads PPTs to
+presentation/, transcripts to concall/, and annual reports to annual_reports/ with proper naming.
 """
 
 import os
 import sys
+import re
 import argparse
 from pathlib import Path
 
 import requests
-import fitz  # PyMuPDF
 from bs4 import BeautifulSoup
 
 
@@ -66,6 +65,30 @@ def extract_concall_entries(html):
         entries.append({"quarter": quarter, "transcript_url": transcript_url, "ppt_url": ppt_url})
 
     return entries
+
+
+def extract_annual_report_entries(html):
+    soup = BeautifulSoup(html, "html.parser")
+
+    for h3 in soup.find_all("h3"):
+        if h3.text.strip() != "Annual reports":
+            continue
+
+        parent = h3.parent
+        while parent:
+            entries = []
+            for a in parent.find_all("a", href=True):
+                text = a.text.strip()
+                m = re.search(r"Annual Report (\d{4})", text)
+                if m:
+                    year = m.group(1)
+                    entries.append({"year": year, "url": a["href"]})
+            if entries:
+                return sorted(entries, key=lambda e: e["year"], reverse=True)
+            parent = parent.parent
+        break
+
+    return []
 
 
 def resolve_filename(prefix, quarter, target_dir, used_names):
@@ -137,34 +160,36 @@ def download_docs(entries, ppt_dir, concall_dir):
     return ppt_downloaded, transcript_downloaded
 
 
-def convert_transcripts_to_text(transcript_pdfs):
-    for pdf_path in transcript_pdfs:
-        txt_path = pdf_path.with_suffix(".txt")
-        if txt_path.exists():
-            print(f"  skip: {txt_path.name} already exists")
-            continue
+def download_annual_reports(entries, annual_dir):
+    annual_dir.mkdir(parents=True, exist_ok=True)
+    downloaded = []
 
-        print(f"  Converting: {pdf_path.name}...", end=" ", flush=True)
-        try:
-            doc = fitz.open(str(pdf_path))
-            text = ""
-            for page in doc:
-                text += page.get_text()
-            doc.close()
-            txt_path.write_text(text, encoding="utf-8")
-            print(f"-> {txt_path.name} ({len(text)} chars)")
-        except Exception as e:
-            print(f"FAILED: {e}")
+    for entry in entries:
+        year = entry["year"]
+        dest = annual_dir / f"AnnualReport_{year}.pdf"
+        if dest.exists():
+            print(f"  {year}: skip (already exists: {dest.name})")
+            continue
+        print(f"  {year}: downloading...", end=" ", flush=True)
+        ok, info = download_file(entry["url"], dest)
+        if ok:
+            print(f"-> {annual_dir.name}/{dest.name} ({info} KB)")
+            downloaded.append(dest)
+        else:
+            print(f"FAILED: {info}")
+
+    return downloaded
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Download investor presentations and concall transcripts from screener.in"
+        description="Download investor presentations, concall transcripts, and annual reports from screener.in"
     )
     parser.add_argument("--url", required=True, help="Screener.in company URL (e.g. https://www.screener.in/company/TCS/consolidated/)")
     parser.add_argument("--max", type=int, default=5, help="Max recent concall entries to download (default: 5)")
+    parser.add_argument("--max-annual-reports", type=int, default=2, help="Max annual reports to download (default: 2)")
+    parser.add_argument("--skip-annual-reports", action="store_true", help="Skip annual report downloads")
     parser.add_argument("--skip-download", action="store_true", help="Skip downloading, only list entries")
-    parser.add_argument("--skip-transcript-text", action="store_true", help="Skip transcript → text conversion")
     args = parser.parse_args()
 
     url = args.url.rstrip("/")
@@ -172,11 +197,13 @@ def main():
     company_dir = Path(ticker)
     ppt_dir = company_dir / "presentation"
     concall_dir = company_dir / "concall"
+    annual_dir = company_dir / "annual_reports"
 
     print(f"URL      : {url}")
     print(f"Ticker   : {ticker}")
     print(f"PPTs     : {ticker}/presentation/")
     print(f"Concalls : {ticker}/concall/")
+    print(f"Annual   : {ticker}/annual_reports/")
     print(f"Max      : {args.max} recent quarters\n")
 
     print("Fetching page...", flush=True)
@@ -193,20 +220,29 @@ def main():
 
     print(f"Concalls found ({len(entries)}):")
     for e in entries:
-        t = "✓" if e["transcript_url"] else "✗"
-        p = "✓" if e["ppt_url"] else "✗"
+        t = "\u2713" if e["transcript_url"] else "\u2717"
+        p = "\u2713" if e["ppt_url"] else "\u2717"
         print(f"  {e['quarter']:12s}  Transcript: {t}  PPT: {p}")
     print()
+
+    annual_entries = []
+    if not args.skip_annual_reports:
+        annual_entries = extract_annual_report_entries(html)
+        if annual_entries:
+            print(f"Annual reports found ({len(annual_entries)}):")
+            for a in annual_entries[: args.max_annual_reports]:
+                print(f"  {a['year']}")
+            print()
 
     if args.skip_download:
         return
 
     print("=== Downloading ===")
-    ppt_list, transcript_list = download_docs(entries[:args.max], ppt_dir, concall_dir)
+    ppt_list, transcript_list = download_docs(entries[: args.max], ppt_dir, concall_dir)
 
-    if not args.skip_transcript_text and transcript_list:
-        print("\n=== Converting Transcripts to Text ===")
-        convert_transcripts_to_text(transcript_list)
+    if annual_entries and not args.skip_annual_reports:
+        print("\n=== Downloading Annual Reports ===")
+        download_annual_reports(annual_entries[: args.max_annual_reports], annual_dir)
 
     print("\nDone.")
 
