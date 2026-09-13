@@ -4,8 +4,10 @@ pdf_extract.py — vision-LLM PDF -> text/markdown extractor for equity research
 
 Uses the OpenCode Go gateway with the GLM-5.3-Flash vision model. Pages are
 rendered to images IN MEMORY (never written to disk), grouped into batches, and
-sent to the model in parallel. Designed for investor presentations, annual
-reports (300+ pages) and concall transcripts.
+sent to the model in parallel. The model returns a JSON object holding one
+transcription string per page image, in order; this script attaches the
+"===== PAGE <n> =====" markers itself using the PDF page indices, so the model
+never has to reason about page numbers at all.
 
 Examples
 --------
@@ -35,18 +37,17 @@ import time
 # ----------------------------------------------------------------------------
 BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_MODEL = "glm-5.3-flash"
-DEFAULT_BATCH_SIZE = 20                    # pages per scheduling unit
-MAX_PARALLEL = 5                           # concurrent batch workers (hard cap)
+DEFAULT_BATCH_SIZE = 20
+MAX_PARALLEL = 5
 DEFAULT_DPI = 150
 DEFAULT_MAX_TOKENS = 16000
-DEFAULT_MAX_PAYLOAD_MB = 2.5               # per HTTP request body budget (base64 chars)
-# OpenCode Go pricing, $/1M tokens (input, output)
+DEFAULT_MAX_PAYLOAD_MB = 2.5
 PRICING = {"glm-5.3-flash": (0.15, 0.50), "qwen3.8-flash": (0.15, 0.47)}
 
 EXTRACTION_PROMPT = """\
 You are a meticulous document-transcription engine used by equity analysts.
 
-You are given consecutive pages (as images) of ONE document, in order. \
+You are given N consecutive pages (as images) of ONE document, in order. \
 Transcribe every page faithfully and completely.
 
 RULES
@@ -68,13 +69,17 @@ disclaimers / "Safe Harbor" pages, blank pages, back covers, and pure \
 transmittal/covering letters whose only content is a regulatory submission note. \
 If a page mixes boilerplate with ANY substantive information, transcribe the \
 substantive part.
-8. If a page is empty or illegible, output exactly "[page N: no extractable content]".
+8. Do NOT print page numbers or any "PAGE n" / "===== PAGE n =====" headings.
 
 OUTPUT FORMAT
-Begin each page with a line exactly:
-===== PAGE <n> =====
-where <n> is the page number supplied below, then the transcription. Emit nothing \
-before the first page marker or after the last page. Never merge pages.
+Return ONLY a JSON object of exactly this shape:
+{"pages": ["<transcription of image 1>", "<transcription of image 2>", ...]}
+- The "pages" array MUST contain exactly one string per image, in the same order \
+as the images supplied.
+- Each string is the COMPLETE transcription of a single page. Never merge two \
+pages into one string and never skip a page.
+- For a page with no extractable content use the empty string "".
+- Emit no commentary, no markdown code fences, and nothing outside the JSON object.
 """
 
 
@@ -141,32 +146,101 @@ def is_payload_error(exc: Exception) -> bool:
                                 "request entity", "413", "too many images", "context length"))
 
 
+def is_response_format_error(exc: Exception) -> bool:
+    s = str(exc).lower()
+    return any(t in s for t in ("response_format", "json_object", "json mode",
+                                "unsupported parameter", "invalid parameter", "unknown parameter"))
+
+
 def chunks(seq, size):
     for i in range(0, len(seq), size):
         yield seq[i:i + size]
 
 
+def _account(stats, usage) -> None:
+    stats["input_tokens"] += getattr(usage, "prompt_tokens", 0) or 0
+    stats["output_tokens"] += getattr(usage, "completion_tokens", 0) or 0
+
+
 # ----------------------------------------------------------------------------
-# model call
+# JSON parsing of per-page output
 # ----------------------------------------------------------------------------
-def call_group(client, model, pages, images, max_tokens, retries=4):
-    content = [{
-        "type": "text",
-        "text": EXTRACTION_PROMPT + "\nPages in this batch, in order: " + ", ".join(map(str, pages)),
-    }]
+def _coerce_pages(obj):
+    if isinstance(obj, list):
+        return obj
+    if isinstance(obj, dict):
+        for key in ("pages", "page", "items", "result", "data"):
+            val = obj.get(key)
+            if isinstance(val, list):
+                return val
+        for val in obj.values():
+            if isinstance(val, list):
+                return val
+    return None
+
+
+def parse_pages_json(raw, n):
+    """Return (list_of_strings or None, problem or None)."""
+    if raw is None or not raw.strip():
+        return None, "empty response"
+    s = raw.strip()
+    if s.startswith("```"):
+        nl = s.find("\n")
+        s = s[nl + 1:] if nl != -1 else ""
+        if s.rstrip().endswith("```"):
+            s = s.rstrip()[:-3].rstrip()
+
+    candidates = [s]
+    for open_c, close_c in (("{", "}"), ("[", "]")):
+        i, j = s.find(open_c), s.rfind(close_c)
+        if 0 <= i < j:
+            candidates.append(s[i:j + 1])
+
+    for cand in candidates:
+        try:
+            obj = json.loads(cand, strict=False)
+        except Exception:
+            continue
+        lst = _coerce_pages(obj)
+        if lst is None:
+            continue
+        lst = [x if isinstance(x, str) else ("" if x is None else str(x)) for x in lst]
+        if len(lst) == n:
+            return lst, None
+        return lst, f"expected {n} items, got {len(lst)}"
+    return None, "response was not valid JSON"
+
+
+# ----------------------------------------------------------------------------
+# model calls
+# ----------------------------------------------------------------------------
+def _call_model(client, model, pages, images, max_tokens, retries=4,
+                prior_raw=None, correction=None):
+    content = [{"type": "text",
+                "text": EXTRACTION_PROMPT + f"\nThere are {len(pages)} page images below, in order."}]
     for im in images:
         content.append({"type": "image_url", "image_url": {"url": f"data:image/png;base64,{im}"}})
+    messages = [{"role": "user", "content": content}]
+    if prior_raw is not None and correction is not None:
+        messages.append({"role": "assistant", "content": prior_raw})
+        messages.append({"role": "user", "content": correction})
 
+    use_json = True
     last = None
     for attempt in range(retries):
         try:
-            r = client.chat.completions.create(
-                model=model, messages=[{"role": "user", "content": content}],
-                max_tokens=max_tokens,
-            )
-            return (r.choices[0].message.content or ""), r.usage
+            kwargs = {"model": model, "messages": messages, "max_tokens": max_tokens}
+            if use_json:
+                kwargs["response_format"] = {"type": "json_object"}
+            r = client.chat.completions.create(**kwargs)
+            choice = r.choices[0]
+            return (choice.message.content or ""), r.usage, choice.finish_reason
         except Exception as e:                      # noqa: BLE001
             last = e
+            if use_json and is_response_format_error(e):
+                log("    response_format unsupported by gateway; retrying without it")
+                use_json = False
+                continue
             if is_payload_error(e):
                 raise
             wait = 3 * (2 ** attempt)
@@ -176,32 +250,76 @@ def call_group(client, model, pages, images, max_tokens, retries=4):
     raise last
 
 
-def _extract_group(client, model, pdf, pages, dpi, max_tokens, budget_chars, depth=0):
-    """Render (once) then call; recursively halve the page list on payload errors."""
-    t0 = time.perf_counter()
+def _extract_subgroup(client, model, imgs, pages, max_tokens, stats, depth=0):
+    """One request for a contiguous page list; validate, repair, then halve."""
+    images = [imgs[p] for p in pages]
+    seg = f"{pages[0]}-{pages[-1]}"
+
+    raw, usage, finish = _call_model(client, model, pages, images, max_tokens)
+    _account(stats, usage)
+    parsed, problem = parse_pages_json(raw, len(pages))
+    if parsed is not None and problem is None and finish != "length":
+        return dict(zip(pages, parsed))
+
+    if finish != "length":
+        stats["repairs"] += 1
+        correction = (f"Your previous response was invalid: {problem}. Return ONLY the JSON "
+                      f"object {{\"pages\": [...]}} containing exactly {len(pages)} strings, one "
+                      f"per page image, in the same order, with no other text.")
+        log(f"    repair {seg}: {problem}")
+        raw2, usage2, finish2 = _call_model(client, model, pages, images, max_tokens,
+                                            prior_raw=raw, correction=correction)
+        _account(stats, usage2)
+        parsed2, problem2 = parse_pages_json(raw2, len(pages))
+        if parsed2 is not None and problem2 is None and finish2 != "length":
+            return dict(zip(pages, parsed2))
+        problem = problem2 or f"finish={finish2}"
+
+    if len(pages) > 1:
+        stats["splits"] += 1
+        mid = len(pages) // 2
+        log(f"    split {seg} -> {len(pages[:mid])}+{len(pages[mid:])} ({problem})")
+        left = _extract_subgroup(client, model, imgs, pages[:mid], max_tokens, stats, depth + 1)
+        right = _extract_subgroup(client, model, imgs, pages[mid:], max_tokens, stats, depth + 1)
+        return {**left, **right}
+
+    stats["failed_pages"].append(pages[0])
+    log(f"    page {pages[0]}: FAILED ({problem})")
+    return {pages[0]: ""}
+
+
+def _extract_group(client, model, pdf, pages, dpi, max_tokens, budget_chars, stats, depth=0):
+    """Extract one scheduled batch; returns {page_no: text}."""
     seg = f"{pages[0]}-{pages[-1]}"
     try:
         imgs = render_pages(pdf, pages, dpi)
+    except Exception as e:                          # noqa: BLE001
+        log(f"    render {seg}: FAILED ({type(e).__name__}: {str(e)[:120]})")
+        stats["failed_pages"].extend(pages)
+        return {p: "" for p in pages}
+
+    try:
         groups = split_by_payload(pages, imgs, budget_chars)
-        text_parts, tin, tout = [], 0, 0
+        if len(groups) > 1:
+            stats["payload_splits"] += 1
+        page_texts = {}
         for g in groups:
-            txt, usage = call_group(client, model, g, [imgs[p] for p in g], max_tokens)
-            text_parts.append(txt)
-            tin += getattr(usage, "prompt_tokens", 0)
-            tout += getattr(usage, "completion_tokens", 0)
-        return {"pages": pages, "text": "\n\n".join(text_parts), "seconds": round(time.perf_counter() - t0, 2),
-                "input_tokens": tin, "output_tokens": tout, "error": None}
+            page_texts.update(_extract_subgroup(client, model, imgs, g, max_tokens, stats, depth))
+        return page_texts
     except Exception as e:                          # noqa: BLE001
         if is_payload_error(e) and len(pages) > 1:
+            stats["payload_splits"] += 1
             mid = len(pages) // 2
             log(f"    split {seg} -> {len(pages[:mid])}+{len(pages[mid:])} "
                 f"({type(e).__name__}: {str(e)[:70]})")
-            return [_extract_group(client, model, pdf, pages[:mid], dpi, max_tokens, budget_chars, depth + 1),
-                    _extract_group(client, model, pdf, pages[mid:], dpi, max_tokens, budget_chars, depth + 1)]
+            left = _extract_group(client, model, pdf, pages[:mid], dpi, max_tokens, budget_chars,
+                                  stats, depth + 1)
+            right = _extract_group(client, model, pdf, pages[mid:], dpi, max_tokens, budget_chars,
+                                   stats, depth + 1)
+            return {**left, **right}
         log(f"    batch {seg}: FAILED ({type(e).__name__}: {str(e)[:120]})")
-        body = "\n".join(f"[page {p}: extraction failed: {type(e).__name__}]" for p in pages)
-        return {"pages": pages, "text": body, "seconds": round(time.perf_counter() - t0, 2),
-                "input_tokens": 0, "output_tokens": 0, "error": str(e)[:200]}
+        stats["failed_pages"].extend(pages)
+        return {p: "" for p in pages}
 
 
 # ----------------------------------------------------------------------------
@@ -263,37 +381,57 @@ def main() -> None:
         if not args.no_cache and os.path.exists(cp):
             try:
                 r = json.load(open(cp))
-                r["cached"] = True
-                with lock:
-                    log(f"  batch {b[0]}-{b[-1]}: cache hit")
-                return r
+                if "page_texts" in r:               # new schema only
+                    r["cached"] = True
+                    with lock:
+                        log(f"  batch {b[0]}-{b[-1]}: cache hit")
+                    return r
             except Exception:
                 pass
-        r = _extract_group(client, args.model, args.pdf, b, args.dpi, args.max_tokens, budget_chars)
-        out = r if isinstance(r, list) else [r]
-        for rr in out:
-            save(rr)
-            with lock:
-                log(f"  batch {rr['pages'][0]}-{rr['pages'][-1]}: {rr['seconds']}s "
-                    f"in={rr['input_tokens']} out={rr['output_tokens']}")
+        stats = {"input_tokens": 0, "output_tokens": 0, "repairs": 0, "splits": 0,
+                 "payload_splits": 0, "failed_pages": []}
+        t0 = time.perf_counter()
+        page_texts = _extract_group(client, args.model, args.pdf, b, args.dpi,
+                                    args.max_tokens, budget_chars, stats)
+        secs = round(time.perf_counter() - t0, 2)
+        r = {"pages": b, "page_texts": {str(p): t for p, t in page_texts.items()},
+             "seconds": secs, "input_tokens": stats["input_tokens"],
+             "output_tokens": stats["output_tokens"], "repairs": stats["repairs"],
+             "splits": stats["splits"], "payload_splits": stats["payload_splits"],
+             "failed_pages": stats["failed_pages"],
+             "error": "some pages failed" if stats["failed_pages"] else None}
+        save(r)
+        with lock:
+            log(f"  batch {r['pages'][0]}-{r['pages'][-1]}: {secs}s "
+                f"in={r['input_tokens']} out={r['output_tokens']} "
+                f"repairs={r['repairs']} splits={r['splits']} failed={len(r['failed_pages'])}")
         return r
 
     t0 = time.perf_counter()
     results = []
     with cf.ThreadPoolExecutor(max_workers=parallel) as pool:
         for res in pool.map(execute, batches):
-            results.extend(res if isinstance(res, list) else [res])
+            results.append(res)
     elapsed = time.perf_counter() - t0
 
     results.sort(key=lambda r: r["pages"][0])
-    body = "\n\n".join((r["text"] or "").strip() for r in results)
+    page_texts = {}
+    for r in results:
+        for key, val in r["page_texts"].items():
+            page_texts[int(key)] = val
+
+    parts = []
+    for p in pages:
+        txt = (page_texts.get(p) or "").strip() or "[no extractable content]"
+        parts.append(f"===== PAGE {p} =====\n{txt}")
     header = (f"<!-- extracted by pdf_extract.py | model={args.model} | "
               f"pages={pages[0]}-{pages[-1]} | source={os.path.basename(args.pdf)} -->\n\n")
     with open(args.out, "w", encoding="utf-8") as fh:
-        fh.write(header + body + "\n")
+        fh.write(header + "\n\n".join(parts) + "\n")
 
     tin = sum(r["input_tokens"] for r in results)
     tout = sum(r["output_tokens"] for r in results)
+    failed_pages = [p for r in results for p in r.get("failed_pages", [])]
     pin, pout = PRICING.get(args.model, (0.15, 0.50))
     cost = tin / 1e6 * pin + tout / 1e6 * pout
     meta = {
@@ -303,14 +441,22 @@ def main() -> None:
         "elapsed_seconds": round(elapsed, 1),
         "input_tokens": tin, "output_tokens": tout, "est_cost_usd": round(cost, 4),
         "failed_batches": len([r for r in results if r.get("error")]),
+        "failed_pages": len(failed_pages),
+        "repairs": sum(r.get("repairs", 0) for r in results),
+        "splits": sum(r.get("splits", 0) for r in results),
+        "payload_splits": sum(r.get("payload_splits", 0) for r in results),
         "batches": [{"pages": [r["pages"][0], r["pages"][-1]], "seconds": r["seconds"],
                      "in": r["input_tokens"], "out": r["output_tokens"],
-                     "cached": r.get("cached", False), "error": r.get("error")} for r in results],
+                     "cached": r.get("cached", False), "repairs": r.get("repairs", 0),
+                     "splits": r.get("splits", 0), "payload_splits": r.get("payload_splits", 0),
+                     "failed_pages": r.get("failed_pages", []), "error": r.get("error")}
+                    for r in results],
     }
     json.dump(meta, open(args.out + ".meta.json", "w"), indent=2)
     log(f"[pdf_extract] done: {len(pages)} pages in {elapsed:.1f}s | "
-        f"in={tin:,} out={tout:,} tokens | est ${cost:.4f} | failures={meta['failed_batches']}\n"
-        f"  -> {args.out}")
+        f"in={tin:,} out={tout:,} tokens | est ${cost:.4f} | "
+        f"failed_pages={meta['failed_pages']} repairs={meta['repairs']} "
+        f"splits={meta['splits']}\n  -> {args.out}")
 
 
 if __name__ == "__main__":
