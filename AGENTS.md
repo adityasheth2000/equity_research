@@ -23,6 +23,11 @@ Host github.com-personal
 equity_research/
 ├── .env                          # API keys (OPENROUTER_API_KEY, etc.)
 ├── .venv/                        # Python virtual environment
+├── .opencode/
+│   ├── agents/
+│   │   └── pdf-extractor.md      # pdf-extractor subagent (vision PDF → markdown + analysis)
+│   └── scripts/
+│       └── pdf_extract.py        # Built-in vision extractor used by the pdf-extractor agent
 ├── .agents/
 │   └── skills/
 │       ├── screener-navigator/   # Screener.in browser automation + downloads
@@ -66,20 +71,22 @@ mkdir -p GRAVITA/$(date -u +%-d-%-B-%Y | tr '[:upper:]' '[:lower:]')
 
 ### Step 1: Download Documents
 
-This step must complete first (it unblocks all parallel subagents). Use `download_docs.py` to fetch PPTs, transcripts, and annual reports into the TICKER folder:
+This step must complete first (it unblocks all parallel subagents). Use `download_docs.py` to fetch PPTs, transcripts, and the latest annual report into the TICKER folder:
 
 ```bash
 source .venv/bin/activate
 python .agents/skills/screener-navigator/download_docs.py \
   --url "https://www.screener.in/company/{TICKER}/consolidated/" \
-  --max 5
+  --max 5 --max-annual-reports 1
 ```
 
 Refer to `.agents/skills/screener-navigator/SKILL.md` for full usage.
 
 ### Step 2: Parallel Analysis (run all simultaneously after Step 1)
 
-**2a. Read PDF documents** — launch running agents/subagents directly for every relevant PDF in `TICKER/presentation/`, `TICKER/concall/`, `TICKER/annual_reports/`, and `TICKER/broker_reports/`. Do not invoke a PDF-analysis script or a separate multimodal skill. Give each agent the relevant PDF path and ask it to read the document fully, decide for itself what is material to understanding the business and investment case, and report the key findings with page-level references. Agents should use their judgment rather than follow a fixed extraction checklist. Do not skip older documents when they provide historical context, reveal changes in management commentary, or help test whether current claims are consistent over time.
+**2a. Read PDF documents** — launch a dedicated **pdf-extractor** subagent for each of the following groups. The subagent is defined at `.opencode/agents/pdf-extractor.md`; it already has a built-in vision extractor that it runs via `.opencode/scripts/pdf_extract.py` (rendering PDF pages to markdown, not reading the raw PDF). One subagent should read **only the latest annual report** — do not assign older annual reports to any subagent. One subagent should read 3–4 most recent investor presentations, and one subagent should read 3–4 most recent concall transcripts. When invoking it, give it **only the PDF path(s) and the analysis focus** — do not tell it how to extract, do not ask it to write or use its own PyMuPDF extraction script, and do not read the PDFs with the main model. Give each subagent a small set of related PDF paths (no more than 4) and ask it to extract, read and analyse them fully, decide for itself what is material to understanding the business and investment case, and report the key findings with page-level references. Subagents should use their judgment rather than follow a fixed extraction checklist. For investor presentations and concall transcripts, do not skip older documents when they provide historical context, reveal changes in management commentary, or help test whether current claims are consistent over time.
+
+**Always include the most recent document in each group.** Before launching, list the files in `TICKER/presentation/`, `TICKER/concall/`, and `TICKER/annual_reports/` and confirm the latest-dated file in each category is assigned to a subagent. Never leave the newest concall, presentation, or annual report unread — a missing latest document (e.g. the most recent quarter's transcript) is the highest-cost omission, because it contains the newest guidance, management tone, and any thesis-changing developments.
 
 **2b. Dedicated Web Research** — launch a separate web-research subagent to investigate the company's recent external context. It should independently determine the most relevant developments, with particular emphasis on:
 
@@ -88,10 +95,11 @@ Refer to `.agents/skills/screener-navigator/SKILL.md` for full usage.
 - Government policy, regulation, budgets, incentives, trade measures, and other policy developments that could materially affect the company or its industry.
 - Recent company news and stock-price movement, with dates, credible source links, and a clear distinction between reported facts and analytical inference.
 
-**2c. Screener Data & Competitor Analysis** — navigate screener.in via the **screener-navigator** skill to:
+**2c. Screener Data & Competitor Analysis** — launch this as a separate **general** subagent (do not run the browser steps in the main agent). Instruct the subagent to use the **screener-navigator** skill to:
 - Open the company page, log in, take a full-page screenshot → `TICKER/tmp/screener_full.png`
 - Read and extract financial data from the screenshot (P&L, balance sheet, cash flows, ratios, shareholding, peers)
 - Close browser
+- Report the extracted financials, ratios, shareholding trend, peer comparison, and any company KPIs/insights back in full
 
 ### Step 3: Synthesize Verdict
 
@@ -109,6 +117,8 @@ The verdict should explain the business in accessible language and use the agent
 The agent may cover only a subset of these areas when others are immaterial, and should add any other perspectives revealed by the documents, industry, business model, competitive context, or valuation. Prioritise depth and relevance over exhaustive categorisation. Do not omit material evidence merely because it does not fit one of the illustrative areas.
 
 Do not force a bullish conclusion. State clearly what the evidence supports, whether that is a potential multibagger, a more ordinary investment, avoidance, or watchlist status, and explain why. Separate facts, management claims, analyst opinions, and the agent's own inferences. Do not omit inconvenient evidence merely because it weakens the thesis. Use tables, comparisons, timelines, and data visualizations where they materially improve understanding, but do not follow a rigid template when a different structure better communicates the company-specific investment case.
+
+After writing `TICKER/<dated-folder>/verdict.md`, the main agent must **also return the same analysis in the chat**, not just a summary or a pointer to the file. Post the full verdict content in the response so the user can read it without opening the file.
 
 Skills provide specialized instructions and workflows for specific tasks.
 Use the skill tool to load a skill when a task matches its description.

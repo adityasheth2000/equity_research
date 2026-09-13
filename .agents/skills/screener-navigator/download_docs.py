@@ -214,16 +214,15 @@ def main():
         sys.exit(1)
 
     entries = extract_concall_entries(html)
-    if not entries:
+    if entries:
+        print(f"Concalls found ({len(entries)}):")
+        for e in entries:
+            t = "\u2713" if e["transcript_url"] else "\u2717"
+            p = "\u2713" if e["ppt_url"] else "\u2717"
+            print(f"  {e['quarter']:12s}  Transcript: {t}  PPT: {p}")
+        print()
+    else:
         print("No concall entries found.")
-        sys.exit(1)
-
-    print(f"Concalls found ({len(entries)}):")
-    for e in entries:
-        t = "\u2713" if e["transcript_url"] else "\u2717"
-        p = "\u2713" if e["ppt_url"] else "\u2717"
-        print(f"  {e['quarter']:12s}  Transcript: {t}  PPT: {p}")
-    print()
 
     annual_entries = []
     if not args.skip_annual_reports:
@@ -237,8 +236,9 @@ def main():
     if args.skip_download:
         return
 
-    print("=== Downloading ===")
-    ppt_list, transcript_list = download_docs(entries[: args.max], ppt_dir, concall_dir)
+    if entries:
+        print("=== Downloading ===")
+        ppt_list, transcript_list = download_docs(entries[: args.max], ppt_dir, concall_dir)
 
     if annual_entries and not args.skip_annual_reports:
         print("\n=== Downloading Annual Reports ===")
